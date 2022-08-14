@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "rcg",
-				"abbreviation": "RCG",
-				"full": "Rashemen - Unnapproachable East Campaign Guide",
+				"json": "rcgp",
+				"abbreviation": "RCGP",
+				"full": "Rashemen - Player",
 				"authors": [
 					"Andrew Bishkinskyi",
 					"Bryan Holmes",
@@ -32,7 +32,7 @@
 	"background": [
 		{
 			"name": "Lodge Berserker",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/environment/settlement/house-woods.webp",
 			"skillProficiencies": [
 				{
@@ -345,7 +345,7 @@
 		},
 		{
 			"name": "Wychlaran",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/nature/elemental-plant-humanoid.webp",
 			"skillProficiencies": [
 				{
@@ -719,7 +719,7 @@
 	"feat": [
 		{
 			"name": "Inspired Protector",
-			"source": "rcg",
+			"source": "rcgp",
 			"entries": [
 				"Once per long rest, you can spend 10 minutes working on defensive maneuvers with one ally you've chosen to protect. At the end of the 10 minutes, you gain a limited ability to use a fighter's {@optfeature Protection} and {@optfeature Interception|TCE} fighting styles to protect that ally. You may use each of these fighting styles twice, plus an additional number of times equal to the chosen ally's Charisma modifier (minimum 1).",
 				"This ability to protect your ally lasts until the chosen ally is reduced to zero hit points or until you finish a long rest."
@@ -728,7 +728,7 @@
 		},
 		{
 			"name": "Lodge Berserker",
-			"source": "rcg",
+			"source": "rcgp",
 			"entries": [
 				"You met the strict requirements of one of Rashemen's Berserker Lodges. The intense training has improved your abilities in combat.",
 				{
@@ -774,7 +774,7 @@
 		},
 		{
 			"name": "Magic Initiate (Wychlaran)",
-			"source": "rcg",
+			"source": "rcgp",
 			"entries": [
 				"You've learned some of a wychlaran's magic; this magic is heightened while in Rashemen.",
 				{
@@ -790,7 +790,7 @@
 		},
 		{
 			"name": "Rashemi Elemental Summoning",
-			"source": "rcg",
+			"source": "rcgp",
 			"entries": [
 				"Your connections to the elemental spirits of Rashemen allows you to summon them in your time of need.",
 				"When you cast a spell that allows you to summon air or earth elementals, you can choose to summon an {@creature orglash|rcg} or {@creature thomil|rcg} instead.",
@@ -808,7 +808,7 @@
 		},
 		{
 			"name": "Runescarring",
-			"source": "rcg",
+			"source": "rcgp",
 			"entries": [
 				"You have learned an ancient technique which involves burning down spell scrolls and preparing the ashes into a poultice. The magical ashes are applied to a needle or blade used to tattoo or scar a creature, imbuing them with the ability to cast spells. To do so, you must successfully cast a spell from a spell scroll. Instead of the spell taking effect, you spend the next hour reducing the scroll to ashes and preparing the mixture. You must then spend one hour per spell level applying it to the creature. This process can be considered light activity during a long rest, and you can stop and start as many times as needed to complete it.",
 				"Once the tattoo is complete, the bearer can cast the spell once using Constitution as their spellcasting modifier, after which the magic fades.",
@@ -861,7 +861,7 @@
 					},
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			},
@@ -877,7 +877,7 @@
 				},
 				"This bonding ends early if either you or the target are reduced to 0 hit points, are ever on a different plane of existence for more than 1 hour, or if you cast this spell again and bond to a different creature."
 			],
-			"source": "rcg",
+			"source": "rcgp",
 			"components": {
 				"v": true,
 				"s": true,
@@ -931,7 +931,7 @@
 				"fromClassList": [
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					},
 					{
 						"name": "Wizard",
@@ -951,7 +951,7 @@
 				"You touch a target, bestowing them with a fit of rage. An unwilling creature can make a Wisdom saving throw to resist this effect. When successful, the target becomes enraged, giving them advantage on any melee attack roll using Strength. Attacks made against the target by other creatures within 5 feet have advantage.",
 				"This effect ends early at the end of the enraged creature's turn if they have not dealt damage with a Strength-based attack since the start of their last turn, or if they are reduced to 0 hit points. The target can also attempt to end the effect early by making a Wisdom saving throw at the end of their turn (no action required)."
 			],
-			"source": "rcg",
+			"source": "rcgp",
 			"components": {
 				"s": true
 			}
@@ -982,7 +982,7 @@
 				"fromClassList": [
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					},
 					{
 						"name": "Wizard",
@@ -997,7 +997,7 @@
 			"entries": [
 				"You cause a blinding flash of light to erupt around one target creature within range. The target is {@condition blinded} for the duration and must make a Constitution saving throw or be {@condition stunned} for 1 round. Additionally, each creature within a 10-foot radius of the target must succeed on a Wisdom saving throw or be {@condition blinded} for the duration. At the end of each of its turns, an affected creature can make a Constitution saving throw, ending the effect on themselves on a success."
 			],
-			"source": "rcg",
+			"source": "rcgp",
 			"components": {
 				"v": true,
 				"s": true,
@@ -1010,7 +1010,7 @@
 		},
 		{
 			"name": "Moon Blade",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue-yellow.webp",
 			"level": 3,
 			"school": "E",
@@ -1064,14 +1064,14 @@
 					},
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
 		},
 		{
 			"name": "Placebind",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/nature/plant-bamboo-green.webp",
 			"level": 5,
 			"school": "D",
@@ -1118,14 +1118,14 @@
 					},
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
 		},
 		{
 			"name": "Restore Spirit",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/holy/meditation-chi-focus-blue.webp",
 			"level": 6,
 			"school": "D",
@@ -1173,14 +1173,14 @@
 				"fromClassList": [
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
 		},
 		{
 			"name": "Scatterspray",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
 			"level": 1,
 			"school": "T",
@@ -1222,14 +1222,14 @@
 				"fromClassList": [
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
 		},
 		{
 			"name": "Shashkah",
-			"source": "rcg",
+			"source": "rcgp",
 			"level": 0,
 			"foundryImg": "icons/weapons/swords/sword-flanged-lightning.webp",
 			"school": "T",
@@ -1268,14 +1268,14 @@
 				"fromClassList": [
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
 		},
 		{
 			"name": "Turn Fiend",
-			"source": "rcg",
+			"source": "rcgp",
 			"level": 3,
 			"foundryImg": "icons/creatures/unholy/demon-fanged-horned-yellow.webp",
 			"school": "A",
@@ -1330,14 +1330,14 @@
 					},
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
 		},
 		{
 			"name": "Vulnerability",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/skills/wounds/bone-broken-knee-beam.webp",
 			"level": 1,
 			"school": "E",
@@ -1383,14 +1383,14 @@
 					},
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
 		},
 		{
 			"name": "Waterspout",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/water/projectiles-ice-explosion.webp",
 			"level": 3,
 			"school": "C",
@@ -1441,7 +1441,7 @@
 					},
 					{
 						"name": "Wychlaran",
-						"source": "rcg"
+						"source": "rcgp"
 					}
 				]
 			}
@@ -1450,7 +1450,7 @@
 	"class": [
 		{
 			"name": "Wychlaran",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"hd": {
 				"number": 1,
@@ -1893,7 +1893,7 @@
 			"subclassTitle": "Praxis",
 			"fluff": [
 				{
-					"source": "rcg",
+					"source": "rcgp",
 					"entries": [
 						"Caretakers of ancient arcane knowledge, the wychlaran use wisdom and magic to protect Rashemen and guide its people.",
 						{
@@ -2292,10 +2292,10 @@
 	"classFeature": [
 		{
 			"name": "Spellcasting",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"Wychlaran spellcasting is a combination of learned knowledge and deep connection with spirits and the land itself. The origin of wychlaran arcane capabilities lies in learned magics such as those practiced by wizards but has evolved over time, and has been tempered with wisdom and passed down in oral traditions and complex rituals. While wychalaren have access to a wide breadth of spells, individuals specialize their knowledge and the rituals needed to form a spiritual connection and change their daily spells are more demanding and therefore more limited on a day-to-day basis. See {@book Spells Rules|PHB|10} for the general rules of spellcasting and the Wychlaran Spells Listing for your {@filter spell list|spells|class=Wychlaran (RCG)}.",
@@ -2360,10 +2360,10 @@
 		},
 		{
 			"name": "Communal Binding",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"A wychlaran can perform a 1-hour ritual to create a bond between themself and a number of willing creatures. Excluding the wychlaran performing the ritual, the maximum number of creatures that can be included in the ritual is listed in the Communal Binding column in the Wychlaran Class Table. The Communal Binding number increases only with levels in the wychlaran class.",
@@ -2393,10 +2393,10 @@
 		},
 		{
 			"name": "Bonded Casting",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 2,
 			"entries": [
 				"Starting at 2nd level, you can extend the benefits of certain spells to those you share a Communal Binding with. Casting in this manner is more strenuous than working normal spells, and only specific spells and separate spell slots can be used for Bonded Casting.",
@@ -2448,10 +2448,10 @@
 		},
 		{
 			"name": "Communal Channeling",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 2,
 			"entries": [
 				"Starting at 2nd level, you can use your action to channel energies among those who are part of your Communal Binding, and are within 30 feet of you when the channeling begins. The channeling lasts for 1 minute. It ends early if you are knocked unconscious or you use an action on your turn to end it. When you begin channeling, you choose one of these options:",
@@ -2467,10 +2467,10 @@
 		},
 		{
 			"name": "Wychlaran Praxis",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you choose the set of teachings and customs you practice in your daily life as a wychlaran. The choice of praxis informs all aspects of your powers, from additional spells you learn from spirits, to how you lead your communal binding, to the way you use constructs. The Praxis of Tradition is the time-honored path for most hathrans, while the Praxis of Power is the nonconformist path typically taken by durthans."
@@ -2478,10 +2478,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2490,10 +2490,10 @@
 		},
 		{
 			"name": "Place Magic",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 5,
 			"entries": [
 				"Starting at 5th level, you are able to draw on the magic of the land itself to help you cast your magics. While you are located in Rashemen, you can cast any wychlaran ritual spell without having it prepared.",
@@ -2502,10 +2502,10 @@
 		},
 		{
 			"name": "Unweave (1 use)",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"The years of resistance and opposition to the Thayan wizards have taught the wychlaran to combat magic.",
@@ -2516,10 +2516,10 @@
 		},
 		{
 			"name": "Wychlaran Praxis Feature",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 7,
 			"entries": [
 				"At 7th level, you gain another feature from your Praxis."
@@ -2527,10 +2527,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 8,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2539,10 +2539,10 @@
 		},
 		{
 			"name": "Unweave (2 uses)",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 9,
 			"entries": [
 				"You gain an additional use of Unweave at 9th level in this class."
@@ -2550,10 +2550,10 @@
 		},
 		{
 			"name": "Repurpose Construct",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 10,
 			"entries": [
 				"Starting at 10th level, ancient Raumatharian knowledge of constructs allows you to make use of existing constructs. When you defeat a construct and it is not entirely destroyed, you can attempt to magically re-purpose it to serve you. You can't attempt to repurpose a construct with a Challenge Rating greater than half your wychlaran level (rounded up).",
@@ -2565,10 +2565,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 12,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2577,10 +2577,10 @@
 		},
 		{
 			"name": "Unweave (3 uses)",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 13,
 			"entries": [
 				"You gain an additional use of Unweave at 13th level in this class."
@@ -2588,10 +2588,10 @@
 		},
 		{
 			"name": "Wychlaran Praxis Feature",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain another feature from your Praxis."
@@ -2599,10 +2599,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 16,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2611,10 +2611,10 @@
 		},
 		{
 			"name": "Wychlaran Praxis Feature",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain another feature from your Praxis."
@@ -2622,10 +2622,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 19,
 			"entries": [
 				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -2634,10 +2634,10 @@
 		},
 		{
 			"name": "Coven",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"level": 20,
 			"entries": [
 				"At 20th level, your Communal Binding can empower whole communities.",
@@ -2658,7 +2658,7 @@
 			"name": "Praxis of Tradition (Hathran)",
 			"shortName": "Tradition",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Praxis of Tradition|Wychlaran|rcg|Tradition|rcg|3",
 				"Fortitude|Wychlaran|rcg|Tradition|rcg|3",
@@ -2718,13 +2718,13 @@
 				}
 			],
 			"className": "Wychlaran",
-			"classSource": "rcg"
+			"classSource": "rcgp"
 		},
 		{
 			"name": "Praxis of Power (Durthan)",
 			"shortName": "Power",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Praxis of Power|Wychlaran|rcg|Power|rcg|3",
 				"Secret Ways|Wychlaran|rcg|Power|rcg|3",
@@ -2784,13 +2784,13 @@
 				}
 			],
 			"className": "Wychlaran",
-			"classSource": "rcg"
+			"classSource": "rcgp"
 		},
 		{
 			"name": "Vremyonni",
 			"shortName": "Vremyonni",
 			"foundryImg": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Vremyonni|Artificer|tce|Vremyonni|rcg|3",
 				"Tool Proficiency|Artificer|tce|Vremyonni|rcg|3",
@@ -2844,7 +2844,7 @@
 			"name": "Path of the Runescarred",
 			"shortName": "Runescarred",
 			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Path of the Runescarred|Barbarian|phb|Runescarred|rcg|3",
 				"Runescars|Barbarian|phb|Runescarred|rcg|3",
@@ -2899,7 +2899,7 @@
 			"name": "College of Apparitions",
 			"shortName": "Apparitions",
 			"foundryImg": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"College of Appartitions|Bard|phb|Apparitions|rcg|3",
 				"Call the Spirits|Bard|phb|Apparitions|rcg|3",
@@ -2914,7 +2914,7 @@
 			"name": "Oath of Nydeshka",
 			"shortName": "Nydeshka",
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Oath of Nydeshka|Paladin|phb|Nydeshka|rcg|3",
 				"Channel Divinity: Moment of Fury|Paladin|phb|Nydeshka|rcg|3",
@@ -2967,7 +2967,7 @@
 		{
 			"name": "Pledge Bonded Conclave",
 			"shortName": "Pledge Bonded",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp",
 			"subclassFeatures": [
 				"Pledge Bonded Conclave|Ranger|phb|Pledge Bonded|rcg|3",
@@ -3022,7 +3022,7 @@
 			"name": "Raumathari Battlemage",
 			"shortName": "Battlemage",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Raumathari Battlemage|Sorcerer|phb|Battlemage|rcg|1",
 				"Sword Focus|Sorcerer|phb|Battlemage|rcg|1",
@@ -3038,7 +3038,7 @@
 			"name": "Reborn",
 			"shortName": "Reborn",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Reborn|Sorcerer|phb|Reborn|rcg|1",
 				"Past Life|Sorcerer|phb|Reborn|rcg|1",
@@ -3093,7 +3093,7 @@
 			"name": "Paired Witch",
 			"shortName": "Paired",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"subclassFeatures": [
 				"Paried Witch|Wizard|phb|Paired|rcg|2",
 				"Cohort|Wizard|phb|Paired|rcg|2",
@@ -3107,7 +3107,7 @@
 		{
 			"name": "Telthor Companion",
 			"shortName": "Telthor",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"subclassFeatures": [
 				"Telthor Companion|Wizard|phb|Telthor|rcg|2",
@@ -3123,12 +3123,12 @@
 	"subclassFeature": [
 		{
 			"name": "Secret Ways",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"subclassShortName": "Power",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"When you adopt the Praxis of Power at 3rd level, you become proficient in the Deception and Stealth skills."
@@ -3144,12 +3144,12 @@
 		},
 		{
 			"name": "Praxis of Power",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"subclassShortName": "Power",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"The Praxis of Power lets you forge an independent path, seeking out hidden or forbidden knowledge to achieve your goals.",
@@ -3224,12 +3224,12 @@
 		},
 		{
 			"name": "Communal Channeling Enhancements",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"subclassShortName": "Power",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Your Praxis of Power leads you to focus on harnessing personal power from your channeling. You learn to improve your communal channeling in subtle ways. An enhancement to each channeling option is available for you starting when you adopt this Praxis at 3rd level. You choose one of these options when you gain this feature, a second at 9th level, and the third at 11th level.",
@@ -3246,12 +3246,12 @@
 		},
 		{
 			"name": "Demonstrate Power",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"subclassShortName": "Power",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 7,
 			"entries": [
 				"Starting at 7th level, you can use the power you exude to dissuade others from hostile action. As an action, you can expend a spell slot of any level and attempt to threaten a creature with your arcane power.",
@@ -3261,12 +3261,12 @@
 		},
 		{
 			"name": "Personal Guardian",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"subclassShortName": "Power",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, when you successfully repurpose a construct with a Challenge Rating of 7 or higher, you can repurpose it as a {@creature shield guardian} for yourself. The repurposed construct is subject to all penalties of the Repurpose Construct feature, including inability to regain hit points, but uses the {@creature shield guardian} statistics instead of the original construct's. The {@creature shield guardian} is bound to you and does not require a control amulet. Unlike a standard repurposed construct, the {@creature shield guardian} lasts until it is reduced to 0 hit points, is dispelled, or you repurpose a different construct."
@@ -3274,12 +3274,12 @@
 		},
 		{
 			"name": "Place Power",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"subclassShortName": "Power",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 18,
 			"entries": [
 				"Starting at 18th level, when you finish a long rest in Rashemen, you can commune with the Rashemi spirits to begin the day with the {@spell gate} and {@spell meteor swarm} spells prepared. These spells count as wychlaran spells for you, and don't count against the number of spells you can prepare.",
@@ -3288,12 +3288,12 @@
 		},
 		{
 			"name": "Fortitude",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"subclassShortName": "Tradition",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"When you adopt the Praxis of Tradition at 3rd level, you learn traditional meditation techniques that fortify the body and spirit. Your hit point maximum increases by 3, and increases by 1 again whenever you gain a level in this class."
@@ -3301,12 +3301,12 @@
 		},
 		{
 			"name": "Praxis of Tradition",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"subclassShortName": "Tradition",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"The Praxis of Tradition focuses on the protection and leadership of your people.",
@@ -3380,12 +3380,12 @@
 		},
 		{
 			"name": "Communal Channeling Enhancements",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"subclassShortName": "Tradition",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"You learn to improve your communal channeling in subtle ways. An enhancement to each channelling option is available for you starting when you adopt this Praxis at 3rd level. You choose one of these options when you gain this feature, a second at 9th, and the third at 11th level.",
@@ -3402,12 +3402,12 @@
 		},
 		{
 			"name": "Declare Presence",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"subclassShortName": "Tradition",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 7,
 			"entries": [
 				"Starting at 7th level, the weight of your presence is felt not only by the people of Rashemen, but by any intelligent creature. As an action, you speak your name and title (as appropriate) outloud. Your voice can be heard up to 60 feet away, including through nonmagical barriers such as stone up to 5 feet thick. For the next 10 minutes, you have advantage on Charisma checks made to interact with any creature that heard your declaration that has an Intelligence of 4 higher and speaks at least one language. Additionally, if you are surprised during this period, you do not lose the ability to use your reaction as a result of being surprised."
@@ -3415,12 +3415,12 @@
 		},
 		{
 			"name": "Protective Construct",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
 			"subclassShortName": "Tradition",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, you are able to use a construct under your control to protect your allies. As a reaction when a creature you can see is hit by an attack, you command your construct to intercept the attack. The construct must use its reaction to do so. If the construct is within 5 feet of the target, it takes twice the attack's damage. If the construct is more than 5 feet away, it may move up to its speed as part of its reaction."
@@ -3428,12 +3428,12 @@
 		},
 		{
 			"name": "Place Wisdom",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wychlaran",
 			"foundryImg": "icons/magic/control/debuff-energy-hold-levitate-yellow.webp",
-			"classSource": "rcg",
+			"classSource": "rcgp",
 			"subclassShortName": "Tradition",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 18,
 			"entries": [
 				"Starting at 18th level, when you finish a long rest in Rashemen, you can commune with the Rashemi spirits to begin the day with the {@spell shapechange} and {@spell true resurrection} spells prepared. These spells count as wychlaran spells for you, and don't count against the number of spells you can prepare.",
@@ -3442,12 +3442,12 @@
 		},
 		{
 			"name": "Telthor Companion",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wizard",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"classSource": "phb",
 			"subclassShortName": "Telthor",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 2,
 			"entries": [
 				"Rashemen is a land filled with nature spirits. Some, known as telthors, are sacred guardian spirits protecting locations, berserker lodges, and in some cases, individuals. A few rare witches can form a connection with these spirits who become the caster's bonded protector.",
@@ -3456,12 +3456,12 @@
 		},
 		{
 			"name": "Spiritual Companion",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wizard",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"classSource": "phb",
 			"subclassShortName": "Telthor",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 2,
 			"entries": [
 				"When you adopt this tradition at 2nd level, you gain a spiritual companion called a telthor. Your telthor can take the form of any beast (not including swarms) with a CR of 1/2 or less. The companion uses the stats of your chosen beast with the following changes:",
@@ -3481,12 +3481,12 @@
 		},
 		{
 			"name": "Heart of Ice",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"className": "Wizard",
 			"classSource": "phb",
 			"subclassShortName": "Telthor",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"By the time you reach 6th level, your connection to the magic you wield grants you and your telthor resistance to cold damage. Additionally, spells you cast that deal cold damage ignore resistances."
@@ -3497,12 +3497,12 @@
 		},
 		{
 			"name": "Irresistible",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wizard",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"classSource": "phb",
 			"subclassShortName": "Telthor",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 10,
 			"entries": [
 				"As your knowledge of the arcane grows, your magic becomes harder for others to resist. Starting at 10th level, whenever you cast a wizard spell that requires targets to make a saving throw, you can choose to force all targets to make the saving throw with disadvantage. Once you've used this feature, you can't do so again until you finish a long rest."
@@ -3511,11 +3511,11 @@
 		{
 			"name": "Telthor Coordination",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wizard",
 			"classSource": "phb",
 			"subclassShortName": "Telthor",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"By 14th level, your telthor have become an irreplaceable part of your combat tactics. Whenever you cast a spell or make a weapon attack, one of your telthor can use their reaction to move up to 10 feet and make an attack against a creature within range."
@@ -3523,12 +3523,12 @@
 		},
 		{
 			"name": "Paried Witch",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"className": "Wizard",
 			"classSource": "phb",
 			"subclassShortName": "Paired",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 2,
 			"entries": [
 				"Rashemi culture recognizes that one individual's strength can balance another's weakness. It is not uncommon for witches to travel with a trusted companion. Witches of importance, or those charged with urgent tasks, may have companions thrust upon them by elders concerned for their safety. The wychlaran wizards recognize the benefits of such pairings and often forge long lasting relationships with those charged with their care."
@@ -3536,12 +3536,12 @@
 		},
 		{
 			"name": "Cohort",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"className": "Wizard",
 			"classSource": "phb",
 			"subclassShortName": "Paired",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 2,
 			"entries": [
 				"Starting when you adopt this tradition at 2nd level, you are assigned a cohort by the elders of the wychlaran. As you grow in power, so will your cohort, so that they might serve you as long as they can. When you gain this feature, choose one of the following types: arcanist, martialist, or sneak. The type you choose determines the stat blocks your cohort will use as you gain more levels in this class, as shown on the table below.",
@@ -3593,12 +3593,12 @@
 		},
 		{
 			"name": "The Land Provides",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"className": "Wizard",
 			"classSource": "phb",
 			"subclassShortName": "Paired",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"By the time you reach 6th level, your spiritual connection to the land has granted you and your cohort protection against those who would use its power against you. You both gain resistance to poison damage, and are immune to the poisoned condition."
@@ -3612,12 +3612,12 @@
 		},
 		{
 			"name": "Born Leader",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wizard",
 			"classSource": "phb",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"subclassShortName": "Paired",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 10,
 			"entries": [
 				"With your title comes authority, and at 10th level you learn a new way to wield it. As an action, you can issue a simple command (such as those detailed in the command spell) to a number of creatures equal to double your Charisma modifier. Each target must make a Wisdom saving throw against your spell save DC, or be magically compelled to carry out the command for a number of rounds equal to your Charisma modifier.",
@@ -3628,12 +3628,12 @@
 		},
 		{
 			"name": "Intimidating Aura",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Wizard",
 			"classSource": "phb",
 			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"subclassShortName": "Paired",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"By 14th level, you exude an aura of power and importance that inspires fear and awe in those around you. As long as you aren't incapacitated, hostile creatures who enter or begin their turn in a space within 10 feet of you must make a Wisdom saving throw or become frightened of you until the beginning of your next turn."
@@ -3641,12 +3641,12 @@
 		},
 		{
 			"name": "Reborn",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"className": "Sorcerer",
 			"classSource": "phb",
 			"subclassShortName": "Reborn",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"You were reincarnated. Either you were chosen by nature, by fate, or by the casting of magics, but you've returned to the world in a new body. What new experiences will you try? What old memories linger on? There is a bright world out there for you to rediscover."
@@ -3654,12 +3654,12 @@
 		},
 		{
 			"name": "Past Life",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Reborn",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"You express a feature from one of your former lives. Select one NPC race from the NPC Features table in chapter 9 of the {@book Dungeon Master's Guide|dmg|9|NPC Stat Blocks}. For the next 10 minutes, you gain the features listed for that race in addition to your own. You do not gain the race's ability modifiers. You can use this feature a number of times equal to your Charisma modifier, and regain all uses after finishing a long rest."
@@ -3667,12 +3667,12 @@
 		},
 		{
 			"name": "Reborn Magic",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"classSource": "phb",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"subclassShortName": "Reborn",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"You learn additional spells when you reach certain levels in this class, as shown on the Reborn Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
@@ -3715,12 +3715,12 @@
 		},
 		{
 			"name": "Knowledge Reborn",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"classSource": "phb",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"subclassShortName": "Reborn",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"Whenever you use your Past Life feature, you select one of the following features which also manifests for the duration of the feature. Once you manifest a class feature, you cannot choose that class again for this feature until you finish a long rest.",
@@ -3794,12 +3794,12 @@
 		},
 		{
 			"name": "Reborn Defense",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Reborn",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"You can expend a use of your Past Lives feature to become proficient in saving throws and ability checks in an ability of your choice for 10 minutes."
@@ -3807,12 +3807,12 @@
 		},
 		{
 			"name": "Sorcerer's Bloodline",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Reborn",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"You can use 3 sorcery points to regain a use of your Past Lives feature. You can expend a use of your Past Lives feature to gain 2 sorcery points."
@@ -3820,12 +3820,12 @@
 		},
 		{
 			"name": "Final Form",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Reborn",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 18,
 			"entries": [
 				"You can cast polymorph on yourself without requiring any components or using a spell slot. You can use this form to take actions which require hands or speech, allowing you to talk and cast spells while polymorphed in this way.",
@@ -3834,12 +3834,12 @@
 		},
 		{
 			"name": "Raumathari Battlemage",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"subclassShortName": "Battlemage",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"The Raumathari battlemages of old were an order of sorcerers who mastered an innate connection to the principles of war and the art of combat. The very heat of battle ran in their blood, and through intense focus and constant practice they managed to become some of the most fearsome warriors and spellcasters in all of Faerûn. Their bloodlines still linger today. Those that seek out the teachings of the Raumathari battlemages can revive their legacy once more, becoming the living embodiment of sword and spell."
@@ -3847,12 +3847,12 @@
 		},
 		{
 			"name": "Sword Focus",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"subclassShortName": "Battlemage",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"Starting at 1st level, you can create a magical bond between yourself and one melee weapon allowing you to transform the weapon into an extension of yourself. During a long rest, you can spend 1 hour performing this ritual. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.",
@@ -3862,12 +3862,12 @@
 		},
 		{
 			"name": "Sorcerous Combat",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"subclassShortName": "Battlemage",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 1,
 			"entries": [
 				"By channeling your magical abilities through your bonded weapon, you convert your innate magical prowess into martial mastery. Starting at 1st level, as long as you hold your bonded weapon, you gain a bonus to your AC equal to your Charisma modifier as long as you aren't wearing armor.",
@@ -3876,12 +3876,12 @@
 		},
 		{
 			"name": "Extra Attack",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"classSource": "PHB",
 			"subclassShortName": "Battlemage",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
@@ -3889,12 +3889,12 @@
 		},
 		{
 			"name": "Warrior's Soul",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"classSource": "PHB",
 			"subclassShortName": "Battlemage",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"You have the heart of a warrior, and that dauntless spirit spurs you to overcome any trial.",
@@ -3903,12 +3903,12 @@
 		},
 		{
 			"name": "Wardbreaker's Strike",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"foundryImg": "icons/magic/earth/projectiles-magma-stone-orange.webp",
 			"subclassShortName": "Battlemage",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 17,
 			"entries": [
 				"You can sever your foe's strength with a simple swing of your weapon. Starting at 18th level, when you hit a creature with your bonded weapon, you can spend 6 sorcery points to weaken the creature's resistance against your spells. If you do, the next time you damage that creature with a spell, the creature has vulnerability to all of that spell's damage."
@@ -3916,12 +3916,12 @@
 		},
 		{
 			"name": "Pledge Bonded Conclave",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Ranger",
 			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp",
 			"classSource": "phb",
 			"subclassShortName": "Pledge Bonded",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Pairing up with your brother or sister is a very common sight in Rashemen. Still, there are some who are selfless beyond all measure. They will go to great lengths to protect each other, operating so efficiently that one could mistake them as a single mind bound to two bodies.",
@@ -3970,12 +3970,12 @@
 		},
 		{
 			"name": "Honor Pledge",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp",
 			"className": "Ranger",
 			"classSource": "phb",
 			"subclassShortName": "Pledge Bonded",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"When you finish a long rest with a willing creature who started that same long rest with you, you can pledge yourself to them. While you are within 5 feet of your bond, they gain a +2 bonus to their Armor Class. Additionally, you can cast spells with a range of self or touch on your bond as long as you're on the same plane of existence.",
@@ -3984,12 +3984,12 @@
 		},
 		{
 			"name": "Heartshield",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp",
 			"className": "Ranger",
 			"classSource": "phb",
 			"subclassShortName": "Pledge Bonded",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"If you can see your bond and are within 120 feet of them and they are targeted by a spell or attack you can see, you can use your reaction to move up to your speed directly towards them. This movement does not provoke opportunity attacks. If you end within 5 feet of your bond, the spell or attack targets you instead."
@@ -3997,12 +3997,12 @@
 		},
 		{
 			"name": "Teamwork Attacks",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Ranger",
 			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp",
 			"classSource": "phb",
 			"subclassShortName": "Pledge Bonded",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 7,
 			"entries": [
 				"You and your bond gain the following benefits as long as you are within 30 feet of each other:",
@@ -4017,12 +4017,12 @@
 		},
 		{
 			"name": "Unparalleled Pair",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Ranger",
 			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp",
 			"classSource": "phb",
 			"subclassShortName": "Pledge Bonded",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 11,
 			"entries": [
 				"Your Teamwork Attacks feature improves as follows:",
@@ -4044,12 +4044,12 @@
 		},
 		{
 			"name": "Lend Pair",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/weapons/bows/shortbow-recurve-yellow.webp",
 			"className": "Ranger",
 			"classSource": "phb",
 			"subclassShortName": "Pledge Bonded",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 15,
 			"entries": [
 				"As an action, you grant most of your ranger features to your bond. For the next hour, they gain the following benefits from your class:",
@@ -4069,12 +4069,12 @@
 		},
 		{
 			"name": "Vremyonni",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Artificer",
 			"classSource": "tce",
 			"subclassShortName": "Vremyonni",
 			"foundryImg": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Spellcasters who can't join the hathran are often exiled from their communities. The safety of their community members largely depends on knowing that spellcasters can be responsible for their actions, that they understand the full weight of their powers.",
@@ -4083,12 +4083,12 @@
 		},
 		{
 			"name": "Tool Proficiency",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
 			"className": "Artificer",
 			"classSource": "tce",
 			"subclassShortName": "Vremyonni",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"You gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
@@ -4101,12 +4101,12 @@
 		},
 		{
 			"name": "Battle Binding",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
 			"className": "Artificer",
 			"classSource": "tce",
 			"subclassShortName": "Vremyonni",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"You craft a new tool known as a battle wrap using a ritual known only to the vremyonni. This wrap can be placed around mundane items to grant them magical fortifications or to bind to another spellcaster, allowing you to fight as a pair.",
@@ -4117,12 +4117,12 @@
 		},
 		{
 			"name": "Battle Caster",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
 			"className": "Artificer",
 			"classSource": "tce",
 			"subclassShortName": "Vremyonni",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 5,
 			"entries": [
 				"If you cast an artificer cantrip, you can use your bonus action to cast a second artificer cantrip you know."
@@ -4130,12 +4130,12 @@
 		},
 		{
 			"name": "Power Bound",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
 			"className": "Artificer",
 			"classSource": "tce",
 			"subclassShortName": "Vremyonni",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 9,
 			"entries": [
 				"You can use your battle wrap to attach yourself to another willing creature who can cast spells. This process takes 10 minutes and can only be ended as part of a short or long rest, or if either of you die.",
@@ -4153,12 +4153,12 @@
 		},
 		{
 			"name": "Potential Unbound",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Artificer",
 			"foundryImg": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
 			"classSource": "tce",
 			"subclassShortName": "Vremyonni",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 15,
 			"entries": [
 				"As an action, you cause your battle binding to flare brightly with energy. For 10 minutes, the following changes apply to your binding and whatever it is bound upon:",
@@ -4175,12 +4175,12 @@
 		},
 		{
 			"name": "Path of the Runescarred",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp",
 			"className": "Barbarian",
 			"classSource": "phb",
 			"subclassShortName": "Runescarred",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Runescarred berserkers are a fearsome combatant on the battlefield. Blessed with patronage from the Wychlaran, their bodies are infused with magic, ready to be unleashed: a living weapon, with enhanced capabilities and potential. While sometimes actual scars are created during the runescarring ritual, the practice is not required to bond the magic to the body. All that is required is an indomitable will, an unwavering conviction, and the constitution to hold raw magic back from its natural urge to burst forth."
@@ -4188,12 +4188,12 @@
 		},
 		{
 			"name": "Runescars",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Barbarian",
 			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Runescarred",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Runescarred berserkers are infused with limited magical aptitude from their hathran patron. This magic takes the form of runescars, which are temporary magical sigils and glyphs on the host's body, which tap into the bearer's internal strength to fuel the magic. You know a specific set of spells based on your barbarian level, as shown in the Runescarred Spells table below. During a long rest, you inscribe a number of these spells that you know onto your body in the form of magical runes, up to your proficiency bonus.",
@@ -4234,12 +4234,12 @@
 		},
 		{
 			"name": "Runic Power",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Barbarian",
 			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Runescarred",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"While benefiting from the effects of a spell cast with your Runescars feature, your weapon attacks are considered magical for the purposes of overcoming resistances."
@@ -4247,12 +4247,12 @@
 		},
 		{
 			"name": "Witch Strength",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Barbarian",
 			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Runescarred",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 10,
 			"entries": [
 				"While raging, you can use your bonus action to make a melee spell attack against a creature you can see within 10 feet of you, as you allow raw magic to lash out from your body. On a hit, the target takes {@damage 1d12} + your Constitution modifier force damage. If the target is Large or smaller, they are pulled to the nearest unoccupied space within 5 feet of you."
@@ -4260,12 +4260,12 @@
 		},
 		{
 			"name": "Reckless Wards",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Barbarian",
 			"foundryImg": "icons/skills/melee/hand-grip-sword-orange.webp",
 			"classSource": "phb",
 			"subclassShortName": "Runescarred",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"When you are forced to make a saving throw against a spell or magical effect and fail, you can use your reaction to choose to succeed instead. When you do, roll on the Reckless Magic table to determine a magical effect to be produced.",
@@ -4316,12 +4316,12 @@
 		},
 		{
 			"name": "College of Appartitions",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
 			"className": "Bard",
 			"classSource": "phb",
 			"subclassShortName": "Apparitions",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Bards who belong to the College of Apparitions invoke apparitions with the magic of their performance. The appearance of the phantoms answering the bard's call reflect the performer's nature. Those with ties to the land might call forth spirits of nature manifesting as ethereal animals floating serenely nearby. Others summon ghostly warrior ancestors ready for combat. Those who carry a taint of darkness may sing haunting dirges invoking the reluctant spirits of the damned."
@@ -4329,12 +4329,12 @@
 		},
 		{
 			"name": "Call the Spirits",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Bard",
 			"foundryImg": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
 			"classSource": "phb",
 			"subclassShortName": "Apparitions",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"When you join the College of Apparitions at 3rd level, you learn one additional cantrip chosen from {@spell dancing lights}, {@spell mage hand}, or {@spell minor illusion}.",
@@ -4343,12 +4343,12 @@
 		},
 		{
 			"name": "Shielding Song",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Bard",
 			"classSource": "phb",
 			"foundryImg": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
 			"subclassShortName": "Apparitions",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Also at 3rd level, you can call upon the spirits to distract your enemies. When a creature that you can see within 60 feet of you makes an attack roll, you can use your reaction to expend one of your uses of Bardic Inspiration to cause the attack to be at disadvantage. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll hits."
@@ -4356,12 +4356,12 @@
 		},
 		{
 			"name": "Voice of the Wind",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Bard",
 			"classSource": "phb",
 			"foundryImg": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
 			"subclassShortName": "Apparitions",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 6,
 			"entries": [
 				"At 6th level, your affinity with the spirits allows you to call them to invoke magical effects that defy gravity. You learn the spells {@spell feather fall}, {@spell levitate}, and {@spell fly}. These spells count as bard spells for you but don't count against the number of bard spells you know. Additionally, you may cast one of these spells without expending a spell slot, but you can't use this feature again until you finish a long rest."
@@ -4369,12 +4369,12 @@
 		},
 		{
 			"name": "Spiritual Aura",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Bard",
 			"classSource": "phb",
 			"foundryImg": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
 			"subclassShortName": "Apparitions",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, as a bonus action, you sing a haunting melody calling forth spirits of the land to create a swirling aura of spiritual protection that lasts until the end of your next turn. On subsequent turns, you can use a bonus action to continue your melody and extend its duration for an additional turn. The spiritual aura extends out from you to a distance of 15 feet.",
@@ -4384,12 +4384,12 @@
 		},
 		{
 			"name": "Oath of Nydeshka",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
 			"className": "Paladin",
 			"classSource": "phb",
 			"subclassShortName": "Nydeshka",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"Barbarians who are unable to control their rage are labeled nydeshka: powerful berserkers but dangerous to their allies. Hathran put these dangerous combatants on the front lines with blunted swords, all but guaranteeing their destruction.",
@@ -4495,12 +4495,12 @@
 		},
 		{
 			"name": "Channel Divinity: Moment of Fury",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Paladin",
 			"classSource": "phb",
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
 			"subclassShortName": "Nydeshka",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following Channel Divinity option. See the Sacred Oath class feature for how Channel Divinity works.",
@@ -4509,12 +4509,12 @@
 		},
 		{
 			"name": "Channel Divinity: Moment of Calm",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Paladin",
 			"classSource": "phb",
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
 			"subclassShortName": "Nydeshka",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 3,
 			"entries": [
 				"When you take this oath at 3rd level, you gain the following Channel Divinity option. See the Sacred Oath class feature for how Channel Divinity works.",
@@ -4523,12 +4523,12 @@
 		},
 		{
 			"name": "Aura of Battle",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Paladin",
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
 			"classSource": "phb",
 			"subclassShortName": "Nydeshka",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 7,
 			"entries": [
 				"Starting at 7th level, others pick up on your heightened awareness while you're not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.",
@@ -4538,12 +4538,12 @@
 		},
 		{
 			"name": "Raging Rebuke",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Paladin",
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
 			"classSource": "phb",
 			"subclassShortName": "Nydeshka",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 15,
 			"entries": [
 				"At level 15, creatures who enter into your reach provoke opportunity attacks."
@@ -4551,12 +4551,12 @@
 		},
 		{
 			"name": "Nydeshka Charge",
-			"source": "rcg",
+			"source": "rcgp",
 			"className": "Paladin",
 			"classSource": "phb",
 			"foundryImg": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
 			"subclassShortName": "Nydeshka",
-			"subclassSource": "rcg",
+			"subclassSource": "rcgp",
 			"level": 20,
 			"entries": [
 				"At level 20, you allow your mind to slip into your battle rage. As a bonus action, you gain the following benefits:",
@@ -4578,7 +4578,7 @@
 		{
 			"name": "Ancestral Blessing",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4595,7 +4595,7 @@
 		{
 			"name": "Ancestral Magic",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4611,7 +4611,7 @@
 		{
 			"name": "Aspect of Hadryllis",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4628,7 +4628,7 @@
 		{
 			"name": "Courtly Revelry",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4645,7 +4645,7 @@
 		{
 			"name": "Death Mask",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4661,7 +4661,7 @@
 		{
 			"name": "Echoes of Hadryllis",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4678,7 +4678,7 @@
 		{
 			"name": "Fey Companion",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4694,7 +4694,7 @@
 		{
 			"name": "Forbidden Magic",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4709,7 +4709,7 @@
 		},
 		{
 			"name": "Helpful Spirits",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
 			"featureType": [
 				"EI"
@@ -4727,7 +4727,7 @@
 		{
 			"name": "Passage of Death",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4743,7 +4743,7 @@
 		{
 			"name": "Raumathari Magic",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4759,7 +4759,7 @@
 		{
 			"name": "Silver Magic",
 			"foundryImg": "icons/creatures/mammals/bat-giant-tattered-purple.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"featureType": [
 				"EI"
 			],
@@ -4776,7 +4776,7 @@
 	"race": [
 		{
 			"name": "Hagspawn",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/creatures/abilities/fish-man-eye-green.webp",
 			"size": [
 				"M"
@@ -4896,7 +4896,7 @@
 		},
 		{
 			"name": "Spirit Folk",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/creatures/magical/spirit-undead-horned-blue.webp",
 			"size": [
 				"M"
@@ -5008,7 +5008,7 @@
 		{
 			"name": "Taer",
 			"foundryImg": "icons/creatures/abilities/dragon-ice-breath-blue.webp",
-			"source": "rcg",
+			"source": "rcgp",
 			"size": [
 				"M"
 			],
@@ -5134,10 +5134,10 @@
 	"subrace": [
 		{
 			"name": "Mountain Spirit",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/creatures/magical/spirit-undead-horned-blue.webp",
 			"raceName": "Spirit Folk",
-			"raceSource": "rcg",
+			"raceSource": "rcgp",
 			"speed": {
 				"walk": 30,
 				"climb": 30
@@ -5188,10 +5188,10 @@
 		},
 		{
 			"name": "River Spirit",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/creatures/magical/spirit-undead-horned-blue.webp",
 			"raceName": "Spirit Folk",
-			"raceSource": "rcg",
+			"raceSource": "rcgp",
 			"speed": {
 				"walk": 30,
 				"swim": 30
@@ -5251,7 +5251,7 @@
 	"item": [
 		{
 			"name": "Claw Bracers",
-			"source": "rcg",
+			"source": "rcgp",
 			"weaponCategory": "martial",
 			"foundryImg": "icons/weapons/fist/claw-cloth-brown.webp",
 			"rarity": "uncommon",
@@ -5267,7 +5267,7 @@
 		},
 		{
 			"name": "Hathran Mask",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/equipment/head/mask-carved-wood-brown.webp",
 			"rarity": "common",
 			"entries": [
@@ -5276,7 +5276,7 @@
 		},
 		{
 			"name": "Mask of the Abandoned",
-			"source": "rcg",
+			"source": "rcgp",
 			"rarity": "very rare",
 			"foundryImg": "icons/equipment/head/mask-wooden-feathered-blue.webp",
 			"reqAttune": true,
@@ -5327,7 +5327,7 @@
 		},
 		{
 			"name": "Mask of Command",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/equipment/head/mask-wooden-feathered-blue.webp",
 			"rarity": "rare",
 			"reqAttune": true,
@@ -5339,7 +5339,7 @@
 		},
 		{
 			"name": "Mask of Mental Armor",
-			"source": "rcg",
+			"source": "rcgp",
 			"rarity": "very rare",
 			"foundryImg": "icons/equipment/head/mask-wooden-feathered-blue.webp",
 			"reqAttune": true,
@@ -5350,7 +5350,7 @@
 		},
 		{
 			"name": "Mask of the Othlor",
-			"source": "rcg",
+			"source": "rcgp",
 			"rarity": "uncommon",
 			"foundryImg": "icons/equipment/head/mask-wooden-feathered-blue.webp",
 			"reqAttune": true,
@@ -5369,7 +5369,7 @@
 		},
 		{
 			"name": "Mask of the Othlor",
-			"source": "rcg",
+			"source": "rcgp",
 			"rarity": "rare",
 			"foundryImg": "icons/equipment/head/mask-wooden-feathered-blue.webp",
 			"reqAttune": true,
@@ -5388,7 +5388,7 @@
 		},
 		{
 			"name": "Mask of the Othlor",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/equipment/head/mask-wooden-feathered-blue.webp",
 			"rarity": "very rare",
 			"reqAttune": true,
@@ -5407,7 +5407,7 @@
 		},
 		{
 			"name": "Mask of True Seeing",
-			"source": "rcg",
+			"source": "rcgp",
 			"rarity": "rare",
 			"foundryImg": "icons/equipment/head/mask-wooden-feathered-blue.webp",
 			"reqAttune": true,
@@ -5418,7 +5418,7 @@
 		},
 		{
 			"name": "Hadryllis",
-			"source": "rcg",
+			"source": "rcgp",
 			"rarity": "legendary",
 			"foundryImg": "icons/weapons/swords/greatsword-crossguard-blue.webp",
 			"weaponCategory": "martial",
@@ -5443,7 +5443,7 @@
 		},
 		{
 			"name": "Jhuild",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/consumables/drinks/tea-jug-gourd-brown.webp",
 			"rarity": "uncommon",
 			"entries": [
@@ -5463,7 +5463,7 @@
 		},
 		{
 			"name": "Spellweaver's Blade",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/weapons/swords/sword-guard-serrated.webp",
 			"rarity": "rare",
 			"entries": [
@@ -5476,7 +5476,7 @@
 		},
 		{
 			"name": "Taer Stench Grease",
-			"source": "rcg",
+			"source": "rcgp",
 			"foundryImg": "icons/commodities/materials/slime-white.webp",
 			"rarity": "uncommon",
 			"entries": [
@@ -5485,7 +5485,7 @@
 		},
 		{
 			"name": "Witchboat",
-			"source": "rcg",
+			"source": "rcgp",
 			"rarity": "uncommon",
 			"foundryImg": "icons/tools/navigation/sextant-brass-brown.webp",
 			"wondrous": true,
