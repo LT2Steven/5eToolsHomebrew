@@ -3283,7 +3283,7 @@
 			"level": 18,
 			"entries": [
 				"Starting at 18th level, when you finish a long rest in Rashemen, you can commune with the Rashemi spirits to begin the day with the {@spell gate} and {@spell meteor swarm} spells prepared. These spells count as wychlaran spells for you, and don't count against the number of spells you can prepare.",
-				"Alternatively, or if you are not in Rashemen, when you finish your long rest, you can commune with the local spirits. The DM chooses one spell of 7th or 8th level from any spell list that is relevant to either the theme or the former inhabitants of the region and you begin the day with this spell prepared; it counts a wychlaran spell for you, and does not count against the number of spells known. For example, communing with the spirits of the Plane of Fire may result in preparing the {@spell fire storm} spell, while communing with the spirits of a storm giant kingdom might result in {@spell control weather}. In the unlikely event that the location you're in has never been inhabited—such as a demiplane—this ability may yield no additional spells."
+				"Alternatively, or if you are not in Rashemen, when you finish your long rest, you can commune with the local spirits. The DM chooses one spell of 7th or 8th level from any spell list that is relevant to either the theme or the former inhabitants of the region and you begin the day with this spell prepared; it counts a wychlaran spell for you, and does not count against the number of spells known. For example, communing with the spirits of the Plane of Fire may result in preparing the {@spell fire storm} spell, while communing with the spirits of a storm giant kingdom might result in {@spell control weather}. In the unlikely event that the location you're in has never been inhabited\u2014such as a demiplane\u2014this ability may yield no additional spells."
 			]
 		},
 		{
@@ -3437,7 +3437,7 @@
 			"level": 18,
 			"entries": [
 				"Starting at 18th level, when you finish a long rest in Rashemen, you can commune with the Rashemi spirits to begin the day with the {@spell shapechange} and {@spell true resurrection} spells prepared. These spells count as wychlaran spells for you, and don't count against the number of spells you can prepare.",
-				"Alternatively, or if you are not in Rashemen, when you finish your long rest, you can commune with the local spirits. The DM chooses one spell of 7th or 8th level from any spell list that is relevant to either the theme or the former inhabitants of the region and you begin the day with this spell prepared; it counts a wychlaran spell for you, and does not count against the number of spells known. For example, communing with the spirits of the Plane of Fire may result in preparing the {@spell fire storm} spell, while communing with the spirits of a storm giant kingdom might result in {@spell control weather}. In the unlikely event that the location you're in has never been inhabited—such as a demiplane—this ability may yield no additional spells."
+				"Alternatively, or if you are not in Rashemen, when you finish your long rest, you can commune with the local spirits. The DM chooses one spell of 7th or 8th level from any spell list that is relevant to either the theme or the former inhabitants of the region and you begin the day with this spell prepared; it counts a wychlaran spell for you, and does not count against the number of spells known. For example, communing with the spirits of the Plane of Fire may result in preparing the {@spell fire storm} spell, while communing with the spirits of a storm giant kingdom might result in {@spell control weather}. In the unlikely event that the location you're in has never been inhabited\u2014such as a demiplane\u2014this ability may yield no additional spells."
 			]
 		},
 		{
@@ -4866,7 +4866,7 @@
 						"type": "entries",
 						"name": "Cursed Blood, Hearts of Fire",
 						"entries": [
-							"Hagspawn inherit features from their hag parentage that make many humans feel uncomfortable. Often taller than most humans, hagspawn have long, powerful limbs and large hands. Their eyes are like those of their mothers, gleaming red. Humans assume they can only hold malice for all they behold, yet this tells us more about human fearfulness than the truth about hagspawn. Hagspawn skin tone varies as much as humans', however there are distinct tinges to hagspawn that do not occur in most humans; the offspring of an annis hag is a pallid blue whereas that of green hag is unsurprisingly green. Even with these distinctive features, hagspawn sometimes pass for humans in lands where hags are rare—in Rashemen, hagspawn are known immediately upon sight."
+							"Hagspawn inherit features from their hag parentage that make many humans feel uncomfortable. Often taller than most humans, hagspawn have long, powerful limbs and large hands. Their eyes are like those of their mothers, gleaming red. Humans assume they can only hold malice for all they behold, yet this tells us more about human fearfulness than the truth about hagspawn. Hagspawn skin tone varies as much as humans', however there are distinct tinges to hagspawn that do not occur in most humans; the offspring of an annis hag is a pallid blue whereas that of green hag is unsurprisingly green. Even with these distinctive features, hagspawn sometimes pass for humans in lands where hags are rare\u2014in Rashemen, hagspawn are known immediately upon sight."
 						]
 					},
 					{
@@ -5105,7 +5105,7 @@
 			"fluff": {
 				"entries": [
 					"While the mountain ranges north of Rashemen and all across the northern regions of Faerûn are unforgiving, some have found ways to thrive. The taer are one such people: blue-haired mountain giants, towering over the tallest humans but diminutive among their own kind. Their fur fully covers their bulky frame, only leaving exposed skin on their hands, feet, and faces.",
-					"They have a strict cultural code, designed to share resources and allow their young to thrive. Taer young are well cared for, and once they come of age, they raise their own young. The elder taer do all in their power to protect and shelter their young—even going so far as to enter long periods of hibernation when food is particularly scarce.",
+					"They have a strict cultural code, designed to share resources and allow their young to thrive. Taer young are well cared for, and once they come of age, they raise their own young. The elder taer do all in their power to protect and shelter their young\u2014even going so far as to enter long periods of hibernation when food is particularly scarce.",
 					"This lifestyle is not enough for some taer, who seek the comforts and bounty of warmer regions. These rebellious groups are often the subject of cautionary tales throughout Rashemen. They are seen as raiders from the north who steal into farmland and small settlements in the coldest winter nights, stealing livestock, stores, and other raw materials. These taer are ever willing to fight and die for what they believe to be theirs.",
 					{
 						"type": "entries",
