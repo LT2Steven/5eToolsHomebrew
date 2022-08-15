@@ -29,6 +29,12 @@
 					"sleight of hand": true
 				}
 			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true,
+					"playing card set": true
+				}
+			],
 			"entries": [
 				"You are skilled in the art of the clown. You might use your talent to earn money, make others laugh, or even for your own amusement. You may entertain using good-natured humor or make jokes at the expense of others. Whether you ran away and joined a traveling carnival or were lured into the job by a fey, you are a clown that no one will forget.",
 				{
@@ -237,6 +243,11 @@
 			"languageProficiencies": [
 				{
 					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": true
 				}
 			],
 			"entries": [
