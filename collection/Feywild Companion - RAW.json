@@ -29,6 +29,12 @@
 					"sleight of hand": true
 				}
 			],
+			"toolProficiencies": [
+				{
+					"disguise kit": true,
+					"Playing card set": true
+				}
+			],
 			"entries": [
 				"You are skilled in the art of the clown. You might use your talent to earn money, make others laugh, or even for your own amusement. You may entertain using good-natured humor or make jokes at the expense of others. Whether you ran away and joined a traveling carnival or were lured into the job by a fey, you are a clown that no one will forget.",
 				{
@@ -43,7 +49,7 @@
 						{
 							"type": "item",
 							"name": "Tool Proficiencies",
-							"entry": "{@item disguise kit | phb} and {@item playing card set | phb}"
+							"entry": "{@item Disguise Kit| phb} and {@item Playing Card Set| phb}"
 						},
 						{
 							"type": "item",
@@ -239,6 +245,11 @@
 					"anyStandard": 1
 				}
 			],
+			"toolProficiencies": [
+				{
+					"anyArtisansTool": true
+				}
+			],
 			"entries": [
 				"Every time you sleep, you dream. Your dreams are incredibly realistic and sometimes contain portents of the future. Whether these dreams are a result of a trip to the Feywild or you were born this way, they are a part of you that you cannot ignore. You don't always remember exact details of your dreams, but rather fragments and images. While it feels like your dreams hint at the future, not everyone believes you. You struggle with who to tell about your dreams and what they mean",
 				{
@@ -271,14 +282,40 @@
 					"name": "Feature: Dream Vision",
 					"type": "entries",
 					"entries": [
-						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item\u2014the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had."
+						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item\u2014the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Dream Result"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"You don't remember your dream or it was mundane."
+								],
+								[
+									"2-4",
+									"You remember your dream. It was scary or entertaining, but not prophetic."
+								],
+								[
+									"5-6",
+									"Your dream felt prophetic."
+								]
+							]
+						},
+						"On a roll of 5 or higher, your DM describes your dream to you and whether you feel \"good\" or \"bad\" about it. At your DM's discretion, what you remember from your dream could be a single image, a short fragment, or a detailed moment. Although the dream felt prophetic, it may or may not have been truly predictive."
 					]
 				},
 				{
 					"name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
-						"Clowns are out in front of the crowds, drawing attention and entertaining the people. They can be colorful, surprising, and even deceptive. Offstage, a clown's personality may be equally silly or quite the opposite. Sometimes behind the big smile lies an insecurity or a secret. Use the following tables to develop your clown or inspire your own design.",
+						"Dreamers come from all walks of life with varied\nmotivations. Use these tables to further define your dreamer or to inspire a dreamer of your creation with your DM's input. ",
 						{
 							"type": "table",
 							"colLabels": [
@@ -292,35 +329,35 @@
 							"rows": [
 								[
 									"1",
-									"I prefer to be a clown at all times. I wear my make-up and costume even when I don't have to."
+									"I am obsessed with my dreams and talk about them a lot."
 								],
 								[
 									"2",
-									"I am mischievous in and out of make-up. I play practical jokes and tricks whenever I can."
+									"I ask others about their dreams and offer dream interpretation without being asked."
 								],
 								[
 									"3",
-									"I am surprisingly shy, but when i put on the clown make-up, I become someone else."
+									"I tend to daydream a lot. People ask me if I am paying attention because my mind seems to be elsewhere."
 								],
 								[
 									"4",
-									"Even though I make others giggle, I don't find much funny in real life. You rarely hear me laugh."
+									"Even my mundane dreams seem prophetic to me. I see signs and portents in everything."
 								],
 								[
 									"5",
-									"I am obsessed with improving my craft. When I travel to new places, I look for things I can incorporate into my act."
+									"My dreams are so realistic, I sometimes get confused as to whether I'm dreaming or awake."
 								],
 								[
 									"6",
-									"I seek attention whether I am in costume or out. I want all eyes on me."
+									"I can't shake my nightmares. If I have one, I am grumpy and irritable until I sleep again."
 								],
 								[
 									"7",
-									"No one understands that clowning is an art form. I try to\nimprove my work and educate others about its importance."
+									"I believe my dreams are useful, but I only share them with those I trust."
 								],
 								[
 									"8",
-									"I hate being a clown but I don't know what else to do with\nmyself. It feels like it is my only talent"
+									"I am fascinated with learning how to control my dreams. I would do almost anything to achieve that."
 								]
 							]
 						},
@@ -337,27 +374,27 @@
 							"rows": [
 								[
 									"1",
-									"Charity. Sometimes I entertain just to bring light to the darkness. No need to pay me. (Good)"
+									"Positivity. Even bad dreams can be good. I speak about the bright side of all things. (Good)"
 								],
 								[
 									"2",
-									"Respect. People should respect artists. I will do what I can to make sure we are seen as equals in society. (Lawful)"
+									"Acceptance. People should respect those who dream the future. I am determined to make it accepted. (Lawful)"
 								],
 								[
 									"3",
-									"Humor. I will do anything for a laugh. I don't care about the consequences. (Chaotic)"
+									"No Fear. I'm not afraid of much. My dreams will warn me if I should be worried. (Chaotic)"
 								],
 								[
 									"4",
-									"Deception. I will distract you with my antics so that I may take from you what I will. (Evil)"
+									"Exploit. I take advantage of people who believe my dreams are predictive. I will lie if it suits me. (Evil)"
 								],
 								[
 									"5",
-									"People. I like to be among others. Some of them won't smile no matter what I do, but I still try. (Neutral)"
+									"Encouragement. I encourage people to follow their dreams and to not let anyone stand in the way. (Neutral)"
 								],
 								[
 									"6",
-									"Solitude. The chaos of performance and the attention can be draining. I value silence and solitude. (Any)"
+									"Understanding. I want to know why I have these dreams and maybe how to stop them. (Any)"
 								]
 							]
 						},
@@ -374,27 +411,27 @@
 							"rows": [
 								[
 									"1",
-									"The props I use in my act have been handed down to me by people that I lost along the way."
+									"I have a recurring dream that haunts me."
 								],
 								[
 									"2",
-									"I am proud of a particular trick I invented for my act. I want to train other clowns on how to do it."
+									"I carry divination tools and try to learn new methods to enhance what I learn from my dreams."
 								],
 								[
 									"3",
-									"I have a soft spot for other clowns and performers. If they ask for something, I will gladly give it."
+									"There is a dream I had of a person years ago. It has stuck with me. I hope one day we will meet."
 								],
 								[
 									"4",
-									"There is someone I've always wanted to perform for. I will make sure I do before I die."
+									"My journal contains all of my important dreams. I don't want anyone to read it."
 								],
 								[
 									"5",
-									"The person who taught me how to paint my face is very special to me. I would do anything for them."
+									"I once dreamt of a trinket. I found it the next day. Now, it's one of my most prized possessions."
 								],
 								[
 									"6",
-									"I seek magic that I can use in my act. I want the crowds to believe I am the best clown in the world."
+									"I have a friend who also dreams of the future. We help each other deal with this gift."
 								]
 							]
 						},
@@ -411,27 +448,27 @@
 							"rows": [
 								[
 									"1",
-									"I can't help myself. Even when people tell me they don't appreciate my practical jokes, I still play them."
+									"I don't always think before I speak. I say things that might upset people, especially if it was in a dream."
 								],
 								[
 									"2",
-									"When I am wearing my costume, my attention span and listening skills are not that great. I'm too focused on entertaining others."
+									"I assume everyone cares or should care about my dreams. I insist that you listen."
 								],
 								[
 									"3",
-									"I'm not the most careful, especially when performing. I've injured myself and others in the past."
+									"People think I'm depressed sometimes, but it's just that I prefer my dreams to reality."
 								],
 								[
 									"4",
-									"I laugh at inappropriate times since my mind is trained to look for the humor in everything."
+									"I hate that I see things in my dreams. I try to ignore it sometimes or even avoid sleeping."
 								],
 								[
 									"5",
-									"When it comes to work-for-hire, I am very distrustful. I've been burned in the past."
+									"As if seeing the future in dreams wasn't enough, I also have night terrors."
 								],
 								[
 									"6",
-									"I am losing myself in my art. I don't know where the clown ends and I begin."
+									"I insist that my dreams' predictions are correct, even when they're not."
 								]
 							]
 						}
