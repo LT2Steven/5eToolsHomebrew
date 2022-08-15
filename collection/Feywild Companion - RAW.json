@@ -5,7 +5,7 @@
 				"json": "FeyCom",
 				"abbreviation": "FC",
 				"full": "Feywild Companion",
-				"url": "",
+				"url": "https://www.dmsguild.com/product/371389/Feywild-Companion",
 				"authors": [
 					"Splinterverse"
 				],
@@ -22,11 +22,15 @@
 		{
 			"name": "Clown",
 			"source": "FeyCom",
+			"page": 33,
 			"skillProficiencies": [
 				{
 					"acrobatics": true,
 					"sleight of hand": true
 				}
+			],
+			"entries": [
+				"You are skilled in the art of the clown. You might use your talent to earn money, make others laugh, or even for your own amusement. You may entertain using good-natured humor or make jokes at the expense of others. Whether you ran away and joined a traveling carnival or were lured into the job by a fey, you are a clown that no one will forget."
 			]
 		}
 	]
