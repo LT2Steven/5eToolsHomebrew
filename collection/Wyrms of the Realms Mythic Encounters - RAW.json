@@ -81,7 +81,11 @@
 				]
 			},
 			"entries": [
-				"You transform the bones of a living, vertebrate creature to jelly. This spell has no effect on constructs, undead, plants, oozes, or aberrations\\nThe target makes a Constitution saving throw. On a success one limb is affected (determine randomly, not including the head or tail, if any). The limb becomes a dangling, jelly-like mass lacking the strength to hold or carry things. If the limb is used for locomotion (for example, a leg), the target's speed drops by half. If the limb is used for manipulation (for example, an arm), the target suffers disadvantage when using it. Spellcasting requires a spellcaster check (DC 8 + the level of the spell). Held items are dropped, but worn items are not dropped.\\nIf the target fails their Constitution saving throw, the victim collapses (at the end of his next action) into a helpless, amoeba-like slithering blob. Breathing and movement by creeping (speed 10 feet) is possible, but climbing, flying, wielding items, and the like becomes impossible.\\nAfter failing his initial saving throw, the target of this spell can make an additional Constitution save every 10 minutes.\\nWhen the spell ends, the target's form returns to normal."
+				"You transform the bones of a living, vertebrate creature to jelly. This spell has no effect on constructs, undead, plants, oozes, or aberrations",
+				"The target makes a Constitution saving throw. On a success one limb is affected (determine randomly, not including the head or tail, if any). The limb becomes a dangling, jelly-like mass lacking the strength to hold or carry things. If the limb is used for locomotion (for example, a leg), the target's speed drops by half. If the limb is used for manipulation (for example, an arm), the target suffers disadvantage when using it. Spellcasting requires a spellcaster check (DC 8 + the level of the spell). Held items are dropped, but worn items are not dropped.",
+				"If the target fails their Constitution saving throw, the victim collapses (at the end of his next action) into a helpless, amoeba-like slithering blob. Breathing and movement by creeping (speed 10 feet) is possible, but climbing, flying, wielding items, and the like becomes impossible.",
+				"After failing his initial saving throw, the target of this spell can make an additional Constitution save every 10 minutes.",
+				"When the spell ends, the target's form returns to normal."
 			],
 			"source": "wrme",
 			"components": {
