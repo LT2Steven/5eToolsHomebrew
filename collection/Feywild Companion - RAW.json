@@ -9,11 +9,25 @@
 				"authors": [
 					"Splinterverse"
 				],
-				"convertedBy": [],
-				"version": "unknown"
+				"convertedBy": [
+					"Steven S"
+				],
+				"version": "1.0.0"
 			}
 		],
 		"dateAdded": 1660526603,
 		"dateLastModified": 1660526603
-	}
+	},
+	"background": [
+		{
+			"name": "Clown",
+			"source": "FeyCom",
+			"skillProficiencies": [
+				{
+					"acrobatics": true,
+					"sleight of hand": true
+				}
+			]
+		}
+	]
 }
