@@ -2,23 +2,22 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "PlayerTalents1",
-				"abbreviation": "CO:T1",
-				"full": "Character Options: Talents (5e)",
+				"json": "HighMagic",
+				"abbreviation": "HMS",
+				"full": "The High Magic Sourcebook",
 				"authors": [
-					"Dragonix"
+					"Gordon McAlpin"
 				],
 				"convertedBy": [
-					"Imperius Kin#8705",
-					"Tercept#0001"
+					"Lori G"
 				],
-				"version": "1.0.8",
-				"url": "https://www.dmsguild.com/product/214641?affiliate_id=1138250",
-				"targetSchema": "1.0.8"
+				"version": "1.0.1",
+				"url": "https://www.dmsguild.com/product/382594/The-High-Magic-Sourcebook",
+				"targetSchema": "1.0.1"
 			}
 		],
 		"optionalFeatureTypes": {
-			"Talents": "Talents"
+			"Incantation": "Incantation"
 		},
 		"dateAdded": 1618873680,
 		"dateLastModified": 1618873681,
@@ -26,11 +25,11 @@
 	},
 	"optionalfeature": [
 		{
-			"name": "Agile",
-			"source": "PlayerTalents1",
-			"page": 5,
+			"name": "Amplify",
+			"source": "HighMagic",
+			"page": 69,
 			"featureType": [
-				"Talents"
+				"Incantation"
 			],
 			"entries": [
 				"You are more nimble and quick to react than normal.",
@@ -39,18 +38,250 @@
 			]
 		},
 		{
-			"name": "Agile",
-			"source": "PlayerTalents1",
-			"page": 5,
-			"featureType": [
-				"Talents"
+			"name": "Command",
+			"source": "PuffinsHomebrew",
+			"page": 223,
+			"basicRules": true,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
 			],
 			"entries": [
-				"You are more nimble and quick to react than normal.",
-				"You can reroll a Dexterity ability check or Dexterity saving throw. You must use the result of the second roll, even if it is lower.",
-				"Once you use this feature, you cannot use it again until you finish a long rest."
+				"You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.",
+				"Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.",
+				{
+					"type": "entries",
+					"name": "Approach",
+					"entries": [
+						"The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drop",
+					"entries": [
+						"The target drops whatever it is holding and then ends its turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flee",
+					"entries": [
+						"The target spends its turn moving away from you by the fastest available means."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grovel",
+					"entries": [
+						"The target falls {@condition prone} and then ends its turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Halt",
+					"entries": [
+						"The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"construct",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Knowledge (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Crown",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Fiend",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Conquest (UA)",
+							"source": "UAPaladin"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Conquest v2 (UA)",
+							"source": "UARevisedClassOptions"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Conquest",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Order (UA)",
+							"source": "UAOrderDomain"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Order",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Glamour",
+							"source": "XGE"
+						}
+					}
+				],
+				"fromClassListVariant": [
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "UAClassFeatureVariants"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB",
+						"definedInSource": "TCE"
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Azorius Functionary",
+					"source": "GGR"
+				},
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
 			]
 		}
+		
 		
 	]
 }
