@@ -33,29 +33,31 @@
 	},
 	"spell": [
 		{
-			"name": "Cohort",
-			"level": 3,
-			"school": "A",
-			"foundryImg": "icons/creatures/mammals/humanoid-fox-cat-archer.webp",
+			"name": "Bonemelt",
+			"level": 7,
+			"school": "N",
 			"time": [
 				{
 					"number": 1,
-					"unit": "hour"
+					"unit": "action"
 				}
 			],
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "touch"
+					"type": "feet",
+					"amount": 160
 				}
 			},
 			"duration": [
 				{
 					"type": "timed",
 					"duration": {
-						"type": "hour",
-						"amount": 24
-					}
+						"type": "day",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
 				}
 			],
 			"classes": {
@@ -65,48 +67,26 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
-						"name": "Wychlaran",
-						"source": "rcg"
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"You perform a ritual of bonding with another willing creature, tethering them to you and your magic. When you cast this spell, you and the target gain the benefits listed below:",
-				{
-					"type": "list",
-					"items": [
-						"When you and the target are forced to make a saving throw against the same spell, use either your or the target's result, whichever is higher.",
-						"When taking damage, either you or the target can use your reaction to gain resistance to that damage type if the other has resistance to that damage.",
-						"Spells and features that either you or the target use with a range of touch can target the other, as long as you are within 30 feet of each other and can see the target."
-					]
-				},
-				"This bonding ends early if either you or the target are reduced to 0 hit points, are ever on a different plane of existence for more than 1 hour, or if you cast this spell again and bond to a different creature."
+				"You transform the bones of a living, vertebrate creature to jelly. This spell has no effect on constructs, undead, plants, oozes, or aberrations\\nThe target makes a Constitution saving throw. On a success one limb is affected (determine randomly, not including the head or tail, if any). The limb becomes a dangling, jelly-like mass lacking the strength to hold or carry things. If the limb is used for locomotion (for example, a leg), the target's speed drops by half. If the limb is used for manipulation (for example, an arm), the target suffers disadvantage when using it. Spellcasting requires a spellcaster check (DC 8 + the level of the spell). Held items are dropped, but worn items are not dropped.\\nIf the target fails their Constitution saving throw, the victim collapses (at the end of his next action) into a helpless, amoeba-like slithering blob. Breathing and movement by creeping (speed 10 feet) is possible, but climbing, flying, wielding items, and the like becomes impossible.\\nAfter failing his initial saving throw, the target of this spell can make an additional Constitution save every 10 minutes.\\nWhen the spell ends, the target's form returns to normal."
 			],
 			"source": "wrme",
 			"components": {
-				"v": true,
-				"s": true,
-				"m": {
-					"text": "two pints of jhuild worth 1 gp each, which the spell consumes",
-					"consume": true,
-					"cost": 100
-				}
-			},
-			"meta": {
-				"ritual": true
-			},
-			"entriesHigherLevel": [
-				{
-					"name": "At Higher Levels",
-					"entries": [
-						"You can create a permanent bond by casting this spell using a spell slot of 6th level or higher, targeting the same creature every day for one year. After doing so, this effect only ends if you or the bonded creature die."
-					]
-				}
-			]
+				"v": true
+			}
 		}
 	]
 }
