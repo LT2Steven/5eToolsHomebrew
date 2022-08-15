@@ -1,0 +1,19 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FeywildCompanion",
+				"abbreviation": "FC",
+				"full": "Feywild Companion",
+				"url": "",
+				"authors": [
+					"Splinterverse"
+				],
+				"convertedBy": [],
+				"version": "unknown"
+			}
+		],
+		"dateAdded": 1660526603,
+		"dateLastModified": 1660526603
+	}
+}
