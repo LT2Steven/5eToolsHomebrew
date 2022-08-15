@@ -95,14 +95,14 @@
 				{
 					"name": "Darkvision",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray"
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Amphibious",
 					"entries": [
-						"You can breathe air and water"
+						"You can breathe air and water."
 					],
 					"type": "entries"
 				},
@@ -166,42 +166,133 @@
 				{
 					"name": "Ability Score Increase",
 					"entries": [
-						"Your Constitution score increases by 2, and your Dexterity or Strength score (your choice) increases by 1."
+						"Your Strength score increases by 2, and your Charisma score increases by 1."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Age",
 					"entries": [
-						"Bullywugs hardly ever live long enough to die of natural causes due to their constant warring for power within their own tribes. Bullywugs that do live that long typically die around age 45."
+						"Young draconians grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Alignment",
 					"entries": [
-						"Always hungry and preferring ambushes over direct conflict, bullywugs tend toward neutral evil."
+						"Draconians tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most draconians are raised to be evil by the mages that created them, but those who side with Bahamut can be awe-inspiring heroes."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Size",
 					"entries": [
-						"Most bullywugs are short and stout, roughly four and a half feet tall and 150 to 200 pounds. Older bullywugs are larger, with tribal leaders reaching as high as 8 feet tall and 350 pounds, primarily of rippling froggy muscle. Your size is Medium."
+						"Draconians are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 20 feet, and you have a base swimming speed of 40 feet."
+						"Your base walking speed is 30 feet."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Bullywug. Bullywug is a dialect of Draconic that uses slurps and gargles instead of growls and hisses."
+						"You can speak, read, and write Common and Draconic."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Metallic Ancestry",
+					"entries": [
+						"Your creature type is dragon, rather than humanoid. Choose a draconic ancestor from the Metallic Ancestry table, which determines your appearance and death throe effect. You also gain resistance to a damage type based on your ancestry.",
+						"Draconians lack the breath weapons of standard dragonborn.",
+						{
+							"type": "table",
+							"caption": "Metallic Ancestry",
+							"colLabels": [
+								"Draconian Type",
+								"Scale Color",
+								"Damage Resistance"
+							],
+							"colStyles": [
+								"col-3 text-center",
+								"col-3 text-center",
+								"col-6"
+							],
+							"rows": [
+								[
+									"Aurak",
+									"Gold",
+									"Fire"
+								],
+								[
+									"Baaz",
+									"Brass",
+									"Fire"
+								],
+								[
+									"Bozak",
+									"Bronze",
+									"Lightning"
+								],
+								[
+									"Kapak",
+									"Copper",
+									"Acid"
+								],
+								[
+									"Sivak",
+									"Silver",
+									"Cold"
+								]
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Death Throe",
+					"entries": [
+						"When you die, your body undergoes a sudden, and often destructive, elemental change. Your metallic ancestry determines your death throe effect. If your death throe requires a saving throw or ability check, the DC is equal to 8 + your proficiency bonus + your Constitution modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Aurak",
+					"entries": [
+						"Your body explodes in a miniature fireball. All creatures within 10 feet of you must make a Dexterity saving throw, taking 4d6 fire damage on a failed save or half that on a successful one."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Baaz",
+					"entries": [
+						"Your body suddenly polymorphs into stone. You are petrified for 1 minute. If a weapon was used to kill you, the creature wielding the weapon must succeed on a Dexterity saving throw or else the weapon gets stuck within your stony grasp, effectively disarming the creature. After 1 minute, you crumble to dust and the weapon is freed. A creature can attempt a Strength (Athletics) check as an action to remove the weapon."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bozak",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Kapak",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sivak",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray"
 					],
 					"type": "entries"
 				},
@@ -213,37 +304,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Amphibious",
+					"name": "Gliding Wings",
 					"entries": [
 						"You can breathe air and water"
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Bite",
-					"entries": [
-						"Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Speak with Frogs and Toads",
-					"entries": [
-						"You can communicate simple concepts to frogs and toads when you speak in Bullywug, as if you shared a language."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Standing Leap",
-					"entries": [
-						"Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Swamp Camouflage",
-					"entries": [
-						". You have advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
 					],
 					"type": "entries"
 				}
