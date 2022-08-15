@@ -30,7 +30,33 @@
 				}
 			],
 			"entries": [
-				"You are skilled in the art of the clown. You might use your talent to earn money, make others laugh, or even for your own amusement. You may entertain using good-natured humor or make jokes at the expense of others. Whether you ran away and joined a traveling carnival or were lured into the job by a fey, you are a clown that no one will forget."
+				"You are skilled in the art of the clown. You might use your talent to earn money, make others laugh, or even for your own amusement. You may entertain using good-natured humor or make jokes at the expense of others. Whether you ran away and joined a traveling carnival or were lured into the job by a fey, you are a clown that no one will forget.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "Choose two from among {@skill Athletics}, {@skill Intimidation}, {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "One type of gaming set"
+						},
+						{
+							"type": "item",
+							"name": "Languages",
+							"entry": "One of your choice"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A symbol of your berserker lodge (examples include a stag horn for the Great Stag Lodge, a web embroidered cloth for the Ettercap Lodge, or a claw necklace for the Snow Tiger Lodge), a gaming set you are proficient in, a set of common clothes, and a belt pouch containing 10 gp."
+						}
+					]
+				}
 			]
 		}
 	]
