@@ -1,0 +1,112 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "wrme",
+				"abbreviation": "WRME",
+				"full": "Wyrms of the Realms: Mythic Encounters",
+				"authors": [
+					"Bryan Holmes",
+					"Steve Fidler",
+					"Ashton Duncan",
+					"Cassandra MacDonald",
+					"J. A. Valeur",
+					"Magnus Vogel",
+					"Noah Grand",
+					"Steve Fidler",
+					"E. R. F. Jordan",
+					"Steve Fidler",
+					"Dean Spencer"
+				],
+				"convertedBy": [
+					"Nathan W"
+				],
+				"version": "1.0.0",
+				"color": "0392cd",
+				"url": "https://www.dmsguild.com/product/372048/Wyrms-of-the-Realms-Mythic-Encounters",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1660600069,
+		"dateLastModified": 1660600069,
+		"_dateLastModifiedHash": "05e1ddf37f"
+	},
+	"spell": [
+		{
+			"name": "Cohort",
+			"level": 3,
+			"school": "A",
+			"foundryImg": "icons/creatures/mammals/humanoid-fox-cat-archer.webp",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wychlaran",
+						"source": "rcg"
+					}
+				]
+			},
+			"entries": [
+				"You perform a ritual of bonding with another willing creature, tethering them to you and your magic. When you cast this spell, you and the target gain the benefits listed below:",
+				{
+					"type": "list",
+					"items": [
+						"When you and the target are forced to make a saving throw against the same spell, use either your or the target's result, whichever is higher.",
+						"When taking damage, either you or the target can use your reaction to gain resistance to that damage type if the other has resistance to that damage.",
+						"Spells and features that either you or the target use with a range of touch can target the other, as long as you are within 30 feet of each other and can see the target."
+					]
+				},
+				"This bonding ends early if either you or the target are reduced to 0 hit points, are ever on a different plane of existence for more than 1 hour, or if you cast this spell again and bond to a different creature."
+			],
+			"source": "wrme",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "two pints of jhuild worth 1 gp each, which the spell consumes",
+					"consume": true,
+					"cost": 100
+				}
+			},
+			"meta": {
+				"ritual": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You can create a permanent bond by casting this spell using a spell slot of 6th level or higher, targeting the same creature every day for one year. After doing so, this effect only ends if you or the bonded creature die."
+					]
+				}
+			]
+		}
+	]
+}
