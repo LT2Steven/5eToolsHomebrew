@@ -134,49 +134,7 @@
 					],
 					"type": "entries"
 				}
-			],
-			"fluff": {
-				"entries": [
-					"Of the great evils that the hags perpetrate upon the humans of Rashemen, hagspawn rank among the most vile. The offspring of hags and humans, hagspawn are ill-favored children discarded by hags, forced to make their own way in the world as creatures hated by their hag parents, and feared by most who lay eyes upon them. Hagspawn that survive their childhood grow into powerful, though largely despised people. Through sheer physical might, doughtiness, and resilience, these beings are full of potential.",
-					{
-						"type": "entries",
-						"name": "Suspicious But Daring",
-						"entries": [
-							"Hagspawn have every reason to be resentful and angry. Considered unworthy by their hag parents and looked upon with fear by their human kin, it is unsurprising that after a life of abandonment and abuse they are quick to anger, slow to trust, and thoroughly pessimistic. In a world that treats them as monsters, hagspawn seek their own path. Since few opportunities exist for hagspawn to succeed in human society, they must blaze their own trail. This makes most hagspawn hardworking, relentless, and fiercely independent. If given good reason to strive for a goal, few creatures can match the relentlessness of a hagspawn.",
-							"Over the years, some hagspawn have proven themselves capable of overcoming the irredeemably evil nature of their mothers through heroic feats and good deeds. Tales of stoic, unflinching hagspawn heroes, standing their ground when others have fled, are legend in the tales of Rashemen. It is thanks to the deeds of hagspawn past that their descendants experience some small level of acceptance among those few humans broad-minded enough to give them a chance to prove themselves. And given the chance, hagspawn often live up to these high expectations."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Cursed Blood, Hearts of Fire",
-						"entries": [
-							"Hagspawn inherit features from their hag parentage that make many humans feel uncomfortable. Often taller than most humans, hagspawn have long, powerful limbs and large hands. Their eyes are like those of their mothers, gleaming red. Humans assume they can only hold malice for all they behold, yet this tells us more about human fearfulness than the truth about hagspawn. Hagspawn skin tone varies as much as humans', however there are distinct tinges to hagspawn that do not occur in most humans; the offspring of an annis hag is a pallid blue whereas that of green hag is unsurprisingly green. Even with these distinctive features, hagspawn sometimes pass for humans in lands where hags are rare\u2014in Rashemen, hagspawn are known immediately upon sight."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Accepted Among Outsiders",
-						"entries": [
-							"Though acceptance of hagspawn is slowly growing, most humans still cannot bear the sight of them. Long-held prejudices poison the minds of humans, and tales of crimes, depravity, and inherently violent natures are still common in closed-minded human populations.",
-							"However, there are those who see past the hagspawn's appearance and look to their deeds instead. Unsurprisingly, half-orcs and tieflings relate to the trails caused by the fear of others. Increasingly, other non-human races such as dwarves, half-elves, elves, and halflings consider hagspawn innocent of the crimes of their birth and are likely to let hagspawn prove themselves through their deeds.",
-							"The reluctance of humans to accept hagspawn is complex, and based on their hatred and mistrust of hags themselves. The hagspawn is a reminder of the evil hags are capable of, and of their great power. Shame and hate of hags follows hagspawn into human society, though there is growing hope that as the other races accept hagspawn, humans may too be able to shake off their distrust and see these beings as individuals rather than emblems of defeat."
-						]
-					},
-					{
-						"type": "entries",
-						"name": "Hagspawn Names",
-						"entries": [
-							"Hagspawn have among the most diverse names in all of Rashemen. All hagspawn begin their lives as orphans, simply abandoned in the wild by their mothers. Should an elf stumble upon a hagspawn, they may give the hagspawn an Elvish name. Though hagspawn accept their given names, it is increasingly common for them to choose their own name as well. Some hagspawn honor their adoptive parents by going by their own name, but using their adoptive parents' tongue. In the past, hagspawn took on human names, some even choosing the surname",
-							"\"Hagblood\" showing acceptance of their heritage and disdain for the hatred of others. In recent years, it has become increasingly common for hagspawn to choose their own names. Further, hagspawn take last names based on where they were born, for example a hagspawn may call himself, \"Rager of Iceborn River.\" Hagspawn names are often gender neutral and chosen by the individual.",
-							"First names (gender neutral): Bellow, Fury, Grip, Longstrider, Rager, Steadfast, Trusty, Whirlwind"
-						]
-					}
-				]
-			},
-			"age": {
-				"mature": 18,
-				"max": 120
-			}
+			]
 		},
 		{
 			"name": "Dreamer",
