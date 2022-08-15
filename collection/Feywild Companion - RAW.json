@@ -10,7 +10,8 @@
 					"Splinterverse"
 				],
 				"convertedBy": [],
-				"version": "unknown"
+				"version": "unknown",
+				"targetSchema": "1.0.0"
 			}
 		],
 		"dateAdded": 1660526603,
