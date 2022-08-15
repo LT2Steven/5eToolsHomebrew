@@ -134,251 +134,118 @@
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"fluff": {
+				"entries": [
+					"See the {@creature bullywug | mm} monster for more info on history, culture, and personalities."
+				]
+			}
 		},
 		{
-			"name": "Dreamer",
+			"name": "Dragonborn (Variant: Draconian)",
 			"source": "QLDrac",
-			"page": 34,
-			"skillProficiencies": [
+			"page": 48,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
 				{
-					"insight": true,
-					"perception": true
+					"str": 2,
+					"cha": 1
 				}
 			],
+			"darkvision": 60,
 			"languageProficiencies": [
 				{
-					"anyStandard": 1
-				}
-			],
-			"toolProficiencies": [
-				{
-					"anyArtisansTool": true
+					"common": true,
+					"draconic": true
 				}
 			],
 			"entries": [
-				"Every time you sleep, you dream. Your dreams are incredibly realistic and sometimes contain portents of the future. Whether these dreams are a result of a trip to the Feywild or you were born this way, they are a part of you that you cannot ignore. You don't always remember exact details of your dreams, but rather fragments and images. While it feels like your dreams hint at the future, not everyone believes you. You struggle with who to tell about your dreams and what they mean",
 				{
-					"type": "list",
-					"style": "list-hang-notitle",
-					"items": [
-						{
-							"type": "item",
-							"name": "Skill Proficiencies",
-							"entry": "{@skill Insight}, {@skill Perception}"
-						},
-						{
-							"type": "item",
-							"name": "Tool Proficiencies",
-							"entry": "One type of {@filter artisan's tools | items}"
-						},
-						{
-							"type": "item",
-							"name": "Languages",
-							"entry": "One of your choice."
-						},
-						{
-							"type": "item",
-							"name": "Equipment",
-							"entry": "{@filter Artisan's tools | items} (chosen above), one trinket of special significance, a set of common clothes, an item normally used for divination (a small crystal, animal bones, or a mirror), a journal to record your dreams, and a belt pouch containing 12 gp."
-						}
-					]
+					"name": "Ability Score Increase",
+					"entries": [
+						"Your Constitution score increases by 2, and your Dexterity or Strength score (your choice) increases by 1."
+					],
+					"type": "entries"
 				},
 				{
-					"name": "Feature: Dream Vision",
-					"type": "entries",
+					"name": "Age",
 					"entries": [
-						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item\u2014the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Dream Result"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"You don't remember your dream or it was mundane."
-								],
-								[
-									"2-4",
-									"You remember your dream. It was scary or entertaining, but not prophetic."
-								],
-								[
-									"5-6",
-									"Your dream felt prophetic."
-								]
-							]
-						},
-						"On a roll of 5 or higher, your DM describes your dream to you and whether you feel \"good\" or \"bad\" about it. At your DM's discretion, what you remember from your dream could be a single image, a short fragment, or a detailed moment. Although the dream felt prophetic, it may or may not have been truly predictive."
-					]
+						"Bullywugs hardly ever live long enough to die of natural causes due to their constant warring for power within their own tribes. Bullywugs that do live that long typically die around age 45."
+					],
+					"type": "entries"
 				},
 				{
-					"name": "Suggested Characteristics",
-					"type": "entries",
+					"name": "Alignment",
 					"entries": [
-						"Dreamers come from all walks of life with varied\nmotivations. Use these tables to further define your dreamer or to inspire a dreamer of your creation with your DM's input. ",
-						{
-							"type": "table",
-							"colLabels": [
-								"d8",
-								"Personality Trait"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I am obsessed with my dreams and talk about them a lot."
-								],
-								[
-									"2",
-									"I ask others about their dreams and offer dream interpretation without being asked."
-								],
-								[
-									"3",
-									"I tend to daydream a lot. People ask me if I am paying attention because my mind seems to be elsewhere."
-								],
-								[
-									"4",
-									"Even my mundane dreams seem prophetic to me. I see signs and portents in everything."
-								],
-								[
-									"5",
-									"My dreams are so realistic, I sometimes get confused as to whether I'm dreaming or awake."
-								],
-								[
-									"6",
-									"I can't shake my nightmares. If I have one, I am grumpy and irritable until I sleep again."
-								],
-								[
-									"7",
-									"I believe my dreams are useful, but I only share them with those I trust."
-								],
-								[
-									"8",
-									"I am fascinated with learning how to control my dreams. I would do almost anything to achieve that."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Ideal"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"Positivity. Even bad dreams can be good. I speak about the bright side of all things. (Good)"
-								],
-								[
-									"2",
-									"Acceptance. People should respect those who dream the future. I am determined to make it accepted. (Lawful)"
-								],
-								[
-									"3",
-									"No Fear. I'm not afraid of much. My dreams will warn me if I should be worried. (Chaotic)"
-								],
-								[
-									"4",
-									"Exploit. I take advantage of people who believe my dreams are predictive. I will lie if it suits me. (Evil)"
-								],
-								[
-									"5",
-									"Encouragement. I encourage people to follow their dreams and to not let anyone stand in the way. (Neutral)"
-								],
-								[
-									"6",
-									"Understanding. I want to know why I have these dreams and maybe how to stop them. (Any)"
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Bonds"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I have a recurring dream that haunts me."
-								],
-								[
-									"2",
-									"I carry divination tools and try to learn new methods to enhance what I learn from my dreams."
-								],
-								[
-									"3",
-									"There is a dream I had of a person years ago. It has stuck with me. I hope one day we will meet."
-								],
-								[
-									"4",
-									"My journal contains all of my important dreams. I don't want anyone to read it."
-								],
-								[
-									"5",
-									"I once dreamt of a trinket. I found it the next day. Now, it's one of my most prized possessions."
-								],
-								[
-									"6",
-									"I have a friend who also dreams of the future. We help each other deal with this gift."
-								]
-							]
-						},
-						{
-							"type": "table",
-							"colLabels": [
-								"d6",
-								"Flaws"
-							],
-							"colStyles": [
-								"col-1 text-center",
-								"col-11"
-							],
-							"rows": [
-								[
-									"1",
-									"I don't always think before I speak. I say things that might upset people, especially if it was in a dream."
-								],
-								[
-									"2",
-									"I assume everyone cares or should care about my dreams. I insist that you listen."
-								],
-								[
-									"3",
-									"People think I'm depressed sometimes, but it's just that I prefer my dreams to reality."
-								],
-								[
-									"4",
-									"I hate that I see things in my dreams. I try to ignore it sometimes or even avoid sleeping."
-								],
-								[
-									"5",
-									"As if seeing the future in dreams wasn't enough, I also have night terrors."
-								],
-								[
-									"6",
-									"I insist that my dreams' predictions are correct, even when they're not."
-								]
-							]
-						}
-					]
+						"Always hungry and preferring ambushes over direct conflict, bullywugs tend toward neutral evil."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Size",
+					"entries": [
+						"Most bullywugs are short and stout, roughly four and a half feet tall and 150 to 200 pounds. Older bullywugs are larger, with tribal leaders reaching as high as 8 feet tall and 350 pounds, primarily of rippling froggy muscle. Your size is Medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 20 feet, and you have a base swimming speed of 40 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Bullywug. Bullywug is a dialect of Draconic that uses slurps and gargles instead of growls and hisses."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Speak with Frogs and Toads",
+					"entries": [
+						"You can communicate simple concepts to frogs and toads when you speak in Bullywug, as if you shared a language."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Swamp Camouflage",
+					"entries": [
+						". You have advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+					],
+					"type": "entries"
 				}
 			]
 		}
