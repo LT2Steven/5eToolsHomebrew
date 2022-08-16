@@ -27,13 +27,119 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1660600069,
-		"dateLastModified": 1660606969,
-		"_dateLastModifiedHash": "05e1ddf37f"
+		"dateAdded": 1660614198,
+		"dateLastModified": 1660614198
 	},
+	"siteVersion": "1.166.2",
 	"spell": [
 		{
+			"name": "Ball of Fangs",
+			"source": "wrme",
+			"page": 145,
+			"level": 3,
+			"school": "V",
+			"subschools": [
+				"mythic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a dragon's tooth, consumed as part of casting the spell",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Holding the dragon's tooth in your hand, it rapidly multiplies and becomes a floating ball of fangs with a 5-foot diameter. The ball moves in a straight line from you towards any point you choose within range. If the ball moves through the space of any creature, the target must make a Dexterity saving throw, taking {@damage 6d4} slashing damage and {@damage 6d4} additional damage. This additional damage is of a type the dragon who formerly owned the tooth could deal with its breath weapon; for instance,",
+				"the tooth of a red dragon deals fire damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"At Higher Levels. If you cast this spell using a spell",
+						"slot of 4th level or higher, the damage increases by",
+						"{@dice 1d4} slashing and {@damage 1d4} additional damage for each spell",
+						"slot above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"slashing"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"L"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Bonemelt",
+			"source": "wrme",
+			"page": 144,
 			"level": 7,
 			"school": "N",
 			"time": [
@@ -49,6 +155,9 @@
 					"amount": 160
 				}
 			},
+			"components": {
+				"v": true
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -59,6 +168,13 @@
 					},
 					"concentration": true
 				}
+			],
+			"entries": [
+				"You transform the bones of a living, vertebrate creature to jelly. This spell has no effect on constructs, undead, plants, oozes, or aberrations",
+				"The target makes a Constitution saving throw. On a success one limb is affected (determine randomly, not including the head or tail, if any). The limb becomes a dangling, jelly-like mass lacking the strength to hold or carry things. If the limb is used for locomotion (for example, a leg), the target's speed drops by half. If the limb is used for manipulation (for example, an arm), the target suffers disadvantage when using it. Spellcasting requires a spellcaster check (DC 8 + the level of the spell). Held items are dropped, but worn items are not dropped.",
+				"If the target fails their Constitution saving throw, the victim collapses (at the end of his next action) into a helpless, amoeba-like slithering blob. Breathing and movement by creeping (speed 10 feet) is possible, but climbing, flying, wielding items, and the like becomes impossible.",
+				"After failing his initial saving throw, the target of this spell can make an additional Constitution save every 10 minutes.",
+				"When the spell ends, the target's form returns to normal."
 			],
 			"classes": {
 				"fromClassList": [
@@ -79,17 +195,39 @@
 						"source": "PHB"
 					}
 				]
-			},
-			"entries": [
-				"You transform the bones of a living, vertebrate creature to jelly. This spell has no effect on constructs, undead, plants, oozes, or aberrations",
-				"The target makes a Constitution saving throw. On a success one limb is affected (determine randomly, not including the head or tail, if any). The limb becomes a dangling, jelly-like mass lacking the strength to hold or carry things. If the limb is used for locomotion (for example, a leg), the target's speed drops by half. If the limb is used for manipulation (for example, an arm), the target suffers disadvantage when using it. Spellcasting requires a spellcaster check (DC 8 + the level of the spell). Held items are dropped, but worn items are not dropped.",
-				"If the target fails their Constitution saving throw, the victim collapses (at the end of his next action) into a helpless, amoeba-like slithering blob. Breathing and movement by creeping (speed 10 feet) is possible, but climbing, flying, wielding items, and the like becomes impossible.",
-				"After failing his initial saving throw, the target of this spell can make an additional Constitution save every 10 minutes.",
-				"When the spell ends, the target's form returns to normal."
-			],
+			}
+		},
+		{
+			"name": "Breathball/Breathdoom",
 			"source": "wrme",
-			"components": {
-				"v": true
+			"page": 145,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
 			}
 		}
 	]
