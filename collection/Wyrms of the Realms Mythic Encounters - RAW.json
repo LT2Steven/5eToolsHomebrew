@@ -27,8 +27,8 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1660614198,
-		"dateLastModified": 1660614198
+		"dateAdded": 1660638701,
+		"dateLastModified": 1660638701
 	},
 	"siteVersion": "1.166.2",
 	"spell": [
@@ -201,8 +201,11 @@
 			"name": "Breathball/Breathdoom",
 			"source": "wrme",
 			"page": 145,
-			"level": 1,
-			"school": "A",
+			"level": 5,
+			"school": "T",
+			"subschools": [
+				"mythic"
+			],
 			"time": [
 				{
 					"number": 1,
@@ -212,19 +215,76 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "self"
+					"type": "touch"
 				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a jarred pepper"
 			},
 			"duration": [
 				{
-					"type": "instant"
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
 				}
 			],
-			"entries": [],
+			"entries": [
+				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the target can perform the following two actions: ",
+				"1. Breathball: The creature can use an action to exhale energy of the chosen type at a point it can see within 90 feet. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw, taking {@damage 4d6} damage of the chosen type on a failed save, or half as much damage on a successful one.",
+				"2. Breathdoom: The creature can use its action to exhale a globe of breath energy, which lingers at a chosen point within 90 feet. While this globe lingers, you are unable to use your action to trigger this spell again. When you create this globe, you must determine a circumstance that will trigger the globe to detonate. the triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the globe. For example, you could instruct the globe to detonate when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it. The base damage of the globe is {@dice 6d6}. If at the end of your turn the globe has not yet detonated, the damage increases by {@dice 1d6}. If the globe is touched before the spell ends (and it has not yet triggered), the creature touching it must make a Dexterity saving throw. On a failed save, the spell ends immediately, causing the  globe to erupt in flame. On a successful save, the creature can  push the globe up to 20 feet. If it strikes a creature or a solid object, the spell ends, and the globe explodes.",
+				"If the target of this spell already has a breath weapon, either innate or from another spell or magic item, they can use Breathball or Breathdoom as a bonus action instead of an action."
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
 			"classes": {
 				"fromClassList": [
 					{
 						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					}
 				]
