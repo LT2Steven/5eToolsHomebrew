@@ -36,7 +36,6 @@
 				}
 			],
 			"entries": [
-				"You are skilled in the art of the clown. You might use your talent to earn money, make others laugh, or even for your own amusement. You may entertain using good-natured humor or make jokes at the expense of others. Whether you ran away and joined a traveling carnival or were lured into the job by a fey, you are a clown that no one will forget.",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -228,7 +227,13 @@
 						}
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"You are skilled in the art of the clown. You might use your talent to earn money, make others laugh, or even for your own amusement. You may entertain using good-natured humor or make jokes at the expense of others. Whether you ran away and joined a traveling carnival or were lured into the job by a fey, you are a clown that no one will forget."
+				]
+			}
 		},
 		{
 			"name": "Dreamer",
@@ -251,7 +256,6 @@
 				}
 			],
 			"entries": [
-				"Every time you sleep, you dream. Your dreams are incredibly realistic and sometimes contain portents of the future. Whether these dreams are a result of a trip to the Feywild or you were born this way, they are a part of you that you cannot ignore. You don't always remember exact details of your dreams, but rather fragments and images. While it feels like your dreams hint at the future, not everyone believes you. You struggle with who to tell about your dreams and what they mean",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -282,7 +286,7 @@
 					"name": "Feature: Dream Vision",
 					"type": "entries",
 					"entries": [
-						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item\u2014the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
+						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item—the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -315,7 +319,7 @@
 					"name": "Suggested Characteristics",
 					"type": "entries",
 					"entries": [
-						"Dreamers come from all walks of life with varied\nmotivations. Use these tables to further define your dreamer or to inspire a dreamer of your creation with your DM's input. ",
+						"Dreamers come from all walks of life with varied motivations. Use these tables to further define your dreamer or to inspire a dreamer of your creation with your DM's input. ",
 						{
 							"type": "table",
 							"colLabels": [
@@ -474,7 +478,365 @@
 						}
 					]
 				}
+			],
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"Every time you sleep, you dream. Your dreams are incredibly realistic and sometimes contain portents of the future. Whether these dreams are a result of a trip to the Feywild or you were born this way, they are a part of you that you cannot ignore. You don't always remember exact details of your dreams, but rather fragments and images. While it feels like your dreams hint at the future, not everyone believes you. You struggle with who to tell about your dreams and what they mean."
+				]
+			}
+		}
+	],
+	"feat": [
+		{
+			"name": "Arcane Savant",
+			"source": "FeyCom",
+			"page": 39,
+			"prerequisite": [
+				{
+					"spellcasting2020": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You are capable of retaining more magical energy than your peers, granting you the follow benefits:",
+				{
+					"type": "list",
+					"items": [
+						"If you learn a number of spells as part of your spellcasting or Pact Magic feature, you can know an additional spell from your class list.",
+						"If you prepare a certain number of spells per day as part of your spellcasting feature, you can prepare an additional spell from your class list."
+					]
+				}
 			]
+		},
+		{
+			"name": "Enhanced Divination Ritual",
+			"source": "FeyCom",
+			"page": 39,
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Ritual Casting feature.",
+						"entrySummary": "Ritual Casting"
+					}
+				}
+			],
+			"entries": [
+				"You have learned how to cast a particular spell without expending arcane energy. Choose a divination spell of 5th level or lower from your class spell list that you can cast. You can cast this spell as if it were a ritual.",
+				"When you gain access to a new level of spells in either your spellcasting or Pact Magic feature, you may choose a different spell for this feat."
+			]
+		},
+		{
+			"name": "Fey Luck",
+			"source": "FeyCom",
+			"page": 39,
+			"entries": [
+				"You have been blessed by your encounters with the Feywild. Whenever you make an attack roll, an ability check or a saving throw, you may roll a d6 and add that result to your roll. You can choose to do this after you roll the die, but before the outcome is determined. You can use this feat a number of times equal to your proficiency bonus. You regain expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "FeyCom",
+			"page": 39,
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "A Fighting Style.",
+						"entrySummary": "Fighting Style"
+					}
+				}
+			],
+			"entries": [
+				"A particular weapon has become integral to your fighting style. Choose a martial weapon. You gain a +1 bonus to attack rolls you make with that weapon. You gain +1 bonus to attack rolls you make with that weapon. If you hit with that weapon, you gain a +2 bonus to the damage roll."
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Butterfly of the Feywild",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d4 - 1",
+				"average": 1
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 20,
+				"canHover": false,
+				"climb": 20
+			},
+			"str": 2,
+			"dex": 14,
+			"con": 8,
+			"int": 1,
+			"wis": 10,
+			"cha": 2,
+			"passive": 8,
+			"cr": "0",
+			"page": 62,
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"skill": {
+				"stealth": "+4"
+			},
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must succeed on a {@dc 9} Constitution saving throw or take 2 ({@damage 1d4}) poison damage."
+					]
+				}
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"environment": [
+				"feywild"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"The brightness of the Feywild is made more so by the preponderance of butterflies. These winged insects are far more common in the realm of the fey than they are on the Material Plane. While favorites like swallowtails and monarchs appear in the Feywild, visitors also discover species that are unique to the plane.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+									"type": "entries",
+									"name": "Butterfly Bite.",
+									"entries": [
+										"Butterflies in the Feywild may look similar to their Material Plane counterparts, but they are better able to defend themselves with a bite that is similar to a spider’s."
+									]
+									},
+									{
+										"type": "entries",
+										"name": "Eladrin Favors.",
+										"entries": [
+											"Eladrin often give butterflies as gifts when courting. Likewise, eladrin have been known to raise butterflies on their estates in the Feywild."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Magical Usefulness",
+										"entries": [
+											"Feywild butterflies are sought after as ingredients for potions and other magical endeavors. Also, wizards sometimes take them as familiars."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Blue Tail",
+								"entries": [
+									"The blue tail butterfly is well known for lengthy wings that appear like tails. They are one of the few species that you will find in arctic regions."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Crownmark",
+								"entries": [
+									"The crownmark is perhaps the most colorful species of butterfly to originate in the Feywild. Its pink, purple, and orange wings are well known and admired. They are frequently spotted in forests and near fey crossings."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Prismfly",
+								"entries": [
+									"Prismflies have prismatic wings that reflect light like their namesake. They are often spotted after a rainfall and near rainbows."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Shimmerwing",
+								"entries": [
+									"The shimmerwing is a pink butterfly that has flecks of metal in its wings giving it a sparkle as it flies. This species is the most commonly encountered butterfly in the Feywild."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Swarm of Butterflies",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"swarmSize": "T"
+			},
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8",
+				"average": 22
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20,
+				"fly": 20,
+				"canHover": false
+			},
+			"str": 3,
+			"dex": 13,
+			"con": 10,
+			"int": 1,
+			"wis": 7,
+			"cha": 1,
+			"passive": 8,
+			"cr": "1/2",
+			"page": 62,
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny butterfly. The swarm can't regain hit points or gain temporary hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit +3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P"
+			],
+			"environment": [
+				"feywild"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"The brightness of the Feywild is made more so by the preponderance of butterflies. These winged insects are far more common in the realm of the fey than they are on the Material Plane. While favorites like swallowtails and monarchs appear in the Feywild, visitors also discover species that are unique to the plane.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+									"type": "entries",
+									"name": "Butterfly Bite.",
+									"entries": [
+										"Butterflies in the Feywild may look similar to their Material Plane counterparts, but they are better able to defend themselves with a bite that is similar to a spider’s."
+									]
+									},
+									{
+										"type": "entries",
+										"name": "Eladrin Favors.",
+										"entries": [
+											"Eladrin often give butterflies as gifts when courting. Likewise, eladrin have been known to raise butterflies on their estates in the Feywild."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Magical Usefulness",
+										"entries": [
+											"Feywild butterflies are sought after as ingredients for potions and other magical endeavors. Also, wizards sometimes take them as familiars."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Blue Tail",
+								"entries": [
+									"The blue tail butterfly is well known for lengthy wings that appear like tails. They are one of the few species that you will find in arctic regions."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Crownmark",
+								"entries": [
+									"The crownmark is perhaps the most colorful species of butterfly to originate in the Feywild. Its pink, purple, and orange wings are well known and admired. They are frequently spotted in forests and near fey crossings."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Prismfly",
+								"entries": [
+									"Prismflies have prismatic wings that reflect light like their namesake. They are often spotted after a rainfall and near rainbows."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Shimmerwing",
+								"entries": [
+									"The shimmerwing is a pink butterfly that has flecks of metal in its wings giving it a sparkle as it flies. This species is the most commonly encountered butterfly in the Feywild."
+								]
+							}
+						]
+					}
+				]
+			}
 		}
 	]
 }
