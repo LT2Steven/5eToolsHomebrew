@@ -286,7 +286,7 @@
 					"name": "Feature: Dream Vision",
 					"type": "entries",
 					"entries": [
-						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item—the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
+						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item\u2014the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -632,11 +632,11 @@
 								"type": "entries",
 								"entries": [
 									{
-									"type": "entries",
-									"name": "Butterfly Bite.",
-									"entries": [
-										"Butterflies in the Feywild may look similar to their Material Plane counterparts, but they are better able to defend themselves with a bite that is similar to a spider’s."
-									]
+										"type": "entries",
+										"name": "Butterfly Bite.",
+										"entries": [
+											"Butterflies in the Feywild may look similar to their Material Plane counterparts, but they are better able to defend themselves with a bite that is similar to a spider's."
+										]
 									},
 									{
 										"type": "entries",
@@ -783,11 +783,11 @@
 								"type": "entries",
 								"entries": [
 									{
-									"type": "entries",
-									"name": "Butterfly Bite.",
-									"entries": [
-										"Butterflies in the Feywild may look similar to their Material Plane counterparts, but they are better able to defend themselves with a bite that is similar to a spider’s."
-									]
+										"type": "entries",
+										"name": "Butterfly Bite.",
+										"entries": [
+											"Butterflies in the Feywild may look similar to their Material Plane counterparts, but they are better able to defend themselves with a bite that is similar to a spider's."
+										]
 									},
 									{
 										"type": "entries",
