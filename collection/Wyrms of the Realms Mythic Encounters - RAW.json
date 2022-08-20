@@ -27,10 +27,10 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-		"dateAdded": 1660638701,
-		"dateLastModified": 1660638701
+		"dateAdded": 1660809471,
+		"dateLastModified": 1660809471
 	},
-	"siteVersion": "1.166.2",
+	"siteVersion": "1.167.0",
 	"spell": [
 		{
 			"name": "Ball of Fangs",
@@ -285,6 +285,211 @@
 					},
 					{
 						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Choking Claw",
+			"source": "wrme",
+			"page": 145,
+			"level": 5,
+			"school": "V",
+			"subschools": [
+				"mythic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A translucent, draconic claw of black, malevolent energy appears in an unoccupied space that you can see within range. The claw lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.",
+				"The claw is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The claw doesn't fill a space. When you cast the spell and as a bonus action on your subsequent turns, you can move the claw up to 60 feet and then cause one of the following effects with it:",
+				"1. Rake. The claw strikes one creature or object within 5 feet of it. Make a melee spell attack using your spell attack bonus. On a hit, the target takes {@damage 6d8} necrotic damage.",
+				"2. Grasp. The claw attempts to grapple a Huge or smaller creature within 5 feet of it, using the claw's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check",
+				"3. Crush. While the claw is grappling a target, you can use a bonus action to have the claw crush it. When you do so, the target takes {@damage 2d6} piercing damage and {@damage 2d6} necrotic damage.",
+				"4. Choke. While the claw is grappling a target, you can use a bonus action to have the claw choke it. When you do so, the target begins to suffocate in a number of rounds equal to 1 + its Constitution modifier (minimum of 3 rounds). After those rounds at the start of its next turn, it drops to 0 hit points and is dying, and can't regain hit points or be stabilized until it can breathe again."
+			],
+			"damageInflict": [
+				"necrotic",
+				"piercing"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Detect Dragon",
+			"source": "wrme",
+			"page": 146,
+			"level": 1,
+			"school": "D",
+			"subschools": [
+				"mythic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a dragon's scale, which is consumed as part of the spell",
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "day",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a building, floor, or other location, allowing you to track a specific dragon whose scale was used in casting the spell. If the dragon comes within 1 mile of the touched point before the end of the spell, you become instantly aware of it. ",
+				"You can cast the spell again without a material component to extend the duration of the spell by 1 day. If cast on the same spot for a year and a day, the spell becomes permanent."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 2nd level or higher, you can detect the dragon for a number of miles from the touched point equal to the level of the spell slot used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Draconic Guard",
+			"source": "wrme",
+			"page": 146,
+			"level": 7,
+			"school": "A",
+			"subschools": [
+				"mythic"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch a creature, object, or vehicle, creating a permanent ward that makes it impossible for creatures of a specific type to detect it. Instead of a target, you can ward an area using 36 five-foot cubes. Cubes must be contiguous, each sharing a side with another cube. ",
+				"When you cast this spell, choose a type of creature: aberrations, celestials, dragons, elementals, fey, fiends, or undead. That type of creature cannot target the warded creatures, objects, vehicles, or areas with any divination magic or perceive it through magical scrying sensors. The target cannot be detected by blindsight, darkvision, tremorsense, or truesight from creatures of that type as well. Magic items used by creatures of that type are similarly blocked from detecting warded targets. ",
+				"When you cast this spell on a creature, object or vehicle, your maximum hit points are reduced by 10. When you cast this spell to ward an area, your maximum hit points are reduced by 36."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
 						"source": "PHB"
 					}
 				]
