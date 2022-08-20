@@ -562,7 +562,167 @@
 			]
 		}
 	],
+	"legendaryGroup": [
+				{
+					"name": "The Butterfly Queen's Lair",
+					"lairActions": [
+						"On initiative count 20 (losing initiative ties), the butterfly queen takes a lair action to cause one of the following effects; the butterfly queen can’t use the same effect two rounds in a row:",
+						{
+							"type": "list",
+							"items": [
+								"The reflective surfaces in the lair pulse, creating bright light in every direction. Each creature on the floor of the lair must succeed on a DC 19 Dexterity saving throw or become {@condition blinded} until the start of the next round.",
+								"The butterfly queen commands {@creature butterfly of the feywild | FeyCom | butterflies} to land on each of her enemies inside of her lair. As long as a butterfly remains on a target, it has disadvantage on all attacks.",
+								"The butterfly queen creates a {@spell wall of thorns | phb} like the spell at any point in her lair."
+							]
+						}
+					],
+					"regionalEffects": [
+						"The region surrounding a butterfly queen’s lair is warped by her unnatural presence, creating any of the following effects:",
+						{
+							"type": "list",
+							"items": [
+								"There’s a noticeable increase in the populations of butterflies, moths, and other insects. These insects may also be behaving strangely, such as being unafraid of other creatures or flying in noticeable patterns. Outside of the region, there may be a noticeable absence of butterflies as they have migrated closer to the lair.",
+								"Plants within 500 feet of the lair are overgrown or larger than you would normally expect them to be. They are also covered in dew at all times.",
+								"Daylight lasts 2 or more hours longer within 500 feet of the lair. Light seems to reflect easily and with greater intensity off the dew on plants and anything shiny."
+							]
+						}
+					],
+					"source": "FeyCom"
+				}
+			],
 	"monster": [
+		{
+			"name": "Brownie",
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "6d4 + 8",
+				"average": 23
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 7,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 14,
+			"passive": 13,
+			"page": 61,
+			"cr": "1",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The brownie has advantage on saving throws against being {@condition charmed}, and magic can't put the brownie to sleep."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The brownie's innate spellcasting ability is Charisma (spell save {@dc 13}). The brownie can innately cast the following spells, requiring no components. "
+					],
+					"will": [
+						"{@spell druidcraft}",
+						"{@spell goodberry}",
+						"{@spell invisibility} (self only)",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell calm emotions}",
+							"{@spell dimension door}",
+							"{@spell levitate}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"O"
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., single target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P"
+			],
+			"environment": [
+				"feywild",
+				"grassland",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Brownies are shy, quiet fey that inhabit pastoral areas untouched by civilization, such as rolling farmland or deep forests. These diminutive humanoids are rarely taller than 2 feet, and prefer simple, earth-toned clothing. When confronted by the presence of other creatures, they use their invisibility to quickly escape.",
+							"They are known to have a notorious sweet tooth, and sneak into farms and settlements seeking milk and snacks. They’re often considered a nuisance in the Feywild, but rarely a threat. If cornered, they fight with tiny fey daggers and use their surroundings to their advantage by creating tripping hazards and dangerous paths on their way to an escape.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Good Natured.",
+										"entries": [
+											"Brownies always like to replace what they take if they can. But the replacement doesn’t always make sense to the recipient. For example, a brownie might leave a shoe in place of a pumpkin."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
 		{
 			"name": "Butterfly of the Feywild",
 			"size": [
@@ -616,11 +776,17 @@
 				"I",
 				"P"
 			],
+			"environment": [
+				"arctic",
+				"feywild",
+				"forest",
+				"grassland",
+				"jungle",
+				"mountain",
+				"urban"
+			],
 			"miscTags": [
 				"MW"
-			],
-			"environment": [
-				"feywild"
 			],
 			"fluff": {
 				"entries": [
@@ -693,7 +859,7 @@
 				"M"
 			],
 			"type": {
-				"type": "beast",
+				"type": "beasts",
 				"swarmSize": "T"
 			},
 			"source": "FeyCom",
@@ -771,7 +937,13 @@
 				"P"
 			],
 			"environment": [
-				"feywild"
+				"arctic",
+				"feywild",
+				"forest",
+				"grassland",
+				"jungle",
+				"mountain",
+				"urban"
 			],
 			"fluff": {
 				"entries": [
@@ -831,6 +1003,712 @@
 								"name": "Shimmerwing",
 								"entries": [
 									"The shimmerwing is a pink butterfly that has flecks of metal in its wings giving it a sparkle as it flies. This species is the most commonly encountered butterfly in the Feywild."
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "The Butterfly Queen",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 18,
+			"int": 17,
+			"wis": 15,
+			"cha": 18,
+			"passive": 17,
+			"cr": "13",
+			"environment": [
+				"feywild",
+				"forest",
+				"grassland",
+				"mountain"
+			],
+			"page": "63-64",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"save": {
+				"dex": "+9",
+				"wis": "+7",
+				"cha": "+9"
+			},
+			"skill": {
+				"stealth": "+9",
+				"perception": "+7"
+			},
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned",
+				"prone"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The butterfly queen's innate spellcasting ability is Charisma (spell save {@dc 17}). The butterfly queen can innately cast the following spells, requiring no components. "
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell color spray}",
+						"{@spell dancing lights}",
+						"{@spell speak with plants}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell hallucinatory terrain}",
+							"{@spell insect plague}",
+							"{@spell prismatic spray}"
+						],
+						"3e": [
+							"{@spell entangle}",
+							"{@spell faerie fire}",
+							"{@spell hypnotic pattern}",
+							"{@spell silence}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"P"
+			],
+			"trait": [
+				{
+					"name": "Otherworldly Nature",
+					"entries": [
+						"The butterfly queen is immune to being {@condition charmed} and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The the butterfly queen has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The butterfly queen makes two attacks: one with her light touch and one other attack."
+					]
+				},
+				{
+					"name": "Butterfly Blast",
+					"entries": [
+						"{@atk rs} {@hit 9} to hit, range 120 ft., one creature. {@h}22 ({@damage 5d8}) force damage."
+					]
+				},
+				{
+					"name": "Butterfly Blind",
+					"entries": [
+						"The butterfly queen uses her butterflies to blind up to two foes within 30 feet. A target must succeed on a Constitution saving throw or become {@condition blinded}. A target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+					]
+				},
+				{
+					"name": "Light Touch",
+					"entries": [
+						"{@atk ms} {@hit 8} to hit, reach 5 ft., one target. {@h}38 ({@damage 10d6 + 3}) radiant damage."
+					]
+				},
+				{
+					"name": "Summon Butterfly Swarm (3/Day)",
+					"entries": [
+						"The butterfly queen summons a {@creature swarm of butterflies | FeyCom}. It appears in an unoccupied space within 30 feet of the butterfly queen. The swarm acts as an ally of the butterfly queen and remains for 1 hour, until it or the butterfly queen dies, or until the butterfly queen dismisses it as an action. The butterfly queen may have only one active swarm at a time."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "The Butterfly Queen's Lair",
+				"source": "FeyCom"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"O",
+				"R"
+			],
+			"conditionInflict": [
+				"blinded",
+				"prone"
+			],
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The butterfly queen moves up to its speed without",
+						"provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Spell (Costs 2 Actions)",
+					"entries": [
+						"The butterfly queen casts a spell."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The butterfly queen and her butterflies beat their wings. Each creature within 10 feet of the butterfly queen must succeed on a {@dc 18} Dexterity saving throw or take 10 ({@damage 3d6}) bludgeoning damage and be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Cocoon (Costs 3 Actions)",
+					"entries": [
+						"The butterfly queen encircles part of herself in a cocoon, gaining 20 temporary hit points. Attack rolls against her are made at disadvantage until the end of the butterfly queen’s next turn."
+					]
+				}
+			],
+			"legendaryHeader": [
+				"The the butterfly queen can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The the butterfly queen regains spent legendary actions at the start of her turn."
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"The butterfly queen is truly the queen of all butterflies. None can resist her command. Her majestic appearance and sheer dominance of these beautiful insects makes her a force to be revered and feared. In addition to a seemingly endless supply of butterfly allies, the butterfly queen uses illusions and light to charm, distract, and devastate her enemies.",
+							"The butterfly queen can sometimes be seen flying high above. Such sightings are considered a blessing by the peoples of the Feywild. Although she is most likely to be found in her Butterfly Enclave in the Feywild, she has been seen on the Material Plane as well. In fact, some believe she appears when butterfly populations are threatened, wherever that may be.",
+							"The butterfly queen is not altogether evil. Rather, she can be benevolent, malevolent, or a mixture of both and quite often vacillates on what she wants based on whims and moods. One thing she does not tolerate is abuse of or disregard for insect and plant life.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "One and Only.",
+										"entries": [
+											" Only one butterfly queen exists at one time. If the butterfly queen dies, a new one is created in the Feywild. No one knows how or why a new butterfly queen is selected, but the queen is usually an eladrin, an elf, a half-elf, a nymph, or other bipedal fey. Once selected, the new queen spontaneously enters a cocoon for 14 days, after which she emerges with only the statistics of the queen and no memories of her former life. If a butterfly queen is resurrected after her death, she returns to life as her former self, not the queen. However, those resurrected do retain memories of their time as queen."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Butterfly Host.",
+										"entries": [
+											"The queen not only attracts and commands real butterflies, but she can generate energy butterflies as an extension of herself. These beings made purely of light are used to make ranged attacks. As long as the butterfly queen is in the Feywild or the Material Plane, she has access to endless butterflies to use for her attacks. On other planes, she is weaker in that she cannot summon additional butterfly swarms to aid her"
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Butterfly Wings.",
+										"entries": [
+											"A constant for the queen is two vibrant butterfly wings that span the length of her form. These wings are powerful and can be used to attack as well as fly. The patterns on the wings vary from queen to queen."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shifting Appearance.",
+										"entries": [
+											"The butterfly queen may be covered in butterflies that are drawn to her like a moth to a flame or she may look as though she is wearing a dress made entirely of these beautiful insects. Some queens have had eyelids that resembled butterfly wings. Sages believe that the queen may change her appearance to suit her mood or even her environment."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Candleling Youth",
+			"size": [
+				"T"
+			],
+			"type": "celestial",
+			"source": "FeyCom",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d4 + 2",
+				"average": 4
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 15,
+			"con": 15,
+			"int": 13,
+			"wis": 14,
+			"cha": 11,
+			"passive": 12,
+			"cr": "0",
+			"page": 65,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"immune": [
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Variable Illumination",
+					"entries": [
+						"The candleling sheds bright light in a 5 to 20-foot radius and dim light for an additional number of ft. equal to the chosen radius. The candleling can alter the radius, snuff the flame, or reignite it as a bonus action."
+					]
+				}
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"action": [
+				{
+					"name": "Burn",
+					"entries": [
+						"{@atk ms} {@hit +4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) fire damage."
+					]
+				}
+			],
+			"damageTags": [
+				"F"
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"swamp",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A candleling is a living, magical candle that floats through the air on what appears to be a precious metal base. They are generally benevolent and are viewed as the antithesis of the will-o’-wisp. In fact, candlelings are often spotted in areas where will-o’-wisps and other wisps have been seen.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Light Language.",
+										"entries": [
+											"Candlelings use light to communicate, whether it’s casting shadows on a wall or displaying symbols and words made of light."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Silent Pack.",
+										"entries": [
+											"Candlelings usually travel in clusters of three to eight. When in a cluster, typically only one candleling communicates through light. "
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Like a Candle.",
+										"entries": [
+											"The flame of a candleling can be used to ignite objects on fire or simply light the way. Likewise, the wax that drips down its side may be used for a seal or as a magical ingredient. Candlelings appear to burn at a much slower rate than candles and their height rarely varies."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Youthful Difference.",
+										"entries": [
+											"It is unclear how candleling are created. However, it has been observed that the more youthful candlelings are weaker. They don’t have the ability to communicate, to heal others, or to create smoke clouds. However, the metal bases of youthful candlelings appear more polished and less aged."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Favorite Familiar.",
+										"entries": [
+											"Candlelings are a favorite familiar for wizards, but inexperienced mages are only able to summon youthful, less powerful ones."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Candleling Adult",
+			"size": [
+				"T"
+			],
+			"type": "celestial",
+			"source": "FeyCom",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				19
+			],
+			"hp": {
+				"formula": "8d4 + 16",
+				"average": 36
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 20,
+			"con": 15,
+			"int": 13,
+			"wis": 14,
+			"cha": 11,
+			"passive": 12,
+			"cr": "2",
+			"page": 65,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"immune": [
+				"lightning",
+				"poison",
+				"radiant"
+			],
+			"trait": [
+				{
+					"name": "Variable Illumination",
+					"entries": [
+						"The candleling sheds bright light in a 5 to 20-foot radius and dim light for an additional number of ft. equal to the chosen radius. The candleling can alter the radius, snuff the flame, or reignite it as a bonus action."
+					]
+				},
+				{
+					"name": "Ephemeral",
+					"entries": [
+						"The candleling can't wear or carry anything"
+					]
+				},
+				{
+					"name": "Pass Life",
+					"entries": [
+						"The candleling can target one creature it can see within 5 feet of it. The target regains 10 ({@dice 3d6}) hit points and the candleling loses 5 hit points."
+					]
+				}
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"action": [
+				{
+					"name": "Burn",
+					"entries": [
+						"{@atk ms} {@hit +4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) fire damage."
+					]
+				},
+				{
+					"name": "Smoke Clour {@recharge 5}",
+					"entries": [
+						"The candleling releases a 15-foot cone of smoke. Each creature in that area must succeed on a {@dc 12} Wisdom saving throw or be {@condition blinded} until the end of the candleling’s next turn."
+					]
+				}
+			],
+			"damageTags": [
+				"F"
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"swamp",
+				"underdark"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Elvish",
+				"Sylvan",
+				"but uses light to communicate"
+			],
+			"languageTags": [
+				"CE",
+				"C",
+				"E",
+				"S"
+			],
+			"resist": [
+				"acid",
+				"fire",
+				"thunder"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"poisoned",
+				"prone",
+				"restrained",
+				"unconscious"
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A candleling is a living, magical candle that floats through the air on what appears to be a precious metal base. They are generally benevolent and are viewed as the antithesis of the will-o’-wisp. In fact, candlelings are often spotted in areas where will-o’-wisps and other wisps have been seen.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Light Language.",
+										"entries": [
+											"Candlelings use light to communicate, whether it’s casting shadows on a wall or displaying symbols and words made of light."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Silent Pack.",
+										"entries": [
+											"Candlelings usually travel in clusters of three to eight. When in a cluster, typically only one candleling communicates through light. "
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Like a Candle.",
+										"entries": [
+											"The flame of a candleling can be used to ignite objects on fire or simply light the way. Likewise, the wax that drips down its side may be used for a seal or as a magical ingredient. Candlelings appear to burn at a much slower rate than candles and their height rarely varies."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Youthful Difference.",
+										"entries": [
+											"It is unclear how candleling are created. However, it has been observed that the more youthful candlelings are weaker. They don’t have the ability to communicate, to heal others, or to create smoke clouds. However, the metal bases of youthful candlelings appear more polished and less aged."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Favorite Familiar.",
+										"entries": [
+											"Candlelings are a favorite familiar for wizards, but inexperienced mages are only able to summon youthful, less powerful ones."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Centaurus",
+			"size": [
+				"L"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "9d10 + 35",
+				"average": 84
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 18,
+			"int": 9,
+			"wis": 11,
+			"cha": 14,
+			"passive": 12,
+			"cr": "3",
+			"page": 66,
+			"languages": [
+				"Sylvan"
+			],
+			"languageTags": [
+				"S"
+			],
+			"environment": [
+				"coast",
+				"feywild",
+				"forest",
+				"grassland"
+			],
+			"skill": {
+				"athletics": "+6",
+				"perception": "+2",
+				"survival": "+2"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The centaurus’ innate spellcasting ability",
+						"is Charisma (spell save {@dc 12}). It can innately cast the following",
+						"spells, requiring no material components:"
+					],
+					"daily": {
+						"3e": [
+							"{@spell calm emotions}",
+							"{@spell charm person}"
+						],
+						"1e": [
+							"{@spell thunder step|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"T"
+			],
+			"trait": [
+				{
+					"name": "Fey Step {@recharge 4}",
+					"entries": [
+						"As a bonus action, the centaurus can teleport up to 30 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The centaurus makes two attacks with its hooves or its wild blast. "
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Wild Blast",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 120 ft., one target. {@h}7 ({@damage 1d10 + 2}) force damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"While centaurs native to the Material Plane are relatively common, their Feywild counterpart the centaurus is quite a rare creature. Like the centaur, the centaurus has a humanoid torso and the body of a horse, but the centaurus’ humanoid half bears a closer resemblance to a dryad than a mortal. As rare as the centaurus is, it can sometimes be seen galloping across the horizon in the Feywild, and such a sighting is seen as a sign of good luck in many cultures.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Born to Run.",
+										"entries": [
+											"Much like their Material Plane brethren, the centaurus is nomadic by nature. The centaurus does not travel in herds, but they do travel the vastness of the Feywild. It is not known whether they have a migration pattern or if their wanderings are the result of random chance."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Fed by Magic.",
+										"entries": [
+											"The centaurus does not need to feed in a traditional sense. Instead, these creatures kick up magical energy as they run, and they absorb that energy into their body. Because of this method of feeding, a centaurus is capable of running for months at a time, stopping only briefly if it is interested in something it has passed on its journey."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Symbiotic Nature.",
+										"entries": [
+											"The magical energy that generates around the centaurus provides sustenance for many small creatures in addition to itself. The energy from the centaurus’ wild blast in particular often attracts small insects, including butterflies. These insects get caught in the vortex of the wild blast, giving the appearance of them being used by the centaurus as ammunition in combat."
+										]
+									}
 								]
 							}
 						]
