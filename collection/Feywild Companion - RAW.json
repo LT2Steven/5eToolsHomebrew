@@ -588,6 +588,32 @@
 						}
 					],
 					"source": "FeyCom"
+				},
+				{
+					"name": "A Faenorn's Lair",
+					"lairActions": [
+						"On initiative count 20 (losing initiative ties) the faenorn can take a lair action to cause one of the following magical effects; it can’t use the same effect two rounds in a row:",
+						{
+							"type": "list",
+							"items": [
+								"The faenorn regains a spell slot at a level of its choosing.",
+								"The faenorn calls the raw spirit of the Feywild for aid. Fey apparitions materialize and attack one creature the faenorn can see within 60 feet of it. The creature must succeed at a DC 18 Constitution saving throw, taking 52 {@damage 15d6} necrotic damage on a failed save or half as much damage on a success. The apparitions then vanish..",
+								"The faenorn twists the fate of a single target it can see within 60 feet. Until the end of the faenorn’s next turn, that target subtracts 1d6 from any attack roll, ability check, or saving throw made within 60 feet of the faenorn."
+							]
+						}
+					],
+					"regionalEffects": [
+						"The faenorn warps the nature of the Feywild to its will. Within 1 mile of the faenorn’s lair the following effects occur: ",
+						{
+							"type": "list",
+							"items": [
+								"Weather patterns became erratic, shifting out of season or region even for the Feywild.",
+								"Spells that alter the natural state, such as {@spell control weather} and {@spell plant growth}, become especially difficult to cast. The caster must succeed at an Arcana check equal to 10 + spell level. On a failure, consult the {@table Wild Magic Surge |phb} table",
+								"Divination spells return a barrage of knowledge echoing forth from the faenorn’s vast understanding, granting significantly more information than normal but requiring the caster to make a DC 20 Wisdom saving throw or feel an overwhelming urge to flee the area."
+							]
+						}
+					],
+					"source": "FeyCom"
 				}
 			],
 	"monster": [
@@ -1711,6 +1737,751 @@
 									}
 								]
 							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Dark Unicorn",
+			"size": [
+				"L"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "12d10 + 24",
+				"average": 90
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 16,
+			"passive": 13,
+			"cr": "6",
+			"page": 67,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Elvish",
+				"Sylvan",
+				"telepathy 60ft."
+			],
+			"languageTags": [
+				"AB",
+				"CE",
+				"E",
+				"S",
+				"TP"
+			],
+			"environment": [
+				"feywild",
+				"forest"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The dark unicorn's innate spellcasting ability is Charisma (spell save {@dc 17}). The dark unicorn can innately cast the following spells, requiring no components. "
+					],
+					"will": [
+						"{@spell detect evil and good}",
+						"{@spell pass without trace}",
+						"{@spell poison spray}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell dispel evil and good}",
+							"{@spell entangle}",
+							"{@spell silence}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"I"
+			],
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the dark unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 ({@dice 2d8}) piercing damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The dark unicorn has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The dark unicorn's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Unpredictable Alignment",
+					"entries": [
+						"The dark unicorn defies all attempts to discern its alignment, and is not affected by spells that defend against specific traits (like the dispel evil and good spell.)"
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"traitTags": [
+				"Charge",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"damageTags": [
+				"B",
+				"I",
+				"N",
+				"P"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dark unicorn makes two attacks: one with its hooves and one with its horn."
+					]
+				},
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Horn",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
+				{
+					"name": "Necrotic Touch (3/day)",
+					"entries": [
+						"The dark unicorn makes a melee spell attack ({@hit 7} to hit) with its horn. On a hit, the target takes 9 ({@damage 2d6 + 2}) necrotic damage and the unicorn regains hit points equal to the amount of necrotic damage taken. "
+					]
+				},
+				{
+					"name": "Teleport (1/day)",
+					"entries": [
+						"The dark unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location it is familiar with, up to 1 mile away."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Teleport"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"legendary": [
+				{
+					"name": "Hoof Attack",
+					"entries": [
+						"The dark unicorn makes one attack with its hooves."
+					]
+				},
+				{
+					"name": "Shadow Shield (Costs 2 actions)",
+					"entries": [
+						"The unicorn encircles itself in a shroud of shadows. Attack rolls against it are made at disadvantage until the end of the unicorn’s next turn."
+					]
+				},
+				{
+					"name": "Dark Regeneration (Costs 3 actions)",
+					"entries": [
+						"The unicorn regains 11 ({@dice 2d8 + 2}) hit points."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"This dark fey is the twisted reflection of its celestial cousin. Dark unicorns stalk the forests of the Feywild, hunting prey with their heightened senses and inflicting pain with sharp horn and hoof. Like all unicorns, they cannot be charmed or held by magic, and are immune to poison. They’re wickedly smart and charming, and use their wits to confuse and confound victims as readily as their natural weapons. They delight in pain, and spread misery for the sake of creating it, but are ultimately concerned only with themselves and their own personal amusements.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Dark Coat",
+										"entries": [
+											"The coat of this unicorn is always a dark color whether its onyx black, slate gray, or even a deep rust. Unlike their cousins the black unicorn, dark unicorns do not sport a beard. In fact, their manes and coats are sometimes different or even multiple colors."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Dreamfish",
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d4 + 18",
+				"average": 40
+			},
+			"speed": {
+				"swim": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 10,
+			"con": 14,
+			"int": 12,
+			"wis": 16,
+			"cha": 16,
+			"passive": 13,
+			"cr": "3",
+			"page": 68,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Elvish",
+				"Sylvan",
+				"telepathy 60 ft."
+			],
+			"languageTags": [
+				"AB",
+				"CE",
+				"E",
+				"S",
+				"TP"
+			],
+			"save": {
+				"int": "+3",
+				"wis": "+6"
+			},
+			"skill": {
+				"insight": "+6",
+				"perception": "+6"
+			},
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Adept Swimmer",
+					"entries": [
+						"While swimming, the dreamfish can Dash as a bonus action."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The dreamfish can breathe underwater or on land."
+					]
+				},
+				{
+					"name": "Phase Shift (Recharges after a Long Rest)",
+					"entries": [
+						"When the dreamfish takes damage, it becomes ethereal like the etherealness spell, except with a duration of 10 minutes. The dreamfish can end the phase shift as a bonus action on its turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The dreamfish’s innate spellcasting ability is Charisma (spell save {@dc 17}). The dreamfish can innately cast the following spells, requiring no material components: "
+					],
+					"will": [
+						"{@spell prestidigitation}",
+						"{@spell silent image}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm person}",
+							"{@spell detect thoughts}",
+							"{@spell major image}"
+						],
+						"1e": [
+							"{@spell blink}",
+							"{@spell hallucinatory terrain}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d8 - 2}) piercing damage plus 3 ({@damage 1d6}) psychic damage."
+					]
+				},
+				{
+					"name": "Inner Thoughts",
+					"entries": [
+						"The dreamfish targets one creature it can see within 60 feet of it. The target must contest its Charisma (Deception) check against the dreamfish’s Wisdom (Insight) check. If the dreamfish wins, it learns the greatest desires of the target. The target suffers disadvantage on saving throws from any charm-related spells cast by the dreamfish for the next 24 hours. If the target wins, it cannot be affected by charm spells cast by the dreamfish for the next 24 hours. The target automatically wins if it is immune to being {@condition charmed}."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"environment": [
+				"coastal",
+				"feywild",
+				"underwater"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Dreamfish lurk in the still pools and fresh waters of the Feywild, preying on unsuspecting surface dwellers. Though mostly content to silently tickle the minds of passersby, hungry dreamfish use their illusionary powers and limited psychic abilities to lure victims to the depths. They are inherently curious creatures, fascinated by the world they glimpse through the minds they touch, and as they grow, they enjoy taking jaunts outside their aquatic environment to pursue targets of particular fascination. They delight in knowing as much as they can about their meals before consuming them slowly at the bottom of the lake.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Well-read",
+										"entries": [
+											"Dreamfish are incredibly long-lived, and sample broadly from the range of creatures passing through the Feywild. They are sommeliers of the mind and hoarders of secrets. As such, they make an excellent source of information, if you can capture one. Catching a dreamfish is a hobby of trickster fey who seek to learn their stolen knowledge, and a favorite quest on which to send stray mortals."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Discrete",
+										"entries": [
+											"Though curious, they are also shy, and will avoid detection at all costs. They flee if sighted or if their spells fail. Most minds they touch feel just the barest whisper, like a breeze or chill, before continuing along their way. If a powerful, prepared, or just plain lucky mind happens to notice the intrusion, the dreamfish relies on a bevy of illusions and deceits before vanishing into the noise."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Deadly Fixation",
+										"entries": [
+											"A mind of particular interest is simply not allowed to escape. A dreamfish that becomes especially fascinated by a passerby will use spells like hallucinatory terrain and major image to confuse the target into circling its pond. It may, after a while, charm the target into joining it beneath the water, or simply neglect to account for a mortal’s need for things like food to eat or air to breathe."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Faenorn",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 120",
+				"average": 228
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 20,
+			"int": 18,
+			"wis": 22,
+			"cha": 20,
+			"passive": 19,
+			"cr": {
+				"cr": "21",
+				"lair": "22"
+			},
+			"environment": [
+				"feywild",
+				"forest"
+			],
+			"page": "69-71",
+			"senses": [
+				"truesight 120 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Primordial",
+				"Sylvan",
+				"and can speak with animals"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"P",
+				"S"
+			],
+			"save": {
+				"con": "+11",
+				"int": "+11",
+				"wis": "+13"
+			},
+			"skill": {
+				"arcana": "+11",
+				"history": "+11",
+				"insight": "+12",
+				"perception": "+12"
+			},
+			"immune": [
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"prone"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The faenorn is a 20th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 20}, + 12 to hit with spell attacks). The faenorn has the following spells prepared: "
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch} (4d8)",
+								"{@spell druidcraft}",
+								"{@spell mage hand}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell faerie fire}",
+								"{@spell guiding bolt}",
+								"{@spell shield of faith}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell spike growth}",
+								"{@spell spiritual weapon}",
+								"{@spell zone of truth}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell dispel magic}",
+								"{@spell plant growth}",
+								"{@spell water walk}",
+								"{@spell wind wall}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell banishment}",
+								"{@spell conjure woodland beings}",
+								"{@spell grasping vine}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell insect plague}",
+								"{@spell legend lore}",
+								"{@spell synaptic static|XGE}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell conjure fey}",
+								"{@spell forbiddance}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell etherealness}",
+								"{@spell regenerate}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell antimagic field}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell psychic scream|XGE}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"B",
+				"N",
+				"O",
+				"P",
+				"R",
+				"Y"
+			],
+			"trait": [
+				{
+					"name": "Eschew Materials",
+					"entries": [
+						"The faenorn can ignore material requirements for spells even if the materials have a monetary cost or are consumed."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the faenorn fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The faenorn has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Master of Terrain",
+					"entries": [
+						"The faenorn cannot have its movement reduced by natural terrain, and is immune to any damage caused by traveling through naturally treacherous terrain. "
+					]
+				},
+				{
+					"name": "Multiphasic Mind",
+					"entries": [
+						"The faenorn may concentrate on an unlimited number of spells simultaneously. "
+					]
+				},
+				{
+					"name": "One With the Fey.",
+					"entries": [
+						"Fey creatures with an Intelligence score of 4 or lower never willingly attack a faenorn, whom they see as a master of the Feywild. Fey that are {@condition charmed}, or who possess some sort of overriding loyalty (such as a loyal servant of an Archfey patron) attack it at disadvantage."
+					]
+				},
+				{
+					"name": "Projection (3/Day)",
+					"entries": [
+						"The faenorn can project a wraith-like image of itself up to one mile away. The projection has 100 hit points, an AC of 16, and a fly speed of 30 feet. If a projection is damaged, the faenorn takes half of that damage, a projection vanishes if reduced to 0 hit points. The faenorn can see, hear, speak, see into the Ethereal Plane, and cast spells through its projection. The projection is capable of passing through magic barriers such as from spells like forcecage and magic circle. A projection can lightly interact with its environment, such as pushing a small object, drawing a message in sand, or turning the page of a book. The projection cannot attack (but may still cast spells that deal damage) or carry solid objects."
+					]
+				}
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"legendaryGroup": {
+				"name": "A Faenorn's Lair",
+				"source": "FeyCom"
+			},
+			"action": [
+				{
+					"name": "Multiattack.",
+					"entries": [
+						"The faenorn can make up to three mindgrab attacks, or one mindgrab attack and one spell, bloom, or turn living or undead attack."
+					]
+				},
+				{
+					"name": "Bloom.",
+					"entries": [
+						"The faenorn calls on the living Feywild to surround itself with thorny vines in a 100-foot-radius. The branches reach out and slash any character within 5 feet of them, dealing {@damage 10d6} poison damage on a failed {@dc 18} Dexterity saving throw, or half as much on a successful one."
+					]
+				},
+				{
+					"name": "Mindgrab.",
+					"entries": [
+						"{@atk ms} {@hit 12} to hit, reach 5 ft., one creature. {@h}28 ({@damage 8d6}) damage. The target must succeed on a {@dc 20} Intelligence saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Turn Living or Undead.",
+					"entries": [
+						"The faenorn can bring forth terror to either the undead or the living surrounding it. Before the faenorn takes this action, it must choose either undead or nonundead creatures. Each creature of the chosen type that the faenorn can see within 30 feet must make a {@dc 20} saving throw or be turned for 1 minute. Turned creatures must spend their turn trying to move away as far as possible from the faenorn and cannot willingly move closer to it. Turned creatures can only use their Dash action or try to flee an effect that prevents it from escaping. If the creature cannot move any farther, it must use their Dodge action. This counts as a fear effect for turning living creatures. Constructs, oozes, elementals, and aberrations are immune to this effect."
+					]
+				}
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"legendary": [
+				{
+					"name": "Cantrip",
+					"entries": [
+						"The faenorn casts a cantrip."
+					]
+				},
+				{
+					"name": "Fey Step (Costs 2 actions)",
+					"entries": [
+						"The faenorn casts {@spell misty step} without spending a spell slot."
+					]
+				},
+				{
+					"name": "Mindgrab (Costs 2 actions)",
+					"entries": [
+						"The faenorn makes one mindgrab attack."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Death in the Feywild is a fluid matter. Some fey spirits become so bound to the land that their termination grants new life from the surrounding ground. Other fey work in opposition, creating dramatic changes when they expire. And still others, imbued with arcane power and knowledge, become so tied to the native magic of the Feywild that they are impossible to separate from it. The reunion of their spirit with the Feywild only empowers them, granting them new abilities as they become bound within it. They exist for all eternity as a guardian and protector of their fey domain—a Faenorn.",
+							"The faenorn’s bond with its territory is reflected by the magic surrounding it. Spells cast near the faenorn’s lair are warped and amplified by its presence. Evocations go awry, divinations pierce the veil, and the natural magic of the Feywild becomes even more unpredictable.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Ritual Binding",
+										"entries": [
+											"A faenorn has died and been reborn over an endless cycle in the same location; like a dryad to its tree, this powerful magic user has developed a symbiotic relationship with its surroundings. The faenorn uses a necromantic ritual to ensure that each death results in another rebirth. By binding its soul to a particular portion of the Feywild, it can never leave, but it can also never truly die. This ritual is carried out in a lair within its territory, and once enacted cannot be undone except by destroying the location itself."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Projected Presence",
+										"entries": [
+											"The faenorn prefers to remain near or inside its lair, relying on projections to explore the surrounding area and fey allies to send and receive news while its true form protects its one weakness. These projections are often the only aspect any wild fey see of the faenorn, since revealing its true self is also an invitation to betrayal. A faenorn’s lair is likely guarded by layers of illusions and spells, and heaped with centuries of magical treasures the faenorn employs against any intruders."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Fey Guardian",
+										"entries": [
+											"Because of its deep connection to the Feywild, a faenorn is the closest thing a fey considers to a god. As the embodiment of a particular place within the ever-shifting terrain, they are an anchor in the sea of change. They are revered, feared, and respected by either direct reverence or careful deference. To petition a faenorn is to call upon the impossible for aid, and to receive its boon is as high an honor as being touched by the archfey."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "A Faenorn's Lair",
+						"entries": [
+							"While the faenorn is bound to the Feywild, it is usually restricted to a 50-mile-radius centering on a landmark or geographical feature, such as a particular forest or mountain. Within that radius, it can move freely or use its projections. The regional effects only occur within a 1-mile-radius of the faenorn’s current location. Its lair can be any location that it prefers, such as a cave, a grove, or a crypt.",
+							"A faenorn encountered in its lair has a challenge rating of 22."
 						]
 					}
 				]
