@@ -563,59 +563,86 @@
 		}
 	],
 	"legendaryGroup": [
+		{
+			"name": "The Butterfly Queen's Lair",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the butterfly queen takes a lair action to cause one of the following effects; the butterfly queen can’t use the same effect two rounds in a row:",
 				{
-					"name": "The Butterfly Queen's Lair",
-					"lairActions": [
-						"On initiative count 20 (losing initiative ties), the butterfly queen takes a lair action to cause one of the following effects; the butterfly queen can’t use the same effect two rounds in a row:",
-						{
-							"type": "list",
-							"items": [
-								"The reflective surfaces in the lair pulse, creating bright light in every direction. Each creature on the floor of the lair must succeed on a DC 19 Dexterity saving throw or become {@condition blinded} until the start of the next round.",
-								"The butterfly queen commands {@creature butterfly of the feywild | FeyCom | butterflies} to land on each of her enemies inside of her lair. As long as a butterfly remains on a target, it has disadvantage on all attacks.",
-								"The butterfly queen creates a {@spell wall of thorns | phb} like the spell at any point in her lair."
-							]
-						}
-					],
-					"regionalEffects": [
-						"The region surrounding a butterfly queen’s lair is warped by her unnatural presence, creating any of the following effects:",
-						{
-							"type": "list",
-							"items": [
-								"There’s a noticeable increase in the populations of butterflies, moths, and other insects. These insects may also be behaving strangely, such as being unafraid of other creatures or flying in noticeable patterns. Outside of the region, there may be a noticeable absence of butterflies as they have migrated closer to the lair.",
-								"Plants within 500 feet of the lair are overgrown or larger than you would normally expect them to be. They are also covered in dew at all times.",
-								"Daylight lasts 2 or more hours longer within 500 feet of the lair. Light seems to reflect easily and with greater intensity off the dew on plants and anything shiny."
-							]
-						}
-					],
-					"source": "FeyCom"
-				},
-				{
-					"name": "A Faenorn's Lair",
-					"lairActions": [
-						"On initiative count 20 (losing initiative ties) the faenorn can take a lair action to cause one of the following magical effects; it can’t use the same effect two rounds in a row:",
-						{
-							"type": "list",
-							"items": [
-								"The faenorn regains a spell slot at a level of its choosing.",
-								"The faenorn calls the raw spirit of the Feywild for aid. Fey apparitions materialize and attack one creature the faenorn can see within 60 feet of it. The creature must succeed at a DC 18 Constitution saving throw, taking 52 {@damage 15d6} necrotic damage on a failed save or half as much damage on a success. The apparitions then vanish..",
-								"The faenorn twists the fate of a single target it can see within 60 feet. Until the end of the faenorn’s next turn, that target subtracts 1d6 from any attack roll, ability check, or saving throw made within 60 feet of the faenorn."
-							]
-						}
-					],
-					"regionalEffects": [
-						"The faenorn warps the nature of the Feywild to its will. Within 1 mile of the faenorn’s lair the following effects occur: ",
-						{
-							"type": "list",
-							"items": [
-								"Weather patterns became erratic, shifting out of season or region even for the Feywild.",
-								"Spells that alter the natural state, such as {@spell control weather} and {@spell plant growth}, become especially difficult to cast. The caster must succeed at an Arcana check equal to 10 + spell level. On a failure, consult the {@table Wild Magic Surge |phb} table",
-								"Divination spells return a barrage of knowledge echoing forth from the faenorn’s vast understanding, granting significantly more information than normal but requiring the caster to make a DC 20 Wisdom saving throw or feel an overwhelming urge to flee the area."
-							]
-						}
-					],
-					"source": "FeyCom"
+					"type": "list",
+					"items": [
+						"The reflective surfaces in the lair pulse, creating bright light in every direction. Each creature on the floor of the lair must succeed on a DC 19 Dexterity saving throw or become {@condition blinded} until the start of the next round.",
+						"The butterfly queen commands {@creature butterfly of the feywild | FeyCom | butterflies} to land on each of her enemies inside of her lair. As long as a butterfly remains on a target, it has disadvantage on all attacks.",
+						"The butterfly queen creates a {@spell wall of thorns | phb} like the spell at any point in her lair."
+					]
 				}
 			],
+			"regionalEffects": [
+				"The region surrounding a butterfly queen’s lair is warped by her unnatural presence, creating any of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"There’s a noticeable increase in the populations of butterflies, moths, and other insects. These insects may also be behaving strangely, such as being unafraid of other creatures or flying in noticeable patterns. Outside of the region, there may be a noticeable absence of butterflies as they have migrated closer to the lair.",
+						"Plants within 500 feet of the lair are overgrown or larger than you would normally expect them to be. They are also covered in dew at all times.",
+						"Daylight lasts 2 or more hours longer within 500 feet of the lair. Light seems to reflect easily and with greater intensity off the dew on plants and anything shiny."
+					]
+				}
+			],
+			"source": "FeyCom"
+		},
+		{
+			"name": "A Faenorn's Lair",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties) the faenorn can take a lair action to cause one of the following magical effects; it can’t use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"The faenorn regains a spell slot at a level of its choosing.",
+						"The faenorn calls the raw spirit of the Feywild for aid. Fey apparitions materialize and attack one creature the faenorn can see within 60 feet of it. The creature must succeed at a DC 18 Constitution saving throw, taking 52 {@damage 15d6} necrotic damage on a failed save or half as much damage on a success. The apparitions then vanish.",
+						"The faenorn twists the fate of a single target it can see within 60 feet. Until the end of the faenorn’s next turn, that target subtracts 1d6 from any attack roll, ability check, or saving throw made within 60 feet of the faenorn."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The faenorn warps the nature of the Feywild to its will. Within 1 mile of the faenorn’s lair the following effects occur: ",
+				{
+					"type": "list",
+					"items": [
+						"Weather patterns became erratic, shifting out of season or region even for the Feywild.",
+						"Spells that alter the natural state, such as {@spell control weather} and {@spell plant growth}, become especially difficult to cast. The caster must succeed at an Arcana check equal to 10 + spell level. On a failure, consult the {@table Wild Magic Surge |phb} table",
+						"Divination spells return a barrage of knowledge echoing forth from the faenorn’s vast understanding, granting significantly more information than normal but requiring the caster to make a DC 20 Wisdom saving throw or feel an overwhelming urge to flee the area."
+					]
+				}
+			],
+			"source": "FeyCom"
+		},
+		{
+			"name": "Genius Loci's Lair",
+			"lairActions": [
+				"On initiative count 20 (losing initiative ties), the genius loci can take a lair action to cause one of the following effects; it can’t use the same effect two rounds in a row: ",
+				{
+					"type": "list",
+					"items": [
+						"The genius loci erupts in a terrifying display of fiery power. Any creature that can see the genius loci must succeed on a DC 25 Wisdom saving throw or be {@condition frightened} for one minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"The genius loci roars in anger, releasing a cloud of steam throughout its lair. The area becomes heavily obscured until the next initiative count 20. The genius loci is not affected by this effect.",
+						"The genius loci releases a sorrowful call. Two {@creature fire elementals | mm} appear at a point within the genius loci’s lair of its choosing. The fire elementals act on their own initiative count and defend the genius loci with their lives.",
+						"The genius loci casts its innate {@spell wall of fire} spell. The genius loci does not need to concentrate on this spell."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The genius loci warps either the Material Plane or the Feywild with its mere presence. Within 5 miles of the genius loci, the following effects occur:",
+				{
+					"type": "list",
+					"items": [
+						"A cloud of ash obscures sunlight in the area, creating dim light throughout the area. This cloud of ash can’t be cleared away. ",
+						"Choking sulfurous gas fills the air. Any non-elemental, non-fey creature that spends more than a minute in the area must succeed at a DC 25 Constitution saving throw or be {@condition poisoned} until they leave the region. Creatures immune or resistant to poison or fire automatically succeed at this saving throw as do creatures that don’t need to breathe.",
+						"Harmless tremors happen at regular intervals in the region. "
+					]
+				}
+			],
+			"source": "FeyCom"
+		}
+	],
 	"monster": [
 		{
 			"name": "Brownie",
@@ -2486,6 +2513,2932 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Genius Loci",
+			"size": [
+				"G"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "25d20 + 175",
+				"average": 450
+			},
+			"speed": {
+				"walk": 50,
+				"burrow": 50
+			},
+			"str": 30,
+			"dex": 20,
+			"con": 25,
+			"int": 10,
+			"wis": 18,
+			"cha": 23,
+			"passive": 22,
+			"cr": {
+				"cr": "25",
+				"lair": "26"
+			},
+			"page": "72-73",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Primordial",
+				"Sylvan but rarely speaks"
+			],
+			"languageTags": [
+				"P",
+				"S"
+			],
+			"save": {
+				"dex": "+13",
+				"con": "+15",
+				"wis": "+12"
+			},
+			"skill": {
+				"intimidation": "+14",
+				"perception": "+12",
+				"survival": "+12"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The genius loci’s innate spellcasting ability is Wisdom (spell save {@dc 22}). The genius loci can cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell detect magic}",
+						"{@spell druidcraft}",
+						"{@spell fireball}",
+						"{@spell heat metal} (at 4th level)",
+						"{@spell thaumaturgy}",
+						"{@spell wall of fire}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell fire storm}",
+							"{@spell freedom of movement}",
+							"{@spell nondetection}"
+						],
+						"1e": [
+							"{@spell control weather}",
+							"{@spell incendiary cloud}",
+							"{@spell summon elemental|TCE} (at 8th level, fire only)"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"trait": [
+				{
+					"name": "Form of Magma and Steam",
+					"entries": [
+						"The genius loci can burrow through nonmagical, unworked earth and stone. While doing so, the genius loci doesn’t disturb the material it moves through. It can also move through a space as narrow as 1 inch wide without squeezing. A creature that touches the genius loci or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) fire damage. Additionally, the genius loci can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 9 ({@damage 2d8}) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 9 ({@damage 2d8}) fire damage at the start of each of its turns."
+					]
+				},
+				{
+					"name": "Immolation Aura",
+					"entries": [
+						"If a creature comes within 20 feet of the genius loci or starts its turn there, the creature must make a {@dc 25} Constitution saving throw or take 9 ({@damage 2d8}) fire damage and 9 ({@damage 2d8}) poison damage or half as much on a successful saving throw. This trait ignites flammable objects within 20 feet of the genius loci that aren’t being worn or carried."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the genius loci fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The genius loci has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The genius loci regains 20 hit points at the start of its turn. If it takes cold damage, this trait doesn’t function at the start of its next turn. The genius loci dies only if it starts its turn with 0 hit points and doesn’t regenerate. "
+					]
+				},
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"The genius loci deals double damage to objects and structures."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"F",
+				"I"
+			],
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration",
+				"Siege Monster"
+			],
+			"legendaryGroup": {
+				"name": "Genius Loci's Lair",
+				"source": "FeyCom"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The genius loci attacks twice with its hurl flame or with its incendiary slam. "
+					]
+				},
+				{
+					"name": "Hurl Flame",
+					"entries": [
+						"{@atk rw} {@hit 13} to hit, range 60/180 ft., one target. {@h}50 ({@damage 10d8}) fire damage."
+					]
+				},
+				{
+					"name": "Incendiary Slam",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}28 ({@damage 4d8 + 10}) bludgeoning damage. The target must succeed on a {@dc 25} Dexterity saving throw or take 27 {@damage 6d8} fire damage at the beginning of each of its turns for 1 minute. As an action, the target or an ally may put out the flames. The target can also repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"RCH"
+			],
+			"bonus": [
+				{
+					"name": "Fey Step {@recharge 4}",
+					"entries": [
+						"The genius loci can teleport up to 60 feet to an unoccupied space it can see."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Burning Embers",
+					"entries": [
+						"All creatures within 120 feet of the genius loci take 9 ({@damage 2d8}) fire damage."
+					]
+				},
+				{
+					"name": "Intensify Flame (Costs 2 Actions)",
+					"entries": [
+						"All creatures within 20 feet of the genius loci must succeed at a {@dc 22} Constitution saving throw or take 9 ({@damage 2d8}) fire damage and 9 ({@damage 2d8}) poison damage or half as much on a successful saving throw. "
+					]
+				},
+				{
+					"name": "Spell (Costs 3 Actions)",
+					"entries": [
+						"The genius loci casts a spell with a casting time of one action."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"feywild",
+				"mountain",
+				"underdark"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"A majority of the borders of the Feywild cross in areas that are familiar to the Material Plane—a forest, a cave, or a lake. However, sometimes the Feywild borders on natural features that are more violent in nature. In areas where such natural violence occurs, it is possible for a genius loci, “a spirit of the place,” to be born.",
+							"Genius loci are fiercely protective of the area that they call home. Any intrusion from mortals is met with open hostility. These beautiful and dangerous creatures are often responsible for major natural disasters, like volcanic eruptions, hostile blizzards, or even mudslides. The most common variant of this creature finds its home in volcanos. ",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Force of Nature",
+										"entries": [
+											"People often mistake genius loci for elementals, and it’s not hard to see why. These creatures reflect the violence and beauty of their natural habitat. They find beauty in creating natural events that can cause untold devastation, and they are often unwittingly responsible for the destruction of entire settlements. "
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Genius Loci's Lair",
+						"entries": [
+							"Whether the volcano that a genius loci inhabits is active or dormant, the genius loci is usually found in an area of great volcanic activity. The most common volcano to find a genius loci in is a shield volcano, as the genius loci is the most comfortable when its surroundings are uniform. Because of the energy and heat given off by the genius loci, elementals and fey of many kinds often inhabit the area within a 10-mile radius.",
+							"A genius loci encountered in its lair has a challenge rating of 26."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Glasswail",
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8",
+				"average": 63
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 10,
+			"int": 4,
+			"wis": 7,
+			"cha": 12,
+			"passive": 9,
+			"cr": "2",
+			"page": "74-75",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Understands the basics of any languages it knew in life but can't speak"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"skill": {
+				"deception": "+3",
+				"stealth": "+3"
+			},
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"resist": [
+				"acid",
+				"radiant"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"exhaustion",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The glasswail can use a bonus action on its turn to magically change itself into a pane of stained glass that is no larger than 10 ft. in any dimension or back into its true form. While in its stained glass form, the glasswail is indistinguishable from a regular stained glass window."
+					]
+				},
+				{
+					"name": "Jagged Epitaph",
+					"entries": [
+						"When the glasswail dies, it explodes with terrible force as the soul is freed from its glass prison. All creatures within 10 ft. of the glasswail must make a {@dc 12} Dexterity saving throw, taking (10) {@damage 4d4} slashing damage on a failed save and half this damage on a success."
+					]
+				},
+				{
+					"name": "Sharp Grasp",
+					"entries": [
+						"A creature {@condition grappled} by the glasswail takes 2 {@damage 1d4} slashing damage at the start of its turn as the glasswail’s sharp glass body rakes across the creature’s flesh."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The glasswail makes two melee attacks with its glass claws. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 13})."
+					]
+				},
+				{
+					"name": "Dazzle",
+					"entries": [
+						"When the glasswail is within an area with any bright light, it can force any creature within 30 ft. looking directly at the glasswail to make a {@dc 12} Constitution saving throw or become {@condition blinded} until the beginning of its next turn."
+					]
+				},
+				{
+					"name": "Glass Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"environment": [
+				"feywild",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Glasswails are souls trapped in dangerous-yet-beautiful constructs of glass, created by incomplete journeys to the Feywild. The first step many non-fey must take toward the Feywild requires a fey crossing, over which turbulent magics whorl. The crossing acts like a bridge, and should the ends of this bridge vanish, a soul can be stuck in the transient space between one realm and the next. Those crossing through a mirror, for instance (a popular medium for journeying to the Feywild), can become caught in the sheen of the glass.",
+							"In this state, their minds are slowly devoured by the caprice of wild magic and the toll of time within a twodimensional space. Those with strong wills find a way back into existence, but their forms are shattered; a splintering display of what they once were and maddened by the struggle to break free from their mirror-glass prisons. This is how glasswails are born.",
+							"When they are not silently sleeping as tragedies in stained glass windows, a glasswail takes the form of a vaguely humanoid creature, except angular, full of brilliant color, and deadly sharp. They are as a sculptor might craft a person if the materials available were only a thousand chunks and shards of jagged, jigsaw glass.",
+							"Glasswails are committed to finding beautiful spaces filled with light, revealing themselves when threatened or when light vanishes. While they do wander, one is most likely to encounter glasswails where ornamental windows are present (such as those that exist in old temples), and the twisting of planar spaces can create such locations unexpectedly. When visiting the Feywild counterpart of a building from the Material Plane, it is common to find even simple houses have their ordinary glass windows replaced with prismatic panes. These can harbor glasswail.",
+							"As their minds have been lost, few can guess at their motives, but because they often keep chantries and typically sacred places as haunts, some believe glasswails to be holy spirits, given righteous form to exact their revenge on those who wronged them in life. Others think they mindlessly seek out light to splash against their vibrant bodies, reminding themselves of how beautiful they can be despite their now twisted appearance.",
+							"Whatever their purpose, they possess a scintillating, colorful form that is as brilliant as it is deadly.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Beautiful Servants",
+										"entries": [
+											"Fey have a penchant for all that is bright and beautiful. The glasswail presents a living embodiment of that desire, and as such, nobles of the Seelie and Unseelie Courts often fill a portion of their estates with these creatures. Doing so typically requires enchantment, for a glasswail’s mind is rarely intact enough to comprehend complex rules of a voluntary pact. Those lucky few that retain some semblance of intelligence balk against the yoke of spellwork, recalling that magic is the cause for their current form."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Construct Nature",
+										"entries": [
+											"A glasswail doesn’t require air, food, drink, or sleep."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Distracted by Nature",
+										"entries": [
+											"Glasswails are undoubtedly beautiful and draw the eye, but they are also fascinated by beauty themselves. In particular, they have a fondness for the natural world where little animals, such as birds and squirrels, make for good friends."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Immortal",
+										"entries": [
+											"The magic and torment that creates a glasswail destroys the physical body and imprisons the soul. Without flesh that would eventually decay, a glasswail gains immortality, allowing them to live for as long as their soul remains trapped. If the glasswail’s body is destroyed, however, the soul escapes, and the glasswail dies."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Ocean Strider",
+			"size": [
+				"H"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d12 + 140",
+				"average": 280
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 60
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 24,
+			"int": 16,
+			"wis": 22,
+			"cha": 16,
+			"passive": 20,
+			"cr": "18",
+			"page": 76,
+			"senses": [
+				"darkvision 120 ft.",
+				"tremorsense 60 ft."
+			],
+			"senseTags": [
+				"SD",
+				"T"
+			],
+			"languages": [
+				"Aquan",
+				"Common",
+				"Primordial",
+				"and one other language"
+			],
+			"languageTags": [
+				"AQ",
+				"C",
+				"P",
+				"X"
+			],
+			"save": {
+				"con": "+12",
+				"wis": "+11",
+				"str": "+10"
+			},
+			"skill": {
+				"arcana": "+8",
+				"insight": "+11",
+				"nature": "+11",
+				"perception": "+11"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from  nonmagical attacks"
+				}
+			],
+			"immune": [
+				"acid",
+				"cold",
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"paralyzed",
+				"poisoned",
+				"prone"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The ocean strider’s innate spellcasting ability is Wisdom (spell save {@dc 20}). The ocean strider can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell create or destroy water}",
+						"{@spell detect magic}",
+						"{@spell fog cloud}",
+						"{@spell purify food and drink}",
+						"{@spell water breathing}",
+						"{@spell water walk}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell blight}",
+							"{@spell conjure animals} (aquatic only)",
+							"{@spell gust of wind}",
+							"{@spell ice storm}",
+							"{@spell summon elemental|TCE} (water only)"
+						],
+						"1e": [
+							"{@spell cloudkill}",
+							"{@spell control weather}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"I",
+				"N"
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"An ocean strider has gills as well as lungs, so it can breathe water as well as air."
+					]
+				},
+				{
+					"name": "Collision",
+					"entries": [
+						"If the ocean strider moves at least 40 feet straight towards a target then hits it with a melee attack, the target takes an extra 30 ({@damage 6d8 + 5}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Combat Caster",
+					"entries": [
+						"The ocean strider can make an additional falchion attack after casting a spell."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the ocean strider’s choice that is within 120 feet of the ocean strider and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the ocean strider’s Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The ocean strider has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Speak with Ocean Creatures",
+					"entries": [
+						"The ocean strider can speak with aquatic creatures as if they shared a language."
+					]
+				},
+				{
+					"name": "Undersea Camouflage",
+					"entries": [
+						"The ocean strider has advantage on Dexterity (Stealth) checks made while underwater."
+					]
+				},
+				{
+					"name": "Water Walk",
+					"entries": [
+						"The ocean strider can move across the surface of water as if it were solid land, without needing to make an ability check. Additionally, difficult terrain composed of water doesn’t cost it extra movement."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone",
+				"restrained"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ocean strider makes three melee attacks"
+					]
+				},
+				{
+					"name": "Falchion",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) slashing damage."
+					]
+				},
+				{
+					"name": "Net",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 60/120 ft., one Large or smaller creature. {@h} The target is {@condition restrained} by netting. As an action, the {@condition restrained} targets can make a {@dc 19} Strength check, bursting the net on a success. The net can also be attacked and destroyed (AC 19; hp 50; immunity to bludgeoning, poison, and psychic damage)."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"This 20-foot-tall, orca-patterned giant is a guardian of the fey seas. It calmly stalks the surface of peaceful waters, surrounded by ocean predators and sheathed in mists. The ocean strider seems concerned only with the whims of the sea. It destroys crafts and creatures with equal ease, not for territory or protection but simply because they’re in its path. Those foolish enough to challenge an ocean strider quickly find themselves beset upon not only by ocean predators, but by elemental and fey forces called to its will by the conchshell trumpet it carries.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Territorial",
+										"entries": [
+											"Ocean striders can be very territorial, fiercely guarding a range of ocean floor. They are likely to warn intruders that they are trespassing."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Redcap Abomination",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d6 + 42",
+				"average": 91
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 18,
+			"con": 16,
+			"int": 12,
+			"wis": 16,
+			"cha": 8,
+			"passive": 16,
+			"cr": "6",
+			"page": "77-78",
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"skill": {
+				"acrobatics": "+7",
+				"athletics": "+6",
+				"perception": "+6",
+				"stealth": "+7",
+				"survival": "+6"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the redcap abomination has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the redcap abomination scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Iron Boots",
+					"entries": [
+						"While moving, the redcap has disadvantage on Dexterity (Stealth) checks."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The redcap abomination can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Standing Leap",
+					"entries": [
+						"The redcap abomination's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The redcap makes any two attacks with its acidic spit or its blade appendage."
+					]
+				},
+				{
+					"name": "Acidic Spit",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 30/90, one target. {@h}14 ({@damage 4d4 + 4}) acid damage."
+					]
+				},
+				{
+					"name": "Blade Appendage",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Pin Down",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}18 ({@damage 4d6 + 4}) piercing damage and the target is {@condition restrained} (escape {@dc 14}) by the redcap abomination. While {@condition restrained} this way, the target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. The redcap can grapple up to two creatures at the same time."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"RCH"
+			],
+			"damageTags": [
+				"A",
+				"P",
+				"S"
+			],
+			"conditionInflict": [
+				"prone",
+				"restrained"
+			],
+			"bonus": [
+				{
+					"name": "Execute",
+					"entries": [
+						"The redcap can make a blade appendage attack against one creature {@condition restrained} by it."
+					]
+				}
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"One can call redcaps many things, but the one thing they are not is subtle. At least the majority of them. Redcap abominations are a degrading exception that instills fear in the hearts of the bravest adventurers. Whatever powers turn the already disgraceful creatures into such foul monsters must be most vile.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Gruesome Monstrosity",
+										"entries": [
+											"An abomination extends six insectoid appendages from beneath its red cap, each of them ending with a razor-sharp elongated claw. What was once its face turns into a horrific maw filled with acidic glands. The rest of its former body hangs inertly between the new legs, and the iron boots clank with the monster’s every step. However, while standing still, an abomination becomes a cunning ambusher that waits for an opening instead of charging blindly into combat.",
+											"Redcap abominations undergo a horrific physical transformation, but their psychology changes as well. They are smarter than ordinary redcaps and are capable of employing more advanced tactics that require prior preparation. Their senses sharpen, allowing abominations to stalk their prey. Even though they show some semblance of self-control, their filthy desires, and blood lust are ever-present."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Redcap Blood Pursuer",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d6 + 44",
+				"average": 82
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 18,
+			"dex": 15,
+			"con": 18,
+			"int": 10,
+			"wis": 12,
+			"cha": 11,
+			"passive": 14,
+			"cr": "5",
+			"page": "77-78",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"skill": {
+				"athletics": "+7",
+				"perception": "+4"
+			},
+			"trait": [
+				{
+					"name": "Iron Boots",
+					"entries": [
+						"While moving, the redcap has disadvantage on Dexterity (Stealth) checks."
+					]
+				},
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The redcap blood pursuer has advantage on melee attack rolls  against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Bloodied Transference",
+					"entries": [
+						"The redcap regains 10 hit points at the start of its turn if it has at  least 1 hit point and dealt damage during its last turn."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the redcap blood pursuer has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Outsize Strength",
+					"entries": [
+						"While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The redcap makes three attacks with its wicked sickle."
+					]
+				},
+				{
+					"name": "Wicked Sickle",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Binding Blood",
+					"entries": [
+						"The redcap reduces its hit points by 9 ({@dice 2d8}) and sends out a wave of coagulating blood. Each creature of the redcap’s choice within 20 feet of it must make a {@dc 15} Strength saving throw, taking 13 ({@damage 3d8}) necrotic damage and becoming {@condition restrained} on a failure. A creature that succeeds on the save takes half damage and isn’t {@condition restrained}. A {@condition restrained} target can use its action to make a {@dc 15} Strength check to free itself."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"bonus": [
+				{
+					"name": "Blood Pursuit",
+					"entries": [
+						"The redcap can move up to its speed toward a creature that doesn’t have all its hit points."
+					]
+				}
+			],
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Known for their insatiable bloodlust, an ordinary redcap pales in comparison with blood pursuers. These maniac fey creatures are born when a redcap soaks its hat in a vampire’s blood. They are the personification of a maddening hatred toward all living beings, fueled by vampiric powers.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Real Carnage",
+										"entries": [
+											"While not affected by the dark gift, blood pursuers possess similar strengths and weaknesses to vampires. They are stronger than other redcaps and much more agile. The mere sight of blood turns these already homicidal creatures into ferocious and relentless killing machines. Sunlight has adverse effects on blood pursuers, but it isn’t nearly as deadly for them as for vampires. If the redcap does not soak its hat in a vampire’s blood again within three days, the creature returns to its ordinary form."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Bloodbathed Servitude",
+										"entries": [
+											"Clever vampires, especially spellcasters, sometimes summon redcaps from the Feywild. They offer the fey their blood in turn for servitude. A redcap is not capable of refusing such a generous offer that allows it to become even better at what it does best—murder. Blood pursuers tend to follow every order of their vampire master so that they never miss out on the sanguine donation."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Redcap Smasher",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d6 + 32",
+				"average": 60
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 18,
+			"int": 7,
+			"wis": 11,
+			"cha": 9,
+			"passive": 12,
+			"cr": "4",
+			"page": "77-78",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"skill": {
+				"athletics": "+6",
+				"perception": "+2"
+			},
+			"trait": [
+				{
+					"name": "Iron Boots",
+					"entries": [
+						"While moving, the redcap has disadvantage on Dexterity (Stealth) checks."
+					]
+				},
+				{
+					"name": "Mighty Blows",
+					"entries": [
+						"When the redcap hits with any weapon, the weapon deals an extra 5 ({@damage 2d4}) damage (included in the weapon attacks below)."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the redcap can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Simple Purposed",
+					"entries": [
+						"The redcap has advantage on saving throws against being {@condition charmed} and {@condition frightened}."
+					]
+				},
+				{
+					"name": "Outsize Strength",
+					"entries": [
+						"While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The redcap makes three attacks with its spiked maul."
+					]
+				},
+				{
+					"name": "Spiked Maul",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}14 ({@damage 4d4 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Ironbound Pursuit",
+					"entries": [
+						"The redcap moves up to its speed to a creature it can see and kicks with its iron boots. The target must succeed on a {@dc 15} Dexterity saving throw or take 20 ({@damage 3d10 + 4}) bludgeoning damage and be knocked {@condition prone}."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"B"
+			],
+			"bonus": [
+				{
+					"name": "Blood Pursuit",
+					"entries": [
+						"The redcap can move up to its speed toward a creature that doesn’t have all its hit points."
+					]
+				}
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"environment": [
+				"feywild",
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Redcap smashers are born from the blood spilled during extremely brutal and senseless acts of violence. They are blinded by bloody rage and lack even the slightest cleverness exhibited by other redcaps. A smasher’s life is short and filled with an intense outrage; if it does not kill and soak its hat in blood every other day, the smasher’s body withers and dies.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "No Restraint",
+										"entries": [
+											"Redcap smashers do not waste time on thinking. Constant action is the way of their turbulent and short lives. A moment during which a smasher does not pursue the next victim is a moment wasted. The sole reason for their existence is to extend the pain and harm caused by the act which created them. The potency of that vile act bestows upon them even greater strength. Smashers are deadly opponents who are capable of taking multiple hits without a flinch."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Shambling Bouquet",
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 45",
+				"average": 127
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 20
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 16,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"passive": 10,
+			"cr": "4",
+			"page": 79,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"senseTags": [
+				"B"
+			],
+			"immune": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"exhaustion"
+			],
+			"trait": [
+				{
+					"name": "Debilitating Incense",
+					"entries": [
+						"Whenever the shambling bouquet takes fire damage, all creatures within 30 ft. must make a {@dc 13} Constitution saving throw. On a failed save, a creature gains disadvantage on its attacks until it moves 30 ft. away from the shambling bouquet’s burning scent."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The shambling bouquet makes two slam attacks. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 13}), and the shambling bouquet uses its Floral Engulf on it. "
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Floral Engulf",
+					"entries": [
+						"The shambling bouquet engulfs a Medium or smaller creature {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and it must succeed on a {@dc 13} Constitution saving throw at the start of each of the bouquet’s turns or take 13 ({@damage 2d8 + 4}) piercing damage from its twisting thorns. If the bouquet moves, the engulfed target moves with it. The bouquet can have only one creature engulfed at a time."
+					]
+				}
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"environment": [
+				"feywild",
+				"grasslands",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Humanoids are not the only creatures that accidentally stumble into the Feywild. Animals sometimes wander through a fey crossing as well. Perhaps the most common of these is the cat. Whether it’s through a sixth sense of some kind or a calling, cats frequently cross over into the Feywild, and while there, they can become a shimmer cat.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Altered Being",
+										"entries": [
+											"Whether it’s through eating the flora and fauna that the Feywild has to offer, absorbing native magic energies, or just spending a significant amount of time on the plane, shimmer cats have transformed into a stronger and more magical version of a typical housecat. Sages suggest that it is most likely exposure to Feywild flora that results in the transformation, especially if the cat ingests fey flowers."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Hidden Danger",
+										"entries": [
+											"The shambling bouquet can blend in anywhere where one might reasonably believe there to be a patch of flowers. The Feywild’s particularly bright landscape is well suited to hide these shamblers. They can be incredibly still, lying dormant for days as they wait for movement to trigger a strike. If a nearby humanoid is wearing something eye-catching, the bouquet might spring to life and attack."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Eladrin Playthings",
+										"entries": [
+											"Eladrin nobility compete to see who can produce the most stunning shambling bouquet either by placing them in the path of specific flowers or even using magic to cause particular flowers to transform into a shambler. Flowers that are native to the Feywild are common targets for this practice. If a shambling bouquet consumes a dangerous flower, it may create additional challenges for anyone in its vicinity."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Hardened by Nature",
+										"entries": [
+											"Shambling bouquets are used to surviving the elements. Bouquets ignore cold temperatures and lightning strikes, but fire causes these shamblers to release a fragrance that overwhelms enemies."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Accumulated Body",
+										"entries": [
+											"Like a shambling strider, a bouquet has a central root-stem hidden inside its mass. Surrounding that stem is layer after layer of accumulated plant material. While some of the flowers within it are rotting, the upper layers are typically quite beautiful so much so that they are sometimes used as actual bouquets."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Regrowth",
+										"entries": [
+											"Sensing defeat, a shambling bouquet may fake death, falling into a heap. If it is not killed, its rootstem slowly regrows its body so that it may shamble about once more."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Shimmer Cat",
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "11d4 + 11",
+				"average": 38
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"passive": 13,
+			"cr": "1",
+			"page": 80,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"trait": [
+				{
+					"name": "Darkness Camouflage",
+					"entries": [
+						"The shimmer cat has advantage on Dexterity (Stealth) checks made to hide in dim light or darkness."
+					]
+				},
+				{
+					"name": "Flower Step",
+					"entries": [
+						"Once per turn, the shimmer cat can use 10 feet of its movement to step magically into one living flower within its reach and immediately emerge from a second living flower within 40 feet of the first flower, appearing in an unoccupied space within 5 feet of the second flower. "
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The shimmer cat has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The shimmer cat has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}11 ({@damage 3d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}9 ({@damage 3d4 + 2}) slashing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"environment": [
+				"desert",
+				"feywild",
+				"forest",
+				"grassland",
+				"jungle",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Humanoids are not the only creatures that accidentally stumble into the Feywild. Animals sometimes wander through a fey crossing as well. Perhaps the most common of these is the cat. Whether it’s through a sixth sense of some kind or a calling, cats frequently cross over into the Feywild, and while there, they can become a shimmer cat.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Altered Being",
+										"entries": [
+											"Whether it’s through eating the flora and fauna that the Feywild has to offer, absorbing native magic energies, or just spending a significant amount of time on the plane, shimmer cats have transformed into a stronger and more magical version of a typical housecat. Sages suggest that it is most likely exposure to Feywild flora that results in the transformation, especially if the cat ingests fey flowers."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shimmery Sheen",
+										"entries": [
+											"Shimmer cats get their name from the glittery sheen that covers their fur. Surprisingly, this sheen does not make them easier to spot. Rather, it acts as a camouflage making them hard to identify at a distance."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Among the Flowers",
+										"entries": [
+											"For some reason, shimmer cats are drawn to flowers wherever they go. Perhaps it is because they can use them as a means of transport by entering one flower and exiting next to another. When this happens, there is a flash of light as the shimmer cat disappears."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Fall Protection",
+										"entries": [
+											"Like normal housecats, shimmer cats can avoid injury when falling from a height of 200 feet or less."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Prized Possession",
+										"entries": [
+											"Shimmer cats are prized by eladrin and archfey as familiars and pets. In fact, some shimmer cats are made by fey who take the cat from the Material Plane to the Feywild for that purpose."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Surprising Strength",
+										"entries": [
+											"Other than its shimmery fur, a shimmer cat looks like an ordinary housecat. As such, creatures can sometimes underestimate its strength."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Thieves in the Night",
+										"entries": [
+											"Shimmer cats are notorious for their propensity to steal small objects from anyone and everyone usually under the cover of darkness. If they are a pet or a familiar, they often present these stolen goods to their owner as an offering of sorts. Unlike housecats, they never present dead animals as gifts to their owners."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Wendigo",
+			"size": [
+				"L"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "15d10 + 30",
+				"average": 112
+			},
+			"speed": {
+				"fly": {
+					"number": 120,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 20,
+			"dex": 18,
+			"con": 10,
+			"int": 10,
+			"wis": 14,
+			"cha": 20,
+			"passive": 17,
+			"cr": "8",
+			"page": 81,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Primordial",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"P",
+				"S"
+			],
+			"skill": {
+				"perception": "+5",
+				"stealth": "+7",
+				"survival": "+5"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"cold",
+				"necrotic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"environment": [
+				"arctic",
+				"feywild",
+				"swamp"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The wendigo’s innate spellcasting ability is Charisma (spell save {@dc 16}). The wendigo can innately cast the following spells, requiring no components:"
+					],
+					"will": [
+						"{@spell minor illusion}",
+						"{@spell thaumaturgy}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell faerie fire}",
+							"{@spell ice knife|XGE}",
+							"{@spell invisibility}"
+						],
+						"1e": [
+							"{@spell ice storm}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"B",
+				"C",
+				"P"
+			],
+			"trait": [
+				{
+					"name": "Cold Stalker",
+					"entries": [
+						"The wendigo has advantage on all Dexterity checks (including attempts to use the Hide action) so long as it is in naturally cold weather."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The wendigo has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The wendigo regains 10 hit points at the start of its turn. If the wendigo takes fire damage, this trait doesn’t function at the start of the wendigo’s next turn. The wendigo dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The wendigo makes two bite attacks each round."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. On a hit, the target must succeed on a {@dc 16} Constitution saving throw (undead and constructs automatically succeed), or it takes 26 ({@damage 7d6 + 2}) necrotic damage."
+					]
+				},
+				{
+					"name": "Maddening Whispers",
+					"entries": [
+						"The wendigo targets a creature within 120 feet of it that the wendigo can see. The target experiences a stream of psychic assaults and must succeed on a {@dc 16} Charisma saving throw or suffer a level of {@condition exhaustion} from mental fatigue. If the creature fails the saving throw, they are unaware of the source of their mental fatigue, only that they find the struggle through the local weather immeasurably difficult. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the wendigo’s Maddening Whispers for the next 24 hours. "
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"N",
+				"P"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"An emaciated man-beast of the frozen reaches, the wendigo is a haggard shuffling of bone and sinew seeking to fill its insatiable appetite for flesh. The wendigo lures its prey with maddening whispers and confusing magic. Their lairs are shrines to their greed, filled with gold and silver from longdead victims. A wendigo can never fulfill this hunger. It only grows in muscle and bone with every meal, grave-gray skin stretching taught over its elongated, skeletal form.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Remnants of the Past",
+										"entries": [
+											"A wendigo was once an ordinary humanoid that through some misfortune became a ravenous spirit. Sometimes the appearance of a wendigo holds clues to its former life. "
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Silent Stalker",
+										"entries": [
+											"Wendigos prefer to stalk their prey using Maddening Whispers to confuse and disorient their victims before they attack."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Wild Reveler",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "27d8 + 81",
+				"average": 202
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 12,
+			"dex": 18,
+			"con": 16,
+			"int": 10,
+			"wis": 17,
+			"cha": 20,
+			"passive": 13,
+			"cr": "10",
+			"page": 82,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"save": {
+				"dex": "+7",
+				"wis": "+6",
+				"cha": "+8"
+			},
+			"skill": {
+				"persuasion": "+8",
+				"performance": "+8",
+				"insight": "+6"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons that aren't made from pure iron"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Step {@recharge 5}",
+					"entries": [
+						"At the beginning of its turn, the wild reveler can teleport up to 60 feet into an unoccupied space that it can see. "
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The wild reveler has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Otherworldly Nature",
+					"entries": [
+						"The wild reveler is immune to being {@condition charmed} and magic can’t put it to sleep."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The wild reveler’s spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell druidcraft}",
+						"{@spell faerie fire}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell confusion}",
+							"{@spell crown of madness}",
+							"{@spell cure wounds}",
+							"{@spell dissonant whispers}"
+						],
+						"1e": [
+							"{@spell dominate person}",
+							"{@spell Otto's irresistible dance}",
+							"{@spell sunbeam}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"R",
+				"Y"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 bludgeoning damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"B"
+			],
+			"bonus": [
+				{
+					"name": "Commanding Charm",
+					"entries": [
+						"The wild reveler can cause any creature it has afflicted with a magical effect within 30 feet of it to make an attack against another target it can see."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "One With the Crowd",
+					"entries": [
+						"As a response to being hit by an attack, the wild reveler can vanish and reappear next to a creature within 30 feet of it, taking no damage from the attack. The wild reveler must be afflicting the creature with a magical effect in order to teleport to it, otherwise the ability fails."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"feywild",
+				"jungle",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Spirits of indulgence and endless whim, wild revelers are humanoid faeries that feed on celebration. Their joyful demeanor and social nature hide a rather cruel intent, however—they’re willing to do whatever it takes to keep a celebration going. They thrive off of noise and raucous music, growing more powerful with each humanoid under their control.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Far Traveled",
+										"entries": [
+											"Wild revelers can be found wherever there is music or a significant amount of noise. They are most frequently encountered in urban areas, but have been spotted traveling alongside desert caravans or in jungle tribes."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Noisemakers",
+										"entries": [
+											"If a wild reveler can’t find a source of music or other suitable commotion, it may use an instrument such as a flute or lyre to make music of its own. There are even stories of wild revelers kidnapping bards or performers to draw a crowd."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Winter Witch",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"source": "FeyCom",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d8 + 48",
+				"average": 156
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 30,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 14,
+			"int": 18,
+			"wis": 16,
+			"cha": 18,
+			"passive": 16,
+			"cr": "12",
+			"page": 83,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Primordial",
+				"Sylvan",
+				"and can speak with animals"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"P",
+				"S"
+			],
+			"save": {
+				"con": "+6",
+				"int": "+8",
+				"cha": "+8"
+			},
+			"skill": {
+				"deception": "+8",
+				"perception": "+7",
+				"persuasion": "+8",
+				"stealth": "+7"
+			},
+			"resist": [
+				"psychic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"immune": [
+				"cold"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened"
+			],
+			"trait": [
+				{
+					"name": "Ice Walk",
+					"entries": [
+						"The winter witch can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost her extra movement."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The winter witch’s weapon attacks are magical and do an extra 3 ({@damage 1d6}) cold damage (included in Actions)."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The winter witch’s innate spellcasting ability is Charisma (spell save {@dc 18}). The winter witch can innately cast the following spells, requiring no material components: "
+					],
+					"will": [
+						"{@spell charm person}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell heat metal | phb | chill metal} (like heat metal but deals cold damage)",
+							"{@spell greater invisibility}",
+							"{@spell hold person}",
+							"{@spell wall of ice}"
+						],
+						"1e": [
+							"{@spell cone of cold}",
+							"{@spell control weather}",
+							"{@spell dominate person}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"C"
+			],
+			"traitTags": [
+				"Magic Weapons"
+			],
+			"damageTags": [
+				"B",
+				"C",
+				"P"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The winter witch makes two attacks in any combination, or makes one attack and casts one spell. "
+					]
+				},
+				{
+					"name": "Frost Staff",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 1}) bludgeoning damage and 3 ({@damage 1d6}) cold damage."
+					]
+				},
+				{
+					"name": "Frozen Touch {@recharge}",
+					"entries": [
+						"When the winter witch hits a creature with a melee attack, she may encase that creature in ice. The target must make a {@dc 18} Constitution saving throw. On a successful save, the target has its speed reduced by 10 feet for 1 minute. On a failed save, the target becomes frozen, taking an additional 25 ({@damage 4d8 + 4}) cold damage and becoming {@condition paralyzed} for 1 minute. A creature can repeat this save at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Ice Dagger",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 7 ({@damage 2d6}) cold damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"bonus": [
+				{
+					"name": "Cold Aura",
+					"entries": [
+						"The winter witch can chill the area in a 10-foot radius sphere around her for up to 1 minute. Characters who end their turn in this aura must succeed on a {@dc 18} Constitution saving throw or take 7 ({@damage 2d6}) cold damage and suffer a level of {@condition exhaustion}."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"The winter witch can make one frost staff or ice dagger attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"The winter witch can move up to half its speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 2 Actions)",
+					"entries": [
+						"The winter witch casts a spell from its list of spells."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"feywild",
+				"grassland",
+				"mountain"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"These snow-skinned fey are known to appear in the heart of winter storms, where they surround themselves with the icy cold winter of the Unseelie Court. They radiate cold in an aura of frost that is said to stop would-be attackers in their steps. With white eyes, the winter witch pierces into the depths of souls. A winter witch’s voice is said to be little more than a whisper of warning on a dagger-sharp wind. Encountering a winter witch is a sign you have traveled far too deep into Unseelie territory. Hearing the witch’s voice likely precedes your last chill breath before being buried in the falling snow."
+						]
+					}
+				]
+			}
+		}
+	],
+	"spell": [
+		{
+			"name": "Alter Pereception",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You reshape the way a creature sees the world. Choose a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, the target’s vision becomes impaired. Choose one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Brightened",
+							"entries": [
+								"Shimmering sparks float through the target’s field of view. The target has disadvantage on ranged attacks."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Flipped Vision",
+							"entries": [
+								"The target’s world appears to be turned upside down. The target has disadvantage on Dexterity (Acrobatics or Sleight of Hand) checks."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Monochrome",
+							"entries": [
+								"The target’s vision appears as if through colored glass. The target has disadvantage on Wisdom (Perception) checks."
+							]
+						}
+					]
+				},
+				"At the end of each of its turns, the target can make an Intelligence saving throw. On a success, the spell ends."
+			],
+			"source": "FeyCom",
+			"page": 37,
+			"components": {
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"abilityCheck": [
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Arcane Hold",
+			"level": 4,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You summon an arcane hold around a creature you can see within range. Make a ranged spell attack against the target. On a hit, the energy prevents the target from using spells or abilities that involve teleportation or extradimensional movement. The hold does not prevent summoned creatures from disappearing."
+			],
+			"source": "FeyCom",
+			"page": 37,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for every two slot levels above 4th."
+					]
+				}
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"SGT",
+				"TP"
+			]
+		},
+		{
+			"name": "Faerie Frollick",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You summon a frollick (a group of faeries) which fill a 30-foot cone. Each creature in that cone must make a Charisma saving throw as they are battered by the semi-corporeal fey spirits. A creature takes {@damage 4d12} psychic damage on a failed save, or half as much damage on a successful one."
+			],
+			"source": "FeyCom",
+			"page": 37,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"N"
+			]
+		},
+		{
+			"name": "Glamour of Vanity",
+			"level": 2,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You weave a complex glamour, causing yourself, your clothing, your armor, your weapons, and other belongings on your person to take on an attractive appearance to all who see you. The prismatic nature of the disguise means multiple targets may see different visages, depending on their desires and inclinations. "
+			],
+			"source": "FeyCom",
+			"page": 37,
+			"components": {
+				"v": true,
+				"s": true
+			}
+		},
+		{
+			"name": "Imperfect Reflection",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Choose a willing creature within range. You create a shadowy duplicate of the target that is friendly to you. The duplicate has the same statistics as the target. When the duplicate takes damage, the target takes the same amount of damage. If the duplicate is reduced to 0 hit points, it disappears. The duplicate shares the target’s initiative but only can move and take the Attack or Help actions on its turn. A critical hit on a duplicate shatters it like glass and kills it instantly. "
+			],
+			"source": "FeyCom",
+			"page": 37,
+			"components": {
+				"s": true,
+				"m": "a broken handheld mirror"
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 7th level or higher, the number of duplicates increases by one for each slot level above 6th."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SCL",
+				"SMN"
+			]
+		},
+		{
+			"name": "Mind Fog",
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You touch a creature, and that creature must succeed on a Wisdom saving throw. On a failed save, the target takes {@damage 2d8} psychic damage and experiences a mind fog that causes it to have disadvantage on attack rolls. On a successful save, the target takes half damage and does not experience mind fog. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"source": "FeyCom",
+			"page": 38,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Pain Bond",
+			"level": 6,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Touch a creature and make a melee spell attack. On a hit, this spell connects you to the target for the duration. While connected, damage you take is halved with half being transferred to the target.",
+				"The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either you or the target."
+			],
+			"source": "FeyCom",
+			"page": 38,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a twig bound with string tied in knots"
+			},
+			"spellAttack": [
+				"M"
+			]
+		},
+		{
+			"name": "Polymorph Object",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"This spell transforms a nonmagical object that you can see within range into a different nonmagical object. The new object must be one you have seen and must fit within a cube the same size as the target. This spell cannot create material of greater intrinsic value than the target object. "
+			],
+			"source": "FeyCom",
+			"page": 38,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "skin shed from a snake"
+			}
+		},
+		{
+			"name": "Reflect/Refract",
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You attempt to reflect or refract the effects of a spell that targets only you. If the spell is of 5th level or lower, it has no effect on you. Instead, choose a different creature within 30 feet of you. The chosen creature becomes the target of the spell. This spell can transfer the attack’s effects regardless of the spell’s range. If the spell is of 5th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the spell is reflected or refracted."
+			],
+			"source": "FeyCom",
+			"page": 38,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the spell that is targeting you is reflected or refracted if its level is less than or equal to the level of the spell slot you used."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Shout",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You emit a loud scream that deafens and damages creatures within a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature is {@condition deafened} and takes {@damage 5d6} thunder damage. On a successful save, a creature is not {@condition deafened} and takes half damage. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
+			],
+			"source": "FeyCom",
+			"page": 38,
+			"components": {
+				"v": true
+			},
+			"conditionInflict": [
+				"deafened"
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"areaTags": [
+				"N"
+			]
+		},
+		{
+			"name": "Tasha's Otherworldly Grove",
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 4
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You conjure an extradimensional grove in range that lasts for the duration. You choose where its one entrance is located. The entrance is 5 feet wide, 10 feet tall, and {@condition invisible}, but it can be made briefly visible by you via a command word or gesture of your choice. You and up to 10 creatures you designate when you cast the spell can enter the grove as long as it exists. ",
+				"Beyond the entrance is a small grove of vegetation similar to the material component used to cast this spell. The grove measures 30 feet by 30 feet, and you decide the time of day within the area. Despite the weather outside of the space, the grove itself is at a temperature comfortable to each individual within the space. A light fog covers the area, which feels like a warm blanket. Since time passes differently within the grove, the 4-hour duration lasts for 8 hours inside of it."
+			],
+			"source": "FeyCom",
+			"page": 38,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a miniature portal carved from soapstone and wrapped in vegetation from the Feywild, worth at least 25 gp",
+					"cost": 2500
+				}
+			}
+		},
+		{
+			"name": "Thornskin",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You channel fey magic to cause thorns to erupt across your skin, making you a dangerous foe to grasp and capable of delivering thorny attacks. Until this spell ends or you dismiss it as an action, you can use your action to make a melee spell attack. On a hit, the target takes {@damage 1d8} piercing damage. ",
+				"While this spell is active, any creature grappling you or creature you are grappling takes {@damage 1d8} piercing damage at the start of its turn as the thorns cut into them. ",
+				"This spell’s attack damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+			],
+			"source": "FeyCom",
+			"page": 39,
+			"components": {
+				"v": true
+			},
+			"damageInflict": [
+				"piercing"
+			],
+			"spellAttack": [
+				"M"
+			]
+		},
+		{
+			"name": "Transpose",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Choose two creatures of Small or Tiny size to swap places. An unwilling target must succeed on a Charisma saving throw to resist the swap. Alternatively, you may choose two objects of Small or Tiny size to swap places. If the target is being carried by an unwilling creature, the creature must succeed on a Charisma saving throw to resist the swap. "
+			],
+			"source": "FeyCom",
+			"page": 39,
+			"components": {
+				"v": true,
+				"m": "a switch of willow"
+			},
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a slot of 4th level or higher, you may target objects and creatures of one size larger per spell slot."
+					]
+				}
+			],
+			"miscTags": [
+				"SCL"
+			],
+			"abilityCheck": [
+				"charisma"
+			]
 		}
 	]
 }
