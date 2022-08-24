@@ -5440,5 +5440,287 @@
 				"charisma"
 			]
 		}
+	],
+	"subclass": [
+		{
+			"name": "Calligrapher",
+			"shortName": "Calligrapher",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Calligrapher|Artificer|tce|Calligrapher|FeyCom|3",
+				"Calligrapher Spells|Artificer|tce|Calligrapher|FeyCom|3",
+				"Arcane Symbols|Artificer|tce|Calligrapher|FeyCom|3",
+				"Between the Lines|Artificer|tce|Calligrapher|FeyCom|5",
+				"Arcana Savant|Artificer|tce|Calligrapher|FeyCom|9",
+				"Greater Symbols|Artificer|tce|Calligrapher|FeyCom|15"
+			],
+			"subclassSpells": [
+				"healing word",
+				"protection from evil and good",
+				"augury",
+				"suggestion",
+				"mass healing word",
+				"sending",
+				"dimension door",
+				"divination",
+				"scrying",
+				"teleportation circle"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"healing word",
+							"protection from evil and good"
+						],
+						"5": [
+							"augury",
+							"suggestion"
+						],
+						"9": [
+							"mass healing word",
+							"sending"
+						],
+						"13": [
+							"dimension door",
+							"divination"
+						],
+						"17": [
+							"scrying",
+							"teleportation circle"
+						]
+					}
+				}
+			],
+			"className": "Artificer",
+			"classSource": "tce"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Calligrapher",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 11,
+			"entries": [
+				"A calligrapher is a master of words. Calligraphers may have studied under otherworldly beings like fey, or they may have received their gifts from divine inspiration. No matter how they learned their craft, words are the building blocks of the calligrapher's tool kit and can be used to devastating effect. In the case of the calligrapher, the pen (or the brush) is definitely mightier than the sword."
+			]
+		},
+		{
+			"name": "Calligrapher Spells",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 11,
+			"entries": [
+				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Calligrapher Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Calligrapher Spells",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"Artificer Level",
+						"Spells"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell healing word}, {@spell protection from evil and good}"
+						],
+						[
+							"5th",
+							"{@spell augury}, {@spell suggestion}"
+						],
+						[
+							"9th",
+							"{@spell mass healing word}, {@spell sending}"
+						],
+						[
+							"13th",
+							"{@spell dimension door}, {@spell divination}"
+						],
+						[
+							"17th",
+							"{@spell scrying}, {@spell teleportation circle}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Symbols",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": "11-12",
+			"entries": [
+				"Your prowess over the power of written symbols allows you to create spell effects. These symbols can be written on paper, but the power comes from the motion used. You can write on any surface or even in mid-air if no surfaces are available.",
+				"Use an action to write one of the following symbols:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Aid",
+									"entries": [
+										"A willing creature you can see within 60 feet of you is bolstered with toughness and resolve. The target's hit point maximum and current hit points increase by 10 for 8 hours."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Destroy",
+									"entries": [
+										"A creature you can see within 60 feet of you must make a Constitution saving throw, taking {@damage 4d10} necrotic damage on a failed save, or half as much on a successful one."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Dispel",
+									"entries": [
+										"Choose a creature, object, or magical effect within 60 feet of you. You end the effects of a spell on the target if the spell is 2nd level or lower. For each spell of 3rd level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell's effects end."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Fear",
+									"entries": [
+										"Choose any number of creatures that you can see within 30 feet of you. Each target must make a successful Wisdom saving throw or become {@condition frightened} for 1 minute or until your concentration ends (as if you were concentrating on a spell). While frightened, the target drops whatever it is holding and must move at least 30 feet away from you on each of its turns, if able. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Pain",
+									"entries": [
+										"A creature you can see within 60 feet of you must make a Constitution saving throw. On a failed save, it becomes {@condition incapacitated} with excruciating pain for 1 minute or until your concentration ends (as if you were concentrating on a spell). The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Protect",
+									"entries": [
+										"A willing creature you can see within 60 feet of you becomes more durable. The target has resistance to nonmagical bludgeoning, piercing, and slashing damage for the next 10 minutes or until your concentration ends (as if you were concentrating on a spell)."
+									]
+								}
+							]
+						}
+					]
+				},
+				"Saving throws for the symbols created with this feature are based on your spell save DC.",
+				"Once you have used this feature a number of times equal to your proficiency bonus, you cannot use it again until you finish a long rest. The symbols can be dispelled and interrupted as if they were spells of 3rd level.",
+				"You cannot use this feature if you are {@condition restrained}."
+			]
+		},
+		{
+			"name": "Between the Lines",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 5,
+			"page": 12,
+			"entries": [
+				"You can cast comprehend languages and illusory script at will. When you cast illusory script using this feature, it has a casting time of one action and does not require material components. Additionally, when you deal damage using an {@filter artificer|spells|level=0|class=artificer} cantrip, you may add your Intelligence modifier to the damage roll.",
+				"You also gain the ability to read written language the same way that others read body language. When you make an ability check involving written communication, you have advantage on that check"
+			]
+		},
+		{
+			"name": "Arcana Savant",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 9,
+			"page": 12,
+			"entries": [
+				"Your expertise with words gives you a better understanding of magic as a whole. You gain proficiency in the {@skill Arcana} skill. If you already have this proficiency, you may choose another skill proficiency from those available to an artificer at 1st level.",
+				"You learn an additional two infusions at this level, but they must be replicate magic item infusions. Additionally, whenever you gain a level, you can replace two of the {@filter artificer infusions|optionalfeatures|source=tce|feature type=ai} you learned with new ones",
+				"You also learn a cantrip of your choice from the {@filter artificer|spells|level=0|class=artificer} spell list."
+			]
+		},
+		{
+			"name": "Greater Symbols",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 15,
+			"page": 12,
+			"entries": [
+				"You have gained additional mastery over some of the most powerful words a mortal can wield. You learn two additional symbols. Once you have used one of these symbols, you cannot use that symbol again until you finish a long rest. Using these symbols does not count against your uses of other arcane symbols. These symbols can be dispelled and interrupted as if they were spells of 6th level.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Heal",
+									"entries": [
+										"A willing creature that you can see within 60 feet of you experiences a surge of positive energy. It regains 70 hit points. This symbol also ends {@condition blindness}, {@condition deafness}, and any diseases or curses affecting the target."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Remove",
+									"entries": [
+										"A creature that you can see within 60 feet of you must make a Dexterity saving throw. The creature takes {@damage 10d6+40} force damage on a failed save, or half that much on a successful one. If this damage reduces the creature to 0 hit points, it is disintegrated into a pile of fine gray dust along with everything it was carrying, except magic items. The creature can be restored to life only by means of a {@spell true resurrection} or {@spell wish} spell"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
 	]
 }
