@@ -286,7 +286,7 @@
 					"name": "Feature: Dream Vision",
 					"type": "entries",
 					"entries": [
-						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item—the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
+						"You may influence your dreams. Perhaps you'd like to dream about an upcoming adventure, a newfound love, or a magic item\u2014the possibilities are endless. Prior to taking a long rest, tell your DM the topic you would like to dream about. After you finish a long rest, use the Dream Results table to determine what kind of dream you had.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -566,7 +566,7 @@
 		{
 			"name": "The Butterfly Queen's Lair",
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the butterfly queen takes a lair action to cause one of the following effects; the butterfly queen can’t use the same effect two rounds in a row:",
+				"On initiative count 20 (losing initiative ties), the butterfly queen takes a lair action to cause one of the following effects; the butterfly queen can't use the same effect two rounds in a row:",
 				{
 					"type": "list",
 					"items": [
@@ -577,11 +577,11 @@
 				}
 			],
 			"regionalEffects": [
-				"The region surrounding a butterfly queen’s lair is warped by her unnatural presence, creating any of the following effects:",
+				"The region surrounding a butterfly queen's lair is warped by her unnatural presence, creating any of the following effects:",
 				{
 					"type": "list",
 					"items": [
-						"There’s a noticeable increase in the populations of butterflies, moths, and other insects. These insects may also be behaving strangely, such as being unafraid of other creatures or flying in noticeable patterns. Outside of the region, there may be a noticeable absence of butterflies as they have migrated closer to the lair.",
+						"There's a noticeable increase in the populations of butterflies, moths, and other insects. These insects may also be behaving strangely, such as being unafraid of other creatures or flying in noticeable patterns. Outside of the region, there may be a noticeable absence of butterflies as they have migrated closer to the lair.",
 						"Plants within 500 feet of the lair are overgrown or larger than you would normally expect them to be. They are also covered in dew at all times.",
 						"Daylight lasts 2 or more hours longer within 500 feet of the lair. Light seems to reflect easily and with greater intensity off the dew on plants and anything shiny."
 					]
@@ -592,24 +592,24 @@
 		{
 			"name": "A Faenorn's Lair",
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties) the faenorn can take a lair action to cause one of the following magical effects; it can’t use the same effect two rounds in a row:",
+				"On initiative count 20 (losing initiative ties) the faenorn can take a lair action to cause one of the following magical effects; it can't use the same effect two rounds in a row:",
 				{
 					"type": "list",
 					"items": [
 						"The faenorn regains a spell slot at a level of its choosing.",
 						"The faenorn calls the raw spirit of the Feywild for aid. Fey apparitions materialize and attack one creature the faenorn can see within 60 feet of it. The creature must succeed at a DC 18 Constitution saving throw, taking 52 {@damage 15d6} necrotic damage on a failed save or half as much damage on a success. The apparitions then vanish.",
-						"The faenorn twists the fate of a single target it can see within 60 feet. Until the end of the faenorn’s next turn, that target subtracts 1d6 from any attack roll, ability check, or saving throw made within 60 feet of the faenorn."
+						"The faenorn twists the fate of a single target it can see within 60 feet. Until the end of the faenorn's next turn, that target subtracts 1d6 from any attack roll, ability check, or saving throw made within 60 feet of the faenorn."
 					]
 				}
 			],
 			"regionalEffects": [
-				"The faenorn warps the nature of the Feywild to its will. Within 1 mile of the faenorn’s lair the following effects occur: ",
+				"The faenorn warps the nature of the Feywild to its will. Within 1 mile of the faenorn's lair the following effects occur: ",
 				{
 					"type": "list",
 					"items": [
 						"Weather patterns became erratic, shifting out of season or region even for the Feywild.",
 						"Spells that alter the natural state, such as {@spell control weather} and {@spell plant growth}, become especially difficult to cast. The caster must succeed at an Arcana check equal to 10 + spell level. On a failure, consult the {@table Wild Magic Surge |phb} table",
-						"Divination spells return a barrage of knowledge echoing forth from the faenorn’s vast understanding, granting significantly more information than normal but requiring the caster to make a DC 20 Wisdom saving throw or feel an overwhelming urge to flee the area."
+						"Divination spells return a barrage of knowledge echoing forth from the faenorn's vast understanding, granting significantly more information than normal but requiring the caster to make a DC 20 Wisdom saving throw or feel an overwhelming urge to flee the area."
 					]
 				}
 			],
@@ -618,13 +618,13 @@
 		{
 			"name": "Genius Loci's Lair",
 			"lairActions": [
-				"On initiative count 20 (losing initiative ties), the genius loci can take a lair action to cause one of the following effects; it can’t use the same effect two rounds in a row: ",
+				"On initiative count 20 (losing initiative ties), the genius loci can take a lair action to cause one of the following effects; it can't use the same effect two rounds in a row: ",
 				{
 					"type": "list",
 					"items": [
 						"The genius loci erupts in a terrifying display of fiery power. Any creature that can see the genius loci must succeed on a DC 25 Wisdom saving throw or be {@condition frightened} for one minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"The genius loci roars in anger, releasing a cloud of steam throughout its lair. The area becomes heavily obscured until the next initiative count 20. The genius loci is not affected by this effect.",
-						"The genius loci releases a sorrowful call. Two {@creature fire elementals | mm} appear at a point within the genius loci’s lair of its choosing. The fire elementals act on their own initiative count and defend the genius loci with their lives.",
+						"The genius loci releases a sorrowful call. Two {@creature fire elementals | mm} appear at a point within the genius loci's lair of its choosing. The fire elementals act on their own initiative count and defend the genius loci with their lives.",
 						"The genius loci casts its innate {@spell wall of fire} spell. The genius loci does not need to concentrate on this spell."
 					]
 				}
@@ -634,8 +634,8 @@
 				{
 					"type": "list",
 					"items": [
-						"A cloud of ash obscures sunlight in the area, creating dim light throughout the area. This cloud of ash can’t be cleared away. ",
-						"Choking sulfurous gas fills the air. Any non-elemental, non-fey creature that spends more than a minute in the area must succeed at a DC 25 Constitution saving throw or be {@condition poisoned} until they leave the region. Creatures immune or resistant to poison or fire automatically succeed at this saving throw as do creatures that don’t need to breathe.",
+						"A cloud of ash obscures sunlight in the area, creating dim light throughout the area. This cloud of ash can't be cleared away. ",
+						"Choking sulfurous gas fills the air. Any non-elemental, non-fey creature that spends more than a minute in the area must succeed at a DC 25 Constitution saving throw or be {@condition poisoned} until they leave the region. Creatures immune or resistant to poison or fire automatically succeed at this saving throw as do creatures that don't need to breathe.",
 						"Harmless tremors happen at regular intervals in the region. "
 					]
 				}
@@ -758,7 +758,7 @@
 						"type": "entries",
 						"entries": [
 							"Brownies are shy, quiet fey that inhabit pastoral areas untouched by civilization, such as rolling farmland or deep forests. These diminutive humanoids are rarely taller than 2 feet, and prefer simple, earth-toned clothing. When confronted by the presence of other creatures, they use their invisibility to quickly escape.",
-							"They are known to have a notorious sweet tooth, and sneak into farms and settlements seeking milk and snacks. They’re often considered a nuisance in the Feywild, but rarely a threat. If cornered, they fight with tiny fey daggers and use their surroundings to their advantage by creating tripping hazards and dangerous paths on their way to an escape.",
+							"They are known to have a notorious sweet tooth, and sneak into farms and settlements seeking milk and snacks. They're often considered a nuisance in the Feywild, but rarely a threat. If cornered, they fight with tiny fey daggers and use their surroundings to their advantage by creating tripping hazards and dangerous paths on their way to an escape.",
 							{
 								"type": "entries",
 								"entries": [
@@ -766,7 +766,7 @@
 										"type": "entries",
 										"name": "Good Natured.",
 										"entries": [
-											"Brownies always like to replace what they take if they can. But the replacement doesn’t always make sense to the recipient. For example, a brownie might leave a shoe in place of a pumpkin."
+											"Brownies always like to replace what they take if they can. But the replacement doesn't always make sense to the recipient. For example, a brownie might leave a shoe in place of a pumpkin."
 										]
 									}
 								]
@@ -1268,7 +1268,7 @@
 				{
 					"name": "Cocoon (Costs 3 Actions)",
 					"entries": [
-						"The butterfly queen encircles part of herself in a cocoon, gaining 20 temporary hit points. Attack rolls against her are made at disadvantage until the end of the butterfly queen’s next turn."
+						"The butterfly queen encircles part of herself in a cocoon, gaining 20 temporary hit points. Attack rolls against her are made at disadvantage until the end of the butterfly queen's next turn."
 					]
 				}
 			],
@@ -1401,7 +1401,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"A candleling is a living, magical candle that floats through the air on what appears to be a precious metal base. They are generally benevolent and are viewed as the antithesis of the will-o’-wisp. In fact, candlelings are often spotted in areas where will-o’-wisps and other wisps have been seen.",
+							"A candleling is a living, magical candle that floats through the air on what appears to be a precious metal base. They are generally benevolent and are viewed as the antithesis of the will-o'-wisp. In fact, candlelings are often spotted in areas where will-o'-wisps and other wisps have been seen.",
 							{
 								"type": "entries",
 								"entries": [
@@ -1409,7 +1409,7 @@
 										"type": "entries",
 										"name": "Light Language.",
 										"entries": [
-											"Candlelings use light to communicate, whether it’s casting shadows on a wall or displaying symbols and words made of light."
+											"Candlelings use light to communicate, whether it's casting shadows on a wall or displaying symbols and words made of light."
 										]
 									},
 									{
@@ -1430,7 +1430,7 @@
 										"type": "entries",
 										"name": "Youthful Difference.",
 										"entries": [
-											"It is unclear how candleling are created. However, it has been observed that the more youthful candlelings are weaker. They don’t have the ability to communicate, to heal others, or to create smoke clouds. However, the metal bases of youthful candlelings appear more polished and less aged."
+											"It is unclear how candleling are created. However, it has been observed that the more youthful candlelings are weaker. They don't have the ability to communicate, to heal others, or to create smoke clouds. However, the metal bases of youthful candlelings appear more polished and less aged."
 										]
 									},
 									{
@@ -1526,7 +1526,7 @@
 				{
 					"name": "Smoke Clour {@recharge 5}",
 					"entries": [
-						"The candleling releases a 15-foot cone of smoke. Each creature in that area must succeed on a {@dc 12} Wisdom saving throw or be {@condition blinded} until the end of the candleling’s next turn."
+						"The candleling releases a 15-foot cone of smoke. Each creature in that area must succeed on a {@dc 12} Wisdom saving throw or be {@condition blinded} until the end of the candleling's next turn."
 					]
 				}
 			],
@@ -1574,7 +1574,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"A candleling is a living, magical candle that floats through the air on what appears to be a precious metal base. They are generally benevolent and are viewed as the antithesis of the will-o’-wisp. In fact, candlelings are often spotted in areas where will-o’-wisps and other wisps have been seen.",
+							"A candleling is a living, magical candle that floats through the air on what appears to be a precious metal base. They are generally benevolent and are viewed as the antithesis of the will-o'-wisp. In fact, candlelings are often spotted in areas where will-o'-wisps and other wisps have been seen.",
 							{
 								"type": "entries",
 								"entries": [
@@ -1582,7 +1582,7 @@
 										"type": "entries",
 										"name": "Light Language.",
 										"entries": [
-											"Candlelings use light to communicate, whether it’s casting shadows on a wall or displaying symbols and words made of light."
+											"Candlelings use light to communicate, whether it's casting shadows on a wall or displaying symbols and words made of light."
 										]
 									},
 									{
@@ -1603,7 +1603,7 @@
 										"type": "entries",
 										"name": "Youthful Difference.",
 										"entries": [
-											"It is unclear how candleling are created. However, it has been observed that the more youthful candlelings are weaker. They don’t have the ability to communicate, to heal others, or to create smoke clouds. However, the metal bases of youthful candlelings appear more polished and less aged."
+											"It is unclear how candleling are created. However, it has been observed that the more youthful candlelings are weaker. They don't have the ability to communicate, to heal others, or to create smoke clouds. However, the metal bases of youthful candlelings appear more polished and less aged."
 										]
 									},
 									{
@@ -1671,7 +1671,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The centaurus’ innate spellcasting ability",
+						"The centaurus' innate spellcasting ability",
 						"is Charisma (spell save {@dc 12}). It can innately cast the following",
 						"spells, requiring no material components:"
 					],
@@ -1737,7 +1737,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"While centaurs native to the Material Plane are relatively common, their Feywild counterpart the centaurus is quite a rare creature. Like the centaur, the centaurus has a humanoid torso and the body of a horse, but the centaurus’ humanoid half bears a closer resemblance to a dryad than a mortal. As rare as the centaurus is, it can sometimes be seen galloping across the horizon in the Feywild, and such a sighting is seen as a sign of good luck in many cultures.",
+							"While centaurs native to the Material Plane are relatively common, their Feywild counterpart the centaurus is quite a rare creature. Like the centaur, the centaurus has a humanoid torso and the body of a horse, but the centaurus' humanoid half bears a closer resemblance to a dryad than a mortal. As rare as the centaurus is, it can sometimes be seen galloping across the horizon in the Feywild, and such a sighting is seen as a sign of good luck in many cultures.",
 							{
 								"type": "entries",
 								"entries": [
@@ -1759,7 +1759,7 @@
 										"type": "entries",
 										"name": "Symbiotic Nature.",
 										"entries": [
-											"The magical energy that generates around the centaurus provides sustenance for many small creatures in addition to itself. The energy from the centaurus’ wild blast in particular often attracts small insects, including butterflies. These insects get caught in the vortex of the wild blast, giving the appearance of them being used by the centaurus as ammunition in combat."
+											"The magical energy that generates around the centaurus provides sustenance for many small creatures in addition to itself. The energy from the centaurus' wild blast in particular often attracts small insects, including butterflies. These insects get caught in the vortex of the wild blast, giving the appearance of them being used by the centaurus as ammunition in combat."
 										]
 									}
 								]
@@ -1948,7 +1948,7 @@
 				{
 					"name": "Shadow Shield (Costs 2 actions)",
 					"entries": [
-						"The unicorn encircles itself in a shroud of shadows. Attack rolls against it are made at disadvantage until the end of the unicorn’s next turn."
+						"The unicorn encircles itself in a shroud of shadows. Attack rolls against it are made at disadvantage until the end of the unicorn's next turn."
 					]
 				},
 				{
@@ -1963,7 +1963,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"This dark fey is the twisted reflection of its celestial cousin. Dark unicorns stalk the forests of the Feywild, hunting prey with their heightened senses and inflicting pain with sharp horn and hoof. Like all unicorns, they cannot be charmed or held by magic, and are immune to poison. They’re wickedly smart and charming, and use their wits to confuse and confound victims as readily as their natural weapons. They delight in pain, and spread misery for the sake of creating it, but are ultimately concerned only with themselves and their own personal amusements.",
+							"This dark fey is the twisted reflection of its celestial cousin. Dark unicorns stalk the forests of the Feywild, hunting prey with their heightened senses and inflicting pain with sharp horn and hoof. Like all unicorns, they cannot be charmed or held by magic, and are immune to poison. They're wickedly smart and charming, and use their wits to confuse and confound victims as readily as their natural weapons. They delight in pain, and spread misery for the sake of creating it, but are ultimately concerned only with themselves and their own personal amusements.",
 							{
 								"type": "entries",
 								"entries": [
@@ -2084,7 +2084,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The dreamfish’s innate spellcasting ability is Charisma (spell save {@dc 17}). The dreamfish can innately cast the following spells, requiring no material components: "
+						"The dreamfish's innate spellcasting ability is Charisma (spell save {@dc 17}). The dreamfish can innately cast the following spells, requiring no material components: "
 					],
 					"will": [
 						"{@spell prestidigitation}",
@@ -2118,7 +2118,7 @@
 				{
 					"name": "Inner Thoughts",
 					"entries": [
-						"The dreamfish targets one creature it can see within 60 feet of it. The target must contest its Charisma (Deception) check against the dreamfish’s Wisdom (Insight) check. If the dreamfish wins, it learns the greatest desires of the target. The target suffers disadvantage on saving throws from any charm-related spells cast by the dreamfish for the next 24 hours. If the target wins, it cannot be affected by charm spells cast by the dreamfish for the next 24 hours. The target automatically wins if it is immune to being {@condition charmed}."
+						"The dreamfish targets one creature it can see within 60 feet of it. The target must contest its Charisma (Deception) check against the dreamfish's Wisdom (Insight) check. If the dreamfish wins, it learns the greatest desires of the target. The target suffers disadvantage on saving throws from any charm-related spells cast by the dreamfish for the next 24 hours. If the target wins, it cannot be affected by charm spells cast by the dreamfish for the next 24 hours. The target automatically wins if it is immune to being {@condition charmed}."
 					]
 				}
 			],
@@ -2161,7 +2161,7 @@
 										"type": "entries",
 										"name": "Deadly Fixation",
 										"entries": [
-											"A mind of particular interest is simply not allowed to escape. A dreamfish that becomes especially fascinated by a passerby will use spells like hallucinatory terrain and major image to confuse the target into circling its pond. It may, after a while, charm the target into joining it beneath the water, or simply neglect to account for a mortal’s need for things like food to eat or air to breathe."
+											"A mind of particular interest is simply not allowed to escape. A dreamfish that becomes especially fascinated by a passerby will use spells like hallucinatory terrain and major image to confuse the target into circling its pond. It may, after a while, charm the target into joining it beneath the water, or simply neglect to account for a mortal's need for things like food to eat or air to breathe."
 										]
 									}
 								]
@@ -2473,8 +2473,8 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Death in the Feywild is a fluid matter. Some fey spirits become so bound to the land that their termination grants new life from the surrounding ground. Other fey work in opposition, creating dramatic changes when they expire. And still others, imbued with arcane power and knowledge, become so tied to the native magic of the Feywild that they are impossible to separate from it. The reunion of their spirit with the Feywild only empowers them, granting them new abilities as they become bound within it. They exist for all eternity as a guardian and protector of their fey domain—a Faenorn.",
-							"The faenorn’s bond with its territory is reflected by the magic surrounding it. Spells cast near the faenorn’s lair are warped and amplified by its presence. Evocations go awry, divinations pierce the veil, and the natural magic of the Feywild becomes even more unpredictable.",
+							"Death in the Feywild is a fluid matter. Some fey spirits become so bound to the land that their termination grants new life from the surrounding ground. Other fey work in opposition, creating dramatic changes when they expire. And still others, imbued with arcane power and knowledge, become so tied to the native magic of the Feywild that they are impossible to separate from it. The reunion of their spirit with the Feywild only empowers them, granting them new abilities as they become bound within it. They exist for all eternity as a guardian and protector of their fey domain\u2014a Faenorn.",
+							"The faenorn's bond with its territory is reflected by the magic surrounding it. Spells cast near the faenorn's lair are warped and amplified by its presence. Evocations go awry, divinations pierce the veil, and the natural magic of the Feywild becomes even more unpredictable.",
 							{
 								"type": "entries",
 								"entries": [
@@ -2489,7 +2489,7 @@
 										"type": "entries",
 										"name": "Projected Presence",
 										"entries": [
-											"The faenorn prefers to remain near or inside its lair, relying on projections to explore the surrounding area and fey allies to send and receive news while its true form protects its one weakness. These projections are often the only aspect any wild fey see of the faenorn, since revealing its true self is also an invitation to betrayal. A faenorn’s lair is likely guarded by layers of illusions and spells, and heaped with centuries of magical treasures the faenorn employs against any intruders."
+											"The faenorn prefers to remain near or inside its lair, relying on projections to explore the surrounding area and fey allies to send and receive news while its true form protects its one weakness. These projections are often the only aspect any wild fey see of the faenorn, since revealing its true self is also an invitation to betrayal. A faenorn's lair is likely guarded by layers of illusions and spells, and heaped with centuries of magical treasures the faenorn employs against any intruders."
 										]
 									},
 									{
@@ -2507,7 +2507,7 @@
 						"type": "entries",
 						"name": "A Faenorn's Lair",
 						"entries": [
-							"While the faenorn is bound to the Feywild, it is usually restricted to a 50-mile-radius centering on a landmark or geographical feature, such as a particular forest or mountain. Within that radius, it can move freely or use its projections. The regional effects only occur within a 1-mile-radius of the faenorn’s current location. Its lair can be any location that it prefers, such as a cave, a grove, or a crypt.",
+							"While the faenorn is bound to the Feywild, it is usually restricted to a 50-mile-radius centering on a landmark or geographical feature, such as a particular forest or mountain. Within that radius, it can move freely or use its projections. The regional effects only occur within a 1-mile-radius of the faenorn's current location. Its lair can be any location that it prefers, such as a cave, a grove, or a crypt.",
 							"A faenorn encountered in its lair has a challenge rating of 22."
 						]
 					}
@@ -2599,7 +2599,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The genius loci’s innate spellcasting ability is Wisdom (spell save {@dc 22}). The genius loci can cast the following spells, requiring no material components:"
+						"The genius loci's innate spellcasting ability is Wisdom (spell save {@dc 22}). The genius loci can cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell charm person}",
@@ -2636,13 +2636,13 @@
 				{
 					"name": "Form of Magma and Steam",
 					"entries": [
-						"The genius loci can burrow through nonmagical, unworked earth and stone. While doing so, the genius loci doesn’t disturb the material it moves through. It can also move through a space as narrow as 1 inch wide without squeezing. A creature that touches the genius loci or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) fire damage. Additionally, the genius loci can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 9 ({@damage 2d8}) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 9 ({@damage 2d8}) fire damage at the start of each of its turns."
+						"The genius loci can burrow through nonmagical, unworked earth and stone. While doing so, the genius loci doesn't disturb the material it moves through. It can also move through a space as narrow as 1 inch wide without squeezing. A creature that touches the genius loci or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) fire damage. Additionally, the genius loci can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 9 ({@damage 2d8}) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 9 ({@damage 2d8}) fire damage at the start of each of its turns."
 					]
 				},
 				{
 					"name": "Immolation Aura",
 					"entries": [
-						"If a creature comes within 20 feet of the genius loci or starts its turn there, the creature must make a {@dc 25} Constitution saving throw or take 9 ({@damage 2d8}) fire damage and 9 ({@damage 2d8}) poison damage or half as much on a successful saving throw. This trait ignites flammable objects within 20 feet of the genius loci that aren’t being worn or carried."
+						"If a creature comes within 20 feet of the genius loci or starts its turn there, the creature must make a {@dc 25} Constitution saving throw or take 9 ({@damage 2d8}) fire damage and 9 ({@damage 2d8}) poison damage or half as much on a successful saving throw. This trait ignites flammable objects within 20 feet of the genius loci that aren't being worn or carried."
 					]
 				},
 				{
@@ -2660,7 +2660,7 @@
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The genius loci regains 20 hit points at the start of its turn. If it takes cold damage, this trait doesn’t function at the start of its next turn. The genius loci dies only if it starts its turn with 0 hit points and doesn’t regenerate. "
+						"The genius loci regains 20 hit points at the start of its turn. If it takes cold damage, this trait doesn't function at the start of its next turn. The genius loci dies only if it starts its turn with 0 hit points and doesn't regenerate. "
 					]
 				},
 				{
@@ -2752,7 +2752,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"A majority of the borders of the Feywild cross in areas that are familiar to the Material Plane—a forest, a cave, or a lake. However, sometimes the Feywild borders on natural features that are more violent in nature. In areas where such natural violence occurs, it is possible for a genius loci, “a spirit of the place,” to be born.",
+							"A majority of the borders of the Feywild cross in areas that are familiar to the Material Plane\u2014a forest, a cave, or a lake. However, sometimes the Feywild borders on natural features that are more violent in nature. In areas where such natural violence occurs, it is possible for a genius loci, \"a spirit of the place,\" to be born.",
 							"Genius loci are fiercely protective of the area that they call home. Any intrusion from mortals is met with open hostility. These beautiful and dangerous creatures are often responsible for major natural disasters, like volcanic eruptions, hostile blizzards, or even mudslides. The most common variant of this creature finds its home in volcanos. ",
 							{
 								"type": "entries",
@@ -2761,7 +2761,7 @@
 										"type": "entries",
 										"name": "Force of Nature",
 										"entries": [
-											"People often mistake genius loci for elementals, and it’s not hard to see why. These creatures reflect the violence and beauty of their natural habitat. They find beauty in creating natural events that can cause untold devastation, and they are often unwittingly responsible for the destruction of entire settlements. "
+											"People often mistake genius loci for elementals, and it's not hard to see why. These creatures reflect the violence and beauty of their natural habitat. They find beauty in creating natural events that can cause untold devastation, and they are often unwittingly responsible for the destruction of entire settlements. "
 										]
 									}
 								]
@@ -2862,7 +2862,7 @@
 				{
 					"name": "Sharp Grasp",
 					"entries": [
-						"A creature {@condition grappled} by the glasswail takes 2 {@damage 1d4} slashing damage at the start of its turn as the glasswail’s sharp glass body rakes across the creature’s flesh."
+						"A creature {@condition grappled} by the glasswail takes 2 {@damage 1d4} slashing damage at the start of its turn as the glasswail's sharp glass body rakes across the creature's flesh."
 					]
 				}
 			],
@@ -2920,14 +2920,14 @@
 										"type": "entries",
 										"name": "Beautiful Servants",
 										"entries": [
-											"Fey have a penchant for all that is bright and beautiful. The glasswail presents a living embodiment of that desire, and as such, nobles of the Seelie and Unseelie Courts often fill a portion of their estates with these creatures. Doing so typically requires enchantment, for a glasswail’s mind is rarely intact enough to comprehend complex rules of a voluntary pact. Those lucky few that retain some semblance of intelligence balk against the yoke of spellwork, recalling that magic is the cause for their current form."
+											"Fey have a penchant for all that is bright and beautiful. The glasswail presents a living embodiment of that desire, and as such, nobles of the Seelie and Unseelie Courts often fill a portion of their estates with these creatures. Doing so typically requires enchantment, for a glasswail's mind is rarely intact enough to comprehend complex rules of a voluntary pact. Those lucky few that retain some semblance of intelligence balk against the yoke of spellwork, recalling that magic is the cause for their current form."
 										]
 									},
 									{
 										"type": "entries",
 										"name": "Construct Nature",
 										"entries": [
-											"A glasswail doesn’t require air, food, drink, or sleep."
+											"A glasswail doesn't require air, food, drink, or sleep."
 										]
 									},
 									{
@@ -2941,7 +2941,7 @@
 										"type": "entries",
 										"name": "Immortal",
 										"entries": [
-											"The magic and torment that creates a glasswail destroys the physical body and imprisons the soul. Without flesh that would eventually decay, a glasswail gains immortality, allowing them to live for as long as their soul remains trapped. If the glasswail’s body is destroyed, however, the soul escapes, and the glasswail dies."
+											"The magic and torment that creates a glasswail destroys the physical body and imprisons the soul. Without flesh that would eventually decay, a glasswail gains immortality, allowing them to live for as long as their soul remains trapped. If the glasswail's body is destroyed, however, the soul escapes, and the glasswail dies."
 										]
 									}
 								]
@@ -3044,7 +3044,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The ocean strider’s innate spellcasting ability is Wisdom (spell save {@dc 20}). The ocean strider can innately cast the following spells, requiring no components:"
+						"The ocean strider's innate spellcasting ability is Wisdom (spell save {@dc 20}). The ocean strider can innately cast the following spells, requiring no components:"
 					],
 					"will": [
 						"{@spell create or destroy water}",
@@ -3102,7 +3102,7 @@
 				{
 					"name": "Frightful Presence",
 					"entries": [
-						"Each creature of the ocean strider’s choice that is within 120 feet of the ocean strider and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the ocean strider’s Frightful Presence for the next 24 hours."
+						"Each creature of the ocean strider's choice that is within 120 feet of the ocean strider and aware of it must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the ocean strider's Frightful Presence for the next 24 hours."
 					]
 				},
 				{
@@ -3126,7 +3126,7 @@
 				{
 					"name": "Water Walk",
 					"entries": [
-						"The ocean strider can move across the surface of water as if it were solid land, without needing to make an ability check. Additionally, difficult terrain composed of water doesn’t cost it extra movement."
+						"The ocean strider can move across the surface of water as if it were solid land, without needing to make an ability check. Additionally, difficult terrain composed of water doesn't cost it extra movement."
 					]
 				}
 			],
@@ -3176,7 +3176,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"This 20-foot-tall, orca-patterned giant is a guardian of the fey seas. It calmly stalks the surface of peaceful waters, surrounded by ocean predators and sheathed in mists. The ocean strider seems concerned only with the whims of the sea. It destroys crafts and creatures with equal ease, not for territory or protection but simply because they’re in its path. Those foolish enough to challenge an ocean strider quickly find themselves beset upon not only by ocean predators, but by elemental and fey forces called to its will by the conchshell trumpet it carries.",
+							"This 20-foot-tall, orca-patterned giant is a guardian of the fey seas. It calmly stalks the surface of peaceful waters, surrounded by ocean predators and sheathed in mists. The ocean strider seems concerned only with the whims of the sea. It destroys crafts and creatures with equal ease, not for territory or protection but simply because they're in its path. Those foolish enough to challenge an ocean strider quickly find themselves beset upon not only by ocean predators, but by elemental and fey forces called to its will by the conchshell trumpet it carries.",
 							{
 								"type": "entries",
 								"entries": [
@@ -3358,7 +3358,7 @@
 										"type": "entries",
 										"name": "Gruesome Monstrosity",
 										"entries": [
-											"An abomination extends six insectoid appendages from beneath its red cap, each of them ending with a razor-sharp elongated claw. What was once its face turns into a horrific maw filled with acidic glands. The rest of its former body hangs inertly between the new legs, and the iron boots clank with the monster’s every step. However, while standing still, an abomination becomes a cunning ambusher that waits for an opening instead of charging blindly into combat.",
+											"An abomination extends six insectoid appendages from beneath its red cap, each of them ending with a razor-sharp elongated claw. What was once its face turns into a horrific maw filled with acidic glands. The rest of its former body hangs inertly between the new legs, and the iron boots clank with the monster's every step. However, while standing still, an abomination becomes a cunning ambusher that waits for an opening instead of charging blindly into combat.",
 											"Redcap abominations undergo a horrific physical transformation, but their psychology changes as well. They are smarter than ordinary redcaps and are capable of employing more advanced tactics that require prior preparation. Their senses sharpen, allowing abominations to stalk their prey. Even though they show some semblance of self-control, their filthy desires, and blood lust are ever-present."
 										]
 									}
@@ -3450,7 +3450,7 @@
 				{
 					"name": "Outsize Strength",
 					"entries": [
-						"While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls."
+						"While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn't impose disadvantage on its attack rolls."
 					]
 				}
 			],
@@ -3470,7 +3470,7 @@
 				{
 					"name": "Binding Blood",
 					"entries": [
-						"The redcap reduces its hit points by 9 ({@dice 2d8}) and sends out a wave of coagulating blood. Each creature of the redcap’s choice within 20 feet of it must make a {@dc 15} Strength saving throw, taking 13 ({@damage 3d8}) necrotic damage and becoming {@condition restrained} on a failure. A creature that succeeds on the save takes half damage and isn’t {@condition restrained}. A {@condition restrained} target can use its action to make a {@dc 15} Strength check to free itself."
+						"The redcap reduces its hit points by 9 ({@dice 2d8}) and sends out a wave of coagulating blood. Each creature of the redcap's choice within 20 feet of it must make a {@dc 15} Strength saving throw, taking 13 ({@damage 3d8}) necrotic damage and becoming {@condition restrained} on a failure. A creature that succeeds on the save takes half damage and isn't {@condition restrained}. A {@condition restrained} target can use its action to make a {@dc 15} Strength check to free itself."
 					]
 				}
 			],
@@ -3488,7 +3488,7 @@
 				{
 					"name": "Blood Pursuit",
 					"entries": [
-						"The redcap can move up to its speed toward a creature that doesn’t have all its hit points."
+						"The redcap can move up to its speed toward a creature that doesn't have all its hit points."
 					]
 				}
 			],
@@ -3508,7 +3508,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Known for their insatiable bloodlust, an ordinary redcap pales in comparison with blood pursuers. These maniac fey creatures are born when a redcap soaks its hat in a vampire’s blood. They are the personification of a maddening hatred toward all living beings, fueled by vampiric powers.",
+							"Known for their insatiable bloodlust, an ordinary redcap pales in comparison with blood pursuers. These maniac fey creatures are born when a redcap soaks its hat in a vampire's blood. They are the personification of a maddening hatred toward all living beings, fueled by vampiric powers.",
 							{
 								"type": "entries",
 								"entries": [
@@ -3516,14 +3516,14 @@
 										"type": "entries",
 										"name": "Real Carnage",
 										"entries": [
-											"While not affected by the dark gift, blood pursuers possess similar strengths and weaknesses to vampires. They are stronger than other redcaps and much more agile. The mere sight of blood turns these already homicidal creatures into ferocious and relentless killing machines. Sunlight has adverse effects on blood pursuers, but it isn’t nearly as deadly for them as for vampires. If the redcap does not soak its hat in a vampire’s blood again within three days, the creature returns to its ordinary form."
+											"While not affected by the dark gift, blood pursuers possess similar strengths and weaknesses to vampires. They are stronger than other redcaps and much more agile. The mere sight of blood turns these already homicidal creatures into ferocious and relentless killing machines. Sunlight has adverse effects on blood pursuers, but it isn't nearly as deadly for them as for vampires. If the redcap does not soak its hat in a vampire's blood again within three days, the creature returns to its ordinary form."
 										]
 									},
 									{
 										"type": "entries",
 										"name": "Bloodbathed Servitude",
 										"entries": [
-											"Clever vampires, especially spellcasters, sometimes summon redcaps from the Feywild. They offer the fey their blood in turn for servitude. A redcap is not capable of refusing such a generous offer that allows it to become even better at what it does best—murder. Blood pursuers tend to follow every order of their vampire master so that they never miss out on the sanguine donation."
+											"Clever vampires, especially spellcasters, sometimes summon redcaps from the Feywild. They offer the fey their blood in turn for servitude. A redcap is not capable of refusing such a generous offer that allows it to become even better at what it does best\u2014murder. Blood pursuers tend to follow every order of their vampire master so that they never miss out on the sanguine donation."
 										]
 									}
 								]
@@ -3614,7 +3614,7 @@
 				{
 					"name": "Outsize Strength",
 					"entries": [
-						"While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls."
+						"While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn't impose disadvantage on its attack rolls."
 					]
 				}
 			],
@@ -3651,7 +3651,7 @@
 				{
 					"name": "Blood Pursuit",
 					"entries": [
-						"The redcap can move up to its speed toward a creature that doesn’t have all its hit points."
+						"The redcap can move up to its speed toward a creature that doesn't have all its hit points."
 					]
 				}
 			],
@@ -3671,7 +3671,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Redcap smashers are born from the blood spilled during extremely brutal and senseless acts of violence. They are blinded by bloody rage and lack even the slightest cleverness exhibited by other redcaps. A smasher’s life is short and filled with an intense outrage; if it does not kill and soak its hat in blood every other day, the smasher’s body withers and dies.",
+							"Redcap smashers are born from the blood spilled during extremely brutal and senseless acts of violence. They are blinded by bloody rage and lack even the slightest cleverness exhibited by other redcaps. A smasher's life is short and filled with an intense outrage; if it does not kill and soak its hat in blood every other day, the smasher's body withers and dies.",
 							{
 								"type": "entries",
 								"entries": [
@@ -3742,7 +3742,7 @@
 				{
 					"name": "Debilitating Incense",
 					"entries": [
-						"Whenever the shambling bouquet takes fire damage, all creatures within 30 ft. must make a {@dc 13} Constitution saving throw. On a failed save, a creature gains disadvantage on its attacks until it moves 30 ft. away from the shambling bouquet’s burning scent."
+						"Whenever the shambling bouquet takes fire damage, all creatures within 30 ft. must make a {@dc 13} Constitution saving throw. On a failed save, a creature gains disadvantage on its attacks until it moves 30 ft. away from the shambling bouquet's burning scent."
 					]
 				}
 			],
@@ -3762,7 +3762,7 @@
 				{
 					"name": "Floral Engulf",
 					"entries": [
-						"The shambling bouquet engulfs a Medium or smaller creature {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and it must succeed on a {@dc 13} Constitution saving throw at the start of each of the bouquet’s turns or take 13 ({@damage 2d8 + 4}) piercing damage from its twisting thorns. If the bouquet moves, the engulfed target moves with it. The bouquet can have only one creature engulfed at a time."
+						"The shambling bouquet engulfs a Medium or smaller creature {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and it must succeed on a {@dc 13} Constitution saving throw at the start of each of the bouquet's turns or take 13 ({@damage 2d8 + 4}) piercing damage from its twisting thorns. If the bouquet moves, the engulfed target moves with it. The bouquet can have only one creature engulfed at a time."
 					]
 				}
 			],
@@ -3791,7 +3791,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Humanoids are not the only creatures that accidentally stumble into the Feywild. Animals sometimes wander through a fey crossing as well. Perhaps the most common of these is the cat. Whether it’s through a sixth sense of some kind or a calling, cats frequently cross over into the Feywild, and while there, they can become a shimmer cat.",
+							"Humanoids are not the only creatures that accidentally stumble into the Feywild. Animals sometimes wander through a fey crossing as well. Perhaps the most common of these is the cat. Whether it's through a sixth sense of some kind or a calling, cats frequently cross over into the Feywild, and while there, they can become a shimmer cat.",
 							{
 								"type": "entries",
 								"entries": [
@@ -3799,14 +3799,14 @@
 										"type": "entries",
 										"name": "Altered Being",
 										"entries": [
-											"Whether it’s through eating the flora and fauna that the Feywild has to offer, absorbing native magic energies, or just spending a significant amount of time on the plane, shimmer cats have transformed into a stronger and more magical version of a typical housecat. Sages suggest that it is most likely exposure to Feywild flora that results in the transformation, especially if the cat ingests fey flowers."
+											"Whether it's through eating the flora and fauna that the Feywild has to offer, absorbing native magic energies, or just spending a significant amount of time on the plane, shimmer cats have transformed into a stronger and more magical version of a typical housecat. Sages suggest that it is most likely exposure to Feywild flora that results in the transformation, especially if the cat ingests fey flowers."
 										]
 									},
 									{
 										"type": "entries",
 										"name": "Hidden Danger",
 										"entries": [
-											"The shambling bouquet can blend in anywhere where one might reasonably believe there to be a patch of flowers. The Feywild’s particularly bright landscape is well suited to hide these shamblers. They can be incredibly still, lying dormant for days as they wait for movement to trigger a strike. If a nearby humanoid is wearing something eye-catching, the bouquet might spring to life and attack."
+											"The shambling bouquet can blend in anywhere where one might reasonably believe there to be a patch of flowers. The Feywild's particularly bright landscape is well suited to hide these shamblers. They can be incredibly still, lying dormant for days as they wait for movement to trigger a strike. If a nearby humanoid is wearing something eye-catching, the bouquet might spring to life and attack."
 										]
 									},
 									{
@@ -3942,7 +3942,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Humanoids are not the only creatures that accidentally stumble into the Feywild. Animals sometimes wander through a fey crossing as well. Perhaps the most common of these is the cat. Whether it’s through a sixth sense of some kind or a calling, cats frequently cross over into the Feywild, and while there, they can become a shimmer cat.",
+							"Humanoids are not the only creatures that accidentally stumble into the Feywild. Animals sometimes wander through a fey crossing as well. Perhaps the most common of these is the cat. Whether it's through a sixth sense of some kind or a calling, cats frequently cross over into the Feywild, and while there, they can become a shimmer cat.",
 							{
 								"type": "entries",
 								"entries": [
@@ -3950,7 +3950,7 @@
 										"type": "entries",
 										"name": "Altered Being",
 										"entries": [
-											"Whether it’s through eating the flora and fauna that the Feywild has to offer, absorbing native magic energies, or just spending a significant amount of time on the plane, shimmer cats have transformed into a stronger and more magical version of a typical housecat. Sages suggest that it is most likely exposure to Feywild flora that results in the transformation, especially if the cat ingests fey flowers."
+											"Whether it's through eating the flora and fauna that the Feywild has to offer, absorbing native magic energies, or just spending a significant amount of time on the plane, shimmer cats have transformed into a stronger and more magical version of a typical housecat. Sages suggest that it is most likely exposure to Feywild flora that results in the transformation, especially if the cat ingests fey flowers."
 										]
 									},
 									{
@@ -4089,7 +4089,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The wendigo’s innate spellcasting ability is Charisma (spell save {@dc 16}). The wendigo can innately cast the following spells, requiring no components:"
+						"The wendigo's innate spellcasting ability is Charisma (spell save {@dc 16}). The wendigo can innately cast the following spells, requiring no components:"
 					],
 					"will": [
 						"{@spell minor illusion}",
@@ -4133,7 +4133,7 @@
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The wendigo regains 10 hit points at the start of its turn. If the wendigo takes fire damage, this trait doesn’t function at the start of the wendigo’s next turn. The wendigo dies only if it starts its turn with 0 hit points and doesn’t regenerate."
+						"The wendigo regains 10 hit points at the start of its turn. If the wendigo takes fire damage, this trait doesn't function at the start of the wendigo's next turn. The wendigo dies only if it starts its turn with 0 hit points and doesn't regenerate."
 					]
 				}
 			],
@@ -4157,7 +4157,7 @@
 				{
 					"name": "Maddening Whispers",
 					"entries": [
-						"The wendigo targets a creature within 120 feet of it that the wendigo can see. The target experiences a stream of psychic assaults and must succeed on a {@dc 16} Charisma saving throw or suffer a level of {@condition exhaustion} from mental fatigue. If the creature fails the saving throw, they are unaware of the source of their mental fatigue, only that they find the struggle through the local weather immeasurably difficult. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the wendigo’s Maddening Whispers for the next 24 hours. "
+						"The wendigo targets a creature within 120 feet of it that the wendigo can see. The target experiences a stream of psychic assaults and must succeed on a {@dc 16} Charisma saving throw or suffer a level of {@condition exhaustion} from mental fatigue. If the creature fails the saving throw, they are unaware of the source of their mental fatigue, only that they find the struggle through the local weather immeasurably difficult. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the wendigo's Maddening Whispers for the next 24 hours. "
 					]
 				}
 			],
@@ -4290,7 +4290,7 @@
 				{
 					"name": "Otherworldly Nature",
 					"entries": [
-						"The wild reveler is immune to being {@condition charmed} and magic can’t put it to sleep."
+						"The wild reveler is immune to being {@condition charmed} and magic can't put it to sleep."
 					]
 				}
 			],
@@ -4298,7 +4298,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The wild reveler’s spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
+						"The wild reveler's spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell charm person}",
@@ -4374,7 +4374,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"Spirits of indulgence and endless whim, wild revelers are humanoid faeries that feed on celebration. Their joyful demeanor and social nature hide a rather cruel intent, however—they’re willing to do whatever it takes to keep a celebration going. They thrive off of noise and raucous music, growing more powerful with each humanoid under their control.",
+							"Spirits of indulgence and endless whim, wild revelers are humanoid faeries that feed on celebration. Their joyful demeanor and social nature hide a rather cruel intent, however\u2014they're willing to do whatever it takes to keep a celebration going. They thrive off of noise and raucous music, growing more powerful with each humanoid under their control.",
 							{
 								"type": "entries",
 								"entries": [
@@ -4389,7 +4389,7 @@
 										"type": "entries",
 										"name": "Noisemakers",
 										"entries": [
-											"If a wild reveler can’t find a source of music or other suitable commotion, it may use an instrument such as a flute or lyre to make music of its own. There are even stories of wild revelers kidnapping bards or performers to draw a crowd."
+											"If a wild reveler can't find a source of music or other suitable commotion, it may use an instrument such as a flute or lyre to make music of its own. There are even stories of wild revelers kidnapping bards or performers to draw a crowd."
 										]
 									}
 								]
@@ -4491,13 +4491,13 @@
 				{
 					"name": "Ice Walk",
 					"entries": [
-						"The winter witch can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost her extra movement."
+						"The winter witch can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost her extra movement."
 					]
 				},
 				{
 					"name": "Magic Weapons",
 					"entries": [
-						"The winter witch’s weapon attacks are magical and do an extra 3 ({@damage 1d6}) cold damage (included in Actions)."
+						"The winter witch's weapon attacks are magical and do an extra 3 ({@damage 1d6}) cold damage (included in Actions)."
 					]
 				}
 			],
@@ -4505,7 +4505,7 @@
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"The winter witch’s innate spellcasting ability is Charisma (spell save {@dc 18}). The winter witch can innately cast the following spells, requiring no material components: "
+						"The winter witch's innate spellcasting ability is Charisma (spell save {@dc 18}). The winter witch can innately cast the following spells, requiring no material components: "
 					],
 					"will": [
 						"{@spell charm person}"
@@ -4618,7 +4618,7 @@
 					{
 						"type": "entries",
 						"entries": [
-							"These snow-skinned fey are known to appear in the heart of winter storms, where they surround themselves with the icy cold winter of the Unseelie Court. They radiate cold in an aura of frost that is said to stop would-be attackers in their steps. With white eyes, the winter witch pierces into the depths of souls. A winter witch’s voice is said to be little more than a whisper of warning on a dagger-sharp wind. Encountering a winter witch is a sign you have traveled far too deep into Unseelie territory. Hearing the witch’s voice likely precedes your last chill breath before being buried in the falling snow."
+							"These snow-skinned fey are known to appear in the heart of winter storms, where they surround themselves with the icy cold winter of the Unseelie Court. They radiate cold in an aura of frost that is said to stop would-be attackers in their steps. With white eyes, the winter witch pierces into the depths of souls. A winter witch's voice is said to be little more than a whisper of warning on a dagger-sharp wind. Encountering a winter witch is a sign you have traveled far too deep into Unseelie territory. Hearing the witch's voice likely precedes your last chill breath before being buried in the falling snow."
 						]
 					}
 				]
@@ -4661,7 +4661,7 @@
 				]
 			},
 			"entries": [
-				"You reshape the way a creature sees the world. Choose a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, the target’s vision becomes impaired. Choose one of the following effects:",
+				"You reshape the way a creature sees the world. Choose a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, the target's vision becomes impaired. Choose one of the following effects:",
 				{
 					"type": "list",
 					"items": [
@@ -4669,21 +4669,21 @@
 							"type": "entries",
 							"name": "Brightened",
 							"entries": [
-								"Shimmering sparks float through the target’s field of view. The target has disadvantage on ranged attacks."
+								"Shimmering sparks float through the target's field of view. The target has disadvantage on ranged attacks."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Flipped Vision",
 							"entries": [
-								"The target’s world appears to be turned upside down. The target has disadvantage on Dexterity (Acrobatics or Sleight of Hand) checks."
+								"The target's world appears to be turned upside down. The target has disadvantage on Dexterity (Acrobatics or Sleight of Hand) checks."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Monochrome",
 							"entries": [
-								"The target’s vision appears as if through colored glass. The target has disadvantage on Wisdom (Perception) checks."
+								"The target's vision appears as if through colored glass. The target has disadvantage on Wisdom (Perception) checks."
 							]
 						}
 					]
@@ -4942,7 +4942,7 @@
 				]
 			},
 			"entries": [
-				"Choose a willing creature within range. You create a shadowy duplicate of the target that is friendly to you. The duplicate has the same statistics as the target. When the duplicate takes damage, the target takes the same amount of damage. If the duplicate is reduced to 0 hit points, it disappears. The duplicate shares the target’s initiative but only can move and take the Attack or Help actions on its turn. A critical hit on a duplicate shatters it like glass and kills it instantly. "
+				"Choose a willing creature within range. You create a shadowy duplicate of the target that is friendly to you. The duplicate has the same statistics as the target. When the duplicate takes damage, the target takes the same amount of damage. If the duplicate is reduced to 0 hit points, it disappears. The duplicate shares the target's initiative but only can move and take the Attack or Help actions on its turn. A critical hit on a duplicate shatters it like glass and kills it instantly. "
 			],
 			"source": "FeyCom",
 			"page": 37,
@@ -5175,7 +5175,7 @@
 				]
 			},
 			"entries": [
-				"You attempt to reflect or refract the effects of a spell that targets only you. If the spell is of 5th level or lower, it has no effect on you. Instead, choose a different creature within 30 feet of you. The chosen creature becomes the target of the spell. This spell can transfer the attack’s effects regardless of the spell’s range. If the spell is of 5th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a success, the spell is reflected or refracted."
+				"You attempt to reflect or refract the effects of a spell that targets only you. If the spell is of 5th level or lower, it has no effect on you. Instead, choose a different creature within 30 feet of you. The chosen creature becomes the target of the spell. This spell can transfer the attack's effects regardless of the spell's range. If the spell is of 5th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the spell is reflected or refracted."
 			],
 			"source": "FeyCom",
 			"page": 38,
@@ -5360,7 +5360,7 @@
 			"entries": [
 				"You channel fey magic to cause thorns to erupt across your skin, making you a dangerous foe to grasp and capable of delivering thorny attacks. Until this spell ends or you dismiss it as an action, you can use your action to make a melee spell attack. On a hit, the target takes {@damage 1d8} piercing damage. ",
 				"While this spell is active, any creature grappling you or creature you are grappling takes {@damage 1d8} piercing damage at the start of its turn as the thorns cut into them. ",
-				"This spell’s attack damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+				"This spell's attack damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
 			],
 			"source": "FeyCom",
 			"page": 39,
@@ -5438,6 +5438,288 @@
 			],
 			"abilityCheck": [
 				"charisma"
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Calligrapher",
+			"shortName": "Calligrapher",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Calligrapher|Artificer|tce|Calligrapher|FeyCom|3",
+				"Calligrapher Spells|Artificer|tce|Calligrapher|FeyCom|3",
+				"Arcane Symbols|Artificer|tce|Calligrapher|FeyCom|3",
+				"Between the Lines|Artificer|tce|Calligrapher|FeyCom|5",
+				"Arcana Savant|Artificer|tce|Calligrapher|FeyCom|9",
+				"Greater Symbols|Artificer|tce|Calligrapher|FeyCom|15"
+			],
+			"subclassSpells": [
+				"healing word",
+				"protection from evil and good",
+				"augury",
+				"suggestion",
+				"mass healing word",
+				"sending",
+				"dimension door",
+				"divination",
+				"scrying",
+				"teleportation circle"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"healing word",
+							"protection from evil and good"
+						],
+						"5": [
+							"augury",
+							"suggestion"
+						],
+						"9": [
+							"mass healing word",
+							"sending"
+						],
+						"13": [
+							"dimension door",
+							"divination"
+						],
+						"17": [
+							"scrying",
+							"teleportation circle"
+						]
+					}
+				}
+			],
+			"className": "Artificer",
+			"classSource": "tce"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Calligrapher",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 11,
+			"entries": [
+				"A calligrapher is a master of words. Calligraphers may have studied under otherworldly beings like fey, or they may have received their gifts from divine inspiration. No matter how they learned their craft, words are the building blocks of the calligrapher's tool kit and can be used to devastating effect. In the case of the calligrapher, the pen (or the brush) is definitely mightier than the sword."
+			]
+		},
+		{
+			"name": "Calligrapher Spells",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 11,
+			"entries": [
+				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Calligrapher Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Calligrapher Spells",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"Artificer Level",
+						"Spells"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell healing word}, {@spell protection from evil and good}"
+						],
+						[
+							"5th",
+							"{@spell augury}, {@spell suggestion}"
+						],
+						[
+							"9th",
+							"{@spell mass healing word}, {@spell sending}"
+						],
+						[
+							"13th",
+							"{@spell dimension door}, {@spell divination}"
+						],
+						[
+							"17th",
+							"{@spell scrying}, {@spell teleportation circle}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcane Symbols",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": "11-12",
+			"entries": [
+				"Your prowess over the power of written symbols allows you to create spell effects. These symbols can be written on paper, but the power comes from the motion used. You can write on any surface or even in mid-air if no surfaces are available.",
+				"Use an action to write one of the following symbols:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Aid",
+									"entries": [
+										"A willing creature you can see within 60 feet of you is bolstered with toughness and resolve. The target's hit point maximum and current hit points increase by 10 for 8 hours."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Destroy",
+									"entries": [
+										"A creature you can see within 60 feet of you must make a Constitution saving throw, taking {@damage 4d10} necrotic damage on a failed save, or half as much on a successful one."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Dispel",
+									"entries": [
+										"Choose a creature, object, or magical effect within 60 feet of you. You end the effects of a spell on the target if the spell is 2nd level or lower. For each spell of 3rd level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell's effects end."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Fear",
+									"entries": [
+										"Choose any number of creatures that you can see within 30 feet of you. Each target must make a successful Wisdom saving throw or become {@condition frightened} for 1 minute or until your concentration ends (as if you were concentrating on a spell). While frightened, the target drops whatever it is holding and must move at least 30 feet away from you on each of its turns, if able. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Pain",
+									"entries": [
+										"A creature you can see within 60 feet of you must make a Constitution saving throw. On a failed save, it becomes {@condition incapacitated} with excruciating pain for 1 minute or until your concentration ends (as if you were concentrating on a spell). The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Protect",
+									"entries": [
+										"A willing creature you can see within 60 feet of you becomes more durable. The target has resistance to nonmagical bludgeoning, piercing, and slashing damage for the next 10 minutes or until your concentration ends (as if you were concentrating on a spell)."
+									]
+								}
+							]
+						}
+					]
+				},
+				"Saving throws for the symbols created with this feature are based on your spell save DC.",
+				"Once you have used this feature a number of times equal to your proficiency bonus, you cannot use it again until you finish a long rest. The symbols can be dispelled and interrupted as if they were spells of 3rd level.",
+				"You cannot use this feature if you are {@condition restrained}."
+			]
+		},
+		{
+			"name": "Between the Lines",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 5,
+			"page": 12,
+			"entries": [
+				"You can cast comprehend languages and illusory script at will. When you cast illusory script using this feature, it has a casting time of one action and does not require material components. Additionally, when you deal damage using an {@filter artificer|spells|level=0|class=artificer} cantrip, you may add your Intelligence modifier to the damage roll.",
+				"You also gain the ability to read written language the same way that others read body language. When you make an ability check involving written communication, you have advantage on that check"
+			]
+		},
+		{
+			"name": "Arcana Savant",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 9,
+			"page": 12,
+			"entries": [
+				"Your expertise with words gives you a better understanding of magic as a whole. You gain proficiency in the {@skill Arcana} skill. If you already have this proficiency, you may choose another skill proficiency from those available to an artificer at 1st level.",
+				"You learn an additional two infusions at this level, but they must be replicate magic item infusions. Additionally, whenever you gain a level, you can replace two of the {@filter artificer infusions|optionalfeatures|source=tce|feature type=ai} you learned with new ones",
+				"You also learn a cantrip of your choice from the {@filter artificer|spells|level=0|class=artificer} spell list."
+			]
+		},
+		{
+			"name": "Greater Symbols",
+			"source": "FeyCom",
+			"className": "Artificer",
+			"classSource": "tce",
+			"subclassShortName": "Calligrapher",
+			"subclassSource": "FeyCom",
+			"level": 15,
+			"page": 12,
+			"entries": [
+				"You have gained additional mastery over some of the most powerful words a mortal can wield. You learn two additional symbols. Once you have used one of these symbols, you cannot use that symbol again until you finish a long rest. Using these symbols does not count against your uses of other arcane symbols. These symbols can be dispelled and interrupted as if they were spells of 6th level.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Heal",
+									"entries": [
+										"A willing creature that you can see within 60 feet of you experiences a surge of positive energy. It regains 70 hit points. This symbol also ends {@condition blindness}, {@condition deafness}, and any diseases or curses affecting the target."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Remove",
+									"entries": [
+										"A creature that you can see within 60 feet of you must make a Dexterity saving throw. The creature takes {@damage 10d6+40} force damage on a failed save, or half that much on a successful one. If this damage reduces the creature to 0 hit points, it is disintegrated into a pile of fine gray dust along with everything it was carrying, except magic items. The creature can be restored to life only by means of a {@spell true resurrection} or {@spell wish} spell"
+									]
+								}
+							]
+						}
+					]
+				}
 			]
 		}
 	]
