@@ -1,0 +1,2773 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HighMagic",
+				"abbreviation": "HMS",
+				"full": "The High Magic Sourcebook",
+				"authors": [
+					"Gordon McAlpin"
+				],
+				"convertedBy": [
+					"Lori Garrett"
+				],
+				"version": "1.0.1",
+				"url": "https://www.dmsguild.com/product/382594/The-High-Magic-Sourcebook",
+				"targetSchema": "1.0.1"
+			}
+		],
+		"optionalFeatureTypes": {
+			"Epic Spell Factor": "Epic Spell Factor"
+		},
+		"dateAdded": 1618873680,
+		"dateLastModified": 1618873681,
+		"_dateLastModifiedHash": "81c4ab43de"
+	},
+	"spell": [
+		{
+			"name": "High Magic Induction",
+			"source": "HighMagic",
+			"page": 10,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 3,
+					"unit": "round"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "high magic sourcebook"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 30
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You create an invisible field of high magic potential with a 30-foot radius. While casting this spell, you can move, but you can take no other action or reaction until the spell is cast. If you do, this spell fails.",
+				"Until the spell ends, the high magic field moves with you, centered on you. For the duration of this spell, you can use the following special techniques to manipulate this field and alter the effects of spells cast within the field's area:",
+				{
+					"type": "entries",
+					"name": "Metamagic Incantations.",
+					"entries": [
+						"When a spell attack or a spell of 3rd level or lower is cast within the high magic field, you can attempt to use an incantation on that spell attack or spell and alter one of its effects while it's being cast."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "High Magic Intonations.",
+					"entries": [
+						"You can cast intonations to affect the high magic field in various ways, such as extending the duration of the field to perform longer inductions, joining two overlapping high magic fields into a larger field, or strengthening it to assist other participants in your induction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ending the Spell.",
+					"entries": [
+						"You must cast the {@spell Withdraw|HMS} intonation before the spell ends, or the high magic field explodes in an uncontrolled and potentially deadly manner. If you have not done so before the spell's duration expires or before your concentration on this spell ends, the spell fails and you must make a High Magic Failure roll. If this occurs while the high magic field has other participants, it remains active for the others."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcane Sensitivity.",
+					"entries": [
+						"The high magic field greatly increases your sensitivity to magical energy. You can feel the presence of ambient magical energy, magic items, and spells cast within the field, even if you can't see or hear the source. Additionally, if a spell is cast within or affecting a target within the field, and you either know that spell, have it prepared, or have it in your spellbook or ritual book, you can unerringly identify it without making an Intelligence (Arcana) check. You have advantage on Intelligence (Arcana) checks made to identify other spells within the field. This sensitivity penetrates most barriers, but it's blocked by 3 feet of stone, 3 inches of common metal, 1 inch of lead, or 9 feet of wood or dirt."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At Higher Levels.",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, for each slot level above 3rd, the spell changes in these ways:",
+						{
+							"type": "list",
+							"items": [
+								"The casting time is increased by 1 round.",
+								"You can maintain your concentration on the spell for an additional 10 minutes (up to 90 minutes at 9th level).",
+								"The field's radius increases by 10 feet (up to 90 feet at 9th level).",
+								"Your arcane sensitivity increases, penetrating an additional 1 foot of stone, 1 inch of common metal, 1/3 inch of lead, or 3 feet of wood or dirt (up to 9 feet of stone, 9 inches of common metal, 3 inches of lead, or 27 feet of wood or dirt at 9th level)."
+							]
+						},
+						"Additionally, you can use metamagic incantations on any spell cast in the field that's of a level less than or equal to the level of the spell slot you used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Amplify/Diminish",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to alter the effective spell level of the triggering spell in one of two ways:",
+				{
+					"type": "entries",
+					"name": "Amplify",
+					"entries": [
+						"The triggering spell's effective level can be raised by 1 level per level of the spell slot expended. This effect can amplify the triggering spell effectively beyond 9th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Diminish",
+					"entries": [
+						"The triggering spell's effective level can be lowered by 1 level per level of the spell slot expended (minimum 1st level)."
+					]
+				},
+				"A magical effect amplified or diminished by this incantation has the same properties as if it were cast at the new level. (If a spell or spell attack can't usually be cast at higher levels, its effects remain the same, other than changing the level the spell or spell attack is now considered to be.)",
+				"For example, when high mage adept's Lightning Arc spell attack is amplified by a 4th-level spell slot, its effects and the DC for attempting to interrupt the spell with counterspell are identical to if the spell were cast with an 4th-level spell slot."
+			],
+			"source": "HighMagic",
+			"page": 16,
+			"components": {
+				"v": true,
+				"s": true
+			}
+		},
+		{
+			"name": "Delay",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot of 1st level or higher to delay the triggering spell from coming into effect until the end of your next turn. On subsequent turns, you can move, use your reaction to allow the triggering spell to take effect, or use your action and expend another spell slot of 1st level or higher to continue delaying the triggering spell's effect. You can take no other actions, bonus actions, or reactions while delaying a spell.",
+				"The triggering spell can be delayed for a number of turns equal to your proficiency bonus before it goes into effect automatically at the start of your turn (no action required). Delaying the triggering spell effectively pauses its casting, allowing high magic inductions with more than one participant to apply additional incantations to the spell. The Delay incantation can be applied to an instance of a spell or spell attack no more than once.",
+				"While you continue to delay the triggering spell, its caster can use a bonus action on their turn to attempt to reassert their control over the spell or spell attack, making a saving throw using their spellcasting ability score (DC = 8 + your spellcasting ability modifier + your Arcana proficiency bonus). On a failed save, you retain control over the triggering spell. On a successful save, the triggering spell goes into effect, but you can choose to impose disadvantage on any required spell attack rolls for the spell's duration."
+			],
+			"source": "HighMagic",
+			"page": "16",
+			"components": {
+				"s": true
+			}
+		},
+		{
+			"name": "Distance",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to increase the triggering spell's range in one of two ways:",
+				{
+					"type": "list",
+					"items": [
+						"If the triggering spell or spell attack has a range of touch, change its range to 30 feet",
+						"If the triggering spell has a range of 5 feet or greater, increase its range by the spell or spell attack's range (after applying any modifiers) × the level of the spell slot expended."
+					]
+				},
+				"For example, the range of magic circle can be increased to 40 feet by expending a 3rd-level spell slot, allowing a spellcaster to protect (or trap) a creature from significantly farther away."
+			],
+			"source": "HighMagic",
+			"page": "16",
+			"components": {
+				"s": true
+			}
+		},
+		{
+			"name": "Empower",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "1 reaction, which you take when damage is rolled for a spell or spell attack that was cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to increase the destructive strength of the triggering spell. Reroll any number of damage dice up to a maximum equal to your spellcasting ability modifier (minimum 1) × the level of the spell slot expended. You must use the new rolls."
+			],
+			"source": "HighMagic",
+			"page": "16",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			}
+		},
+		{
+			"name": "Enhance",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "1 reaction, which you take when a spell that doesn't deal damage and can't be cast at higher levels is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to improve the triggering spell's numerical effects other than its duration or area of effect. The original effect is increased per level of the spell slot expended. Work with your DM to determine an appropriate effect; it should not affect a spell's property covered by another incantation such as range or duration.",
+				"Examples of recommended benefits for several spells are on the Enhance Incantation/Factor Effects table",
+				{
+					"type": "table",
+					"caption": "Enhance Incantation/Factor Effects",
+					"colLabels": [
+						"Spell",
+						"Recommended Benefit(s) per Slot Level"
+					],
+					"colStyles": [
+						"col-4",
+						"col-8"
+					],
+					"rows": [
+						[
+							"{@spell Arcane Eye}",
+							"+5 ft. movement speed {@italic or} +5 ft. vision and darkvision range"
+						],
+						[
+							"{@spell Arcane Lock}",
+							"+5 DC to break or pick the lock"
+						],
+						[
+							"{@spell Awaken}",
+							"+2 Intelligence (can't be higher than your own)"
+						],
+						[
+							"{@spell Beast Bond|XGE}",
+							"Increase Intelligence limit by 1"
+						],
+						[
+							"{@spell Contingency}",
+							"+1 contingent spell level limit"
+						],
+						[
+							"{@spell Create Food and Water}",
+							"+15 lbs. food and 10 gallons water"
+						],
+						[
+							"{@spell Disguise Self}",
+							"+1 bonus to spell save DC"
+						],
+						[
+							"{@spell Feather Fall}",
+							"+5 falling creatures"
+						],
+						[
+							"{@spell Gust|XGE}",
+							"+1 bonus to spell save DC or push creatures and objects 5 feet farther"
+						],
+						[
+							"{@spell Locate Object}",
+							"Penetrate +1/3 inch of lead"
+						],
+						[
+							"{@spell Mending}",
+							"Increase size of repair by 1 ft."
+						],
+						[
+							"{@spell Mirror Image}",
+							"+1 duplicate"
+						],
+						[
+							"{@spell Raise Dead}",
+							"Reduce penalty by 1 or extend timespan for eligibility by 2 days"
+						],
+						[
+							"{@spell Skywrite|XGE}",
+							"Increase length of message by 5 words"
+						],
+						[
+							"{@spell Slow}",
+							"+2 targets"
+						],
+						[
+							"{@spell Tenser's floating disk}",
+							"+500 lbs. of carrying capacity"
+						]
+					]
+				}
+			],
+			"source": "HighMagic",
+			"page": "16",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			}
+		},
+		{
+			"name": "Expand/Contract",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "1 reaction, which you take when a spell or spell attack is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot of 2nd level or higher to alter the triggering spell's area of effect in one of the following ways:",
+				{
+					"type": "entries",
+					"name": "Expand",
+					"entries": [
+						"You can expand triggering spell's area of effect by its original area per slot level spent, rounding down to the closest increment of 5 feet. This area of effect can be reshaped and recentered however you choose, provided the new area is equal to or less than the original area of effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Contract",
+					"entries": [
+						"You can contract the triggering spell's area of effect by half of the original area per slot level spent, rounding down to the closest increment of 5 feet (minimum 5 feet). When you do so, the area of effect remains centered on or originating from the same point as originally cast."
+					]
+				},
+				"Use the {@table Area of Effect Conversion|HMS|area of effect} table to calculate Expand/Contract's effects."
+			],
+			"source": "HighMagic",
+			"page": "17",
+			"components": {
+				"v": true,
+				"s": true
+			}
+		},
+		{
+			"name": "Extend",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "1 reaction, which you take when a spell with a duration of 1 round or longer is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to increase the duration of the triggering spell by the original duration × the level of the spell slot expended. Spell durations extended to more than 1,000 years become permanent."
+			],
+			"source": "HighMagic",
+			"page": "18",
+			"components": {
+				"v": true,
+				"s": true
+			}
+		},
+		{
+			"name": "Guide",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "1 reaction, which you take when a spell or spell attack that requires an attack roll is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to add your spellcasting ability modifier + the level of the spell slot expended to the triggering spell's attack roll (minimum 1)."
+			],
+			"source": "HighMagic",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"page": "18"
+		},
+		{
+			"name": "Heighten/Lessen",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "1 reaction, which you take when a spell or spell attack that forces a creature to make a saving throw to resist its effects is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to affect the saving throws of a number of targets equal to the level of the spell slot expended. Choose one of the following:",
+				{
+					"type": "entries",
+					"name": "Heighten",
+					"entries": [
+						"You impose disadvantage on the first saving throw made against the spell or spell attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lessen",
+					"entries": [
+						"You grant advantage on the first saving throw made against the spell or spell attack."
+					]
+				}
+			],
+			"source": "HighMagic",
+			"page": "18",
+			"components": {
+				"v": true,
+				"s": true
+			}
+		},
+		{
+			"name": "Intensify",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell that has increased effects based on the caster's level is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to increase the effective character level of the spellcaster by 3 × the level of the spell slot expended.",
+				"When used as a metamagic factor in high magic spellcraft, Intensify increases the seed spell's effects rather than the caster's effective level.",
+				"For example, a 9th-level wizard can cast the fire bolt cantrip, then cast this incantation with a 2nd-level spell slot. In doing so, the fire bolt cantrip is intensified to the same power as if the wizard were a 15th-level character, dealing 3d10 fire damage on a hit. When using Intensify as a metamagic factor in a spell design with fire bolt as a seed spell, the resulting spell level increases by 2, to a 2nd-level spell."
+			],
+			"source": "HighMagic",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"page": "18"
+		},
+		{
+			"name": "Overcome",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack that deals damage or imposes a condition is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to overcome some of a creature's resistances or immunities to the target spell or spell attack's effects:",
+				{
+					"type": "list",
+					"items": [
+						"By spending 1 slot level, this spell or spell attack can ignore one creature's damage resistance.",
+						"By spending 1 slot level, this spell or spell attack can treat one creature's damage immunity as damage resistance instead",
+						"By spending 2 slot levels, this spell or spell attack can ignore one creature's damage immunity.",
+						"By spending 1 slot level, this spell or spell attack can ignore one condition immunity of one creature with a CR of your level or lower. Choose one of the following conditions: blinded, charmed, deafened, frightened, paralyzed, or poisoned.",
+						"By spending 2 slot levels, this spell or spell attack can ignore one condition immunity of one creature with a CR of your level or lower. Choose one of the following conditions: incapacitated, petrified, prone, restrained, stunned, or unconscious."
+					]
+				},
+				"You can combine any of these effects up to a maximum of the level of the spell slot expended. For instance, you can spend a 4th-level spell slot to overcome two creatures' damage immunity, or a 3rd-level spell slot to overcome one creature's damage immunity and a second creature's damage resistance."
+			],
+			"source": "HighMagic",
+			"page": "18",
+			"components": {
+				"v": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			}
+		},
+		{
+			"name": "Project",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell that has a range of self is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot of 1st level or higher to change the range of the triggering spell from self to target one willing creature within the high magic field."
+			],
+			"source": "HighMagic",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "18"
+		},
+		{
+			"name": "Protect",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell that grants a bonus to a target's AC is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to increase the AC benefit of the triggering spell by an additional +2 AC per level of the spell slot expended.",
+				"For example, shield enhanced with a 2nd-level slot grants a +9 AC bonus until the start of your next turn."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "19"
+		},
+		{
+			"name": "Quicken",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell that you know, have prepared, or have in your ritual book is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to speed up the flow of time for the spellcaster of the triggering spell in one of two ways:",
+				{
+					"type": "list",
+					"items": [
+						"If the spell has a casting time of 1 action, you can change the casting time of a spell normally cast in 1 action to 1 bonus action for this casting.",
+						"If the spell has a casting time of longer than one action, you reduce the casting time for this casting by half per level of the spell slot expended, down to a minimum casting time of 1 action. Attempts to further reduce the casting time of this spell fail, including through this incantation."
+					]
+				}
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "19"
+		},
+		{
+			"name": "Redirect",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack that targets one or more creatures and doesn't have a range of self is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to replace some of the triggering spell's targets with new targets of your choice within range of the triggering spell. For each level of the spell slot expended, you can replace a number of targets equal to your spellcasting ability modifier."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "19"
+		},
+		{
+			"name": "Seeking",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell attack roll misses for a spell or spell attack cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You guide one spell attack toward its target. You expend one spell slot of 2nd level or higher to reroll the spell attack roll. You must use the new roll."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"v": true
+			},
+			"page": "19"
+		},
+		{
+			"name": "Subtlety",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell that has a verbal or somatic component is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You can use your reaction to do one of the following:",
+				{
+					"type": "list",
+					"items": [
+						"Without expending a spell slot, you allow the triggering spell's caster to choose either its verbal or somatic component, and to cast the spell ignoring that component.",
+						"You expend a spell slot of 1st level or higher and allow a targeted spellcaster to cast one spell without verbal or somatic components until the start of your next turn."
+					]
+				}
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "19"
+		},
+		{
+			"name": "Strengthen/Weaken",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack that requires a target to make a saving throw is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to strengthen or weaken the triggering spell. You can either increase or decrease the spell save DC by 1 per level of the spell slot expended, up to a maximum equal to your spellcasting ability modifier."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "20"
+		},
+		{
+			"name": "Transmute",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack that deals damage is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to change the triggering spell's damage type to another damage type in the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"By spending 1 slot level, you can transmute acid, cold, fire, lightning, poison, or thunder damage to any other damage type on that list.",
+						"By spending 2 slot levels, you can transmute any one damage type to any other damage type."
+					]
+				},
+				"You can combine these effects, up to a maximum equal to the level of the spell slot expended."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "20"
+		},
+		{
+			"name": "Twin",
+			"school": "Incantation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a spell or spell attack that can only target one creature or object and doesn't have a range of self is cast within the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend one spell slot to replicate the target spell's effects, targeting one or more additional creatures or objects for each copy of the spell or spell attack. Each copy must target a different creature or object, and the level of the spell slot expended must be equal to or greater than a multiple of the triggering spell's level (minimum 1), up to a maximum of your proficiency bonus. To be eligible, the spell or spell attack must not be capable of targeting more than one creature or object."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"v": true,
+				"m": {
+					"text": "a high magic sourcebook"
+				}
+			},
+			"page": "20"
+		},
+		{
+			"name": "Boost",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "round"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You can use your action and expend a spell slot of 4th level or higher to increase the high magic field's level to equal that of the spell slot expended. While casting this intonation, you can move, but you can take no other action or reaction. This benefit lasts for the duration of the high magic field, even if you later leave the high magic induction.",
+				"The casting time of this intonation increases by 1 round for each slot level above 4th."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"v": true
+			},
+			"page": "20"
+		},
+		{
+			"name": "Channel",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You can share your arcane energies with other participants within the high magic induction. Before the start of your next turn, each spellcaster in the high magic field can expend one of your spell slots, instead of their own, to cast a spell. The spellcaster can use your spell slot to cast a spell at a higher level than they normally have spell slots for.",
+				"If more than one participant in the high magic field uses this intonation, the spell slots of those who cast this intonation can be combined while channeling, allowing the spellcaster to cast a spell of a level equal to the sum of the slot levels expended from all participants."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"v": true
+			},
+			"page": "21"
+		},
+		{
+			"name": "Expand",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"By expending one spell slot, you can expand the radius of the high magic field by 30 feet per level of the spell slot expended. This benefit lasts for the duration of the high magic field, even if you later leave the high magic induction.,"
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true
+			},
+			"page": "21"
+		},
+		{
+			"name": "Join",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"While you're within the area of another willing spellcaster's high magic field, you can merge your high magic field with theirs. The new combined field lasts for the longer of the two spell durations and retains the level and radius of the higher-level field, remaining centered on that field's creator.",
+				"By joining the field, you gain all the benefits of the new shared field. For instance, if you join a 5th-level high magic field, you can target 5th-level spells with your metamagic incantations, even if you're not able to cast 5th-level spells yourself. Each spellcaster must continue to concentrate on the high magic induction spell for the duration, but when one participant loses concentration and their high magic induction spell fails, the other participants' concentration is unaffected."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"v": true
+			},
+			"page": "21"
+		},
+		{
+			"name": "Maintain",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You can maintain the high magic field by expending a spell slot to extend the duration of the field by 20 minutes per level of the spell slot expended (e.g., 60 minutes with a 3rd-level slot). This benefit lasts for the duration of the high magic field, even if you later leave the high magic induction.,"
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true
+			},
+			"page": "21"
+		},
+		{
+			"name": "Recenter",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You can recenter the high magic field on another willing participant in your high magic induction within 30 feet of you. If moving the field in this way would force any of the participants in the high magic induction to leave the field, this intonation fails (no High Magic Failure roll required)."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true
+			},
+			"page": "22"
+		},
+		{
+			"name": "Sacrifice",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "round",
+					"condition": "which you take when a participant in your high magic induction makes a Spellcraft check"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You can expend some of your life energy to stabilize the chaotic energies of the high magic field. You choose to gain one or more levels of exhaustion, and until the start of your next turn, all participants in the induction gain a bonus to Spellcraft checks equal to the levels of exhaustion you chose to gain.",
+				"If you reach 6 levels of exhaustion because of this intonation, you die and are disintegrated, and can only be restored to life by means of the true resurrection or wish spell."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true,
+				"v": true
+			},
+			"page": "22"
+		},
+		{
+			"name": "Stabilize",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You can expend some of your arcane energy to stabilize the high magic field. You expend one spell slot, and until the start of your next turn, participants in the induction gain a bonus to High Magic Failure rolls equal to the level of the spell slot expended. You can't take bonus actions or reactions either during the turn in which you cast this intonation or until the start of your next turn."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true
+			},
+			"page": "22"
+		},
+		{
+			"name": "Support",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You lend your aid to another mage within your high magic field. One spellcaster of your choice within the high magic field can add your spellcasting modifier to one Spellcraft check before the start of your next turn. You can't take bonus actions or reactions either during the turn in which you cast this intonation or until the start of your next turn."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true
+			},
+			"page": "22"
+		},
+		{
+			"name": "Withdraw",
+			"school": "Intonation",
+			"time": [
+				{
+					"number": 1,
+					"unit": "round",
+					"condition": "per level of the high magic field"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"The only way to safely end your participation in a high magic induction is by using this intonation to slowly draw down your connection to the raw magic energies beyond the Weave. While casting this intonation, you can move, but can take no other action or reaction.",
+				"After this intonation's casting is complete, the high magic induction spell ends for you safely and instantly. If you're the last remaining participant in a high magic field, the field dissipates safely, as well. Otherwise, the field continues for the remaining spellcasters.",
+				"If you're participating in an induction with other participants when you withdraw, the high magic field recenters on the participant closest to you."
+			],
+			"source": "HighMagic",
+			"components": {
+				"s": true
+			},
+			"page": "22"
+		}
+	],
+	"table": [
+		{
+			"colLabels": [
+				"Original Area of Effect",
+				"to Line",
+				"to Cone",
+				"to Cube",
+				"to Sphere",
+				"to Cylinder"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-2 text-center",
+				"col-2 text-center",
+				"col-2 text-center",
+				"col-2 text-center",
+				"col-2 text-center"
+			],
+			"rows": [
+				[
+					"Line",
+					"\u2014",
+					"range of cone = 1/4 length of line (mininum 10 ft.)",
+					"cube length = 1/10 line length (mininum 5 ft.)",
+					"radius of sphere = 2 × width (mininum 5 ft.)",
+					"cylinder height = 10 ft.; cylinder radius = 1/4 length of line"
+				],
+				[
+					"Cone",
+					"line length = 2 × range of cone",
+					"\u2014",
+					"cube length= 1/2 range of cone",
+					"1/4 range = radius of sphere",
+					"cylinder height = 1/4 range of cone; cylinder radius = 10 ft."
+				],
+				[
+					"Cube",
+					"line length = 1.25 × cube length",
+					"range of cone = 1.5 × length of cube",
+					"\u2014",
+					"sphere radius = 2/3 cube length",
+					"cylinder radius = 3/4 cube length; cylinder height = 3/4 cube length"
+				],
+				[
+					"Sphere",
+					"line length = 6 × radius",
+					"range of cone = 4 × radius of sphere",
+					"cube length = sphere diameter × .75",
+					"\u2014",
+					"cylinder radius = sphere radius; cylinder height = sphere radius"
+				],
+				[
+					"Cylinder",
+					"line length = 2 × (cylinder height + cylinder radius)",
+					"range of cone = 1/2 cylinder width + 1/2 cylinder height",
+					"cube length = 1/2 cylinder radius + 1/2 cylinder height",
+					"sphere radius = (1/2 cylinder radius + 1/2 cylinder height) × .75",
+					"\u2014"
+				]
+			],
+			"name": "Area of Effect Conversion",
+			"caption": "Area of Effect Conversion",
+			"source": "HighMagic",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"{@dice d100}",
+				"Effect(s)"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"<1",
+					"{@condition Arcane Feedback|HMS}, 5 levels of exhaustion, {@condition Magical Aging|HMS}, Raw Magic Explosion, roll once on the High Magic Catastrophe table"
+				],
+				[
+					"2-10",
+					"Arcane feedback, 5 levels of exhaustion, Magical Aging, Raw Magic Explosion"
+				],
+				[
+					"11-20",
+					"Arcane Feedback, 4 levels of exhaustion, Magical Aging"
+				],
+				[
+					"21-35",
+					"Arcane Feedback, 3 levels of exhaustion"
+				],
+				[
+					"36-50",
+					"Arcane Feedback, 2 levels of exhaustion"
+				],
+				[
+					"51-70",
+					"Arcane Feedback, 1 level of exhaustion"
+				],
+				[
+					"71-100",
+					"Arcane Feedback"
+				]
+			],
+			"name": "High Magic Failure",
+			"caption": "High Magic Failure",
+			"source": "HighMagic",
+			"page": "13",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"{@dice d6}",
+				"Effect(s)"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Dead-Magic Zone"
+				],
+				[
+					"2",
+					"Mental Overload"
+				],
+				[
+					"3",
+					"Planar Gate"
+				],
+				[
+					"4",
+					"Spectral Mage"
+				],
+				[
+					"5",
+					"Temporal Gate"
+				],
+				[
+					"6",
+					"Wild Magic Surge"
+				]
+			],
+			"name": "High Magic Catastrophe",
+			"caption": "High Magic Catastrophe",
+			"source": "HighMagic",
+			"page": "13",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"{@dice d20}",
+				"Incantation",
+				"Effect"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-5",
+				"col-6"
+			],
+			"rows": [
+				[
+					"1",
+					"{@spell Amplify/Diminish|HMS}",
+					"Increase or decrease triggering spell's level"
+				],
+				[
+					"2",
+					"{@spell Delay|HMS}",
+					"Pause effect in mid-air"
+				],
+				[
+					"3",
+					"{@spell Distance|HMS}",
+					"Extend range of triggering spell"
+				],
+				[
+					"4",
+					"{@spell Empower|HMS}",
+					"Increase damage of triggering spell"
+				],
+				[
+					"5",
+					"{@spell Enhance|HMS}",
+					"Improve miscellaneous spell effects"
+				],
+				[
+					"6",
+					"{@spell Expand/Contract|HMS}",
+					"Increase or decrease area of triggering spell"
+				],
+				[
+					"7",
+					"{@spell Extend|HMS}",
+					"Extend duration of triggering spell"
+				],
+				[
+					"8",
+					"{@spell Guide|HMS}",
+					"Add bonus to spell attack rolls"
+				],
+				[
+					"9",
+					"{@spell Heighten/Lessen|HMS}",
+					"Grant advantage or impose disadvantage on saving throw"
+				],
+				[
+					"10",
+					"{@spell Intensify|HMS}",
+					"Cast cantrips as a higher-level character"
+				],
+				[
+					"11",
+					"{@spell Overcome|HMS}",
+					"Weaken resistance"
+				],
+				[
+					"12",
+					"{@spell Project|HMS}",
+					"Target others using spells with range of self"
+				],
+				[
+					"13",
+					"{@spell Protect|HMS}",
+					"Grant AC bonus"
+				],
+				[
+					"14",
+					"{@spell Quicken|HMS}",
+					"Decrease casting time"
+				],
+				[
+					"15",
+					"{@spell Redirect|HMS}",
+					"Change targets"
+				],
+				[
+					"16",
+					"{@spell Seeking|HMS}",
+					"Reroll spell attack"
+				],
+				[
+					"17",
+					"{@spell Subtlety|HMS}",
+					"Ignore verbal or somatic components"
+				],
+				[
+					"18",
+					"{@spell Strengthen/Weaken|HMS}",
+					"Increase or decrease spell save DC"
+				],
+				[
+					"19",
+					"{@spell Transmute|HMS}",
+					"Change energy damage type"
+				],
+				[
+					"20",
+					"{@spell Twin|HMS}",
+					"Extend effects to an additional target"
+				]
+			],
+			"name": "Metamagic Incantations",
+			"caption": "Metamagic Incantations",
+			"source": "HighMagic",
+			"page": "15",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"{@dice d10}",
+				"Intonation",
+				"Effect"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-5",
+				"col-6"
+			],
+			"rows": [
+				[
+					"1",
+					"{@spell Boost|HMS}",
+					"Increase level of high magic field"
+				],
+				[
+					"2",
+					"{@spell Channel|HMS}",
+					"Share spell slots"
+				],
+				[
+					"3",
+					"{@spell Expand|HMS}",
+					"Increase radius of field"
+				],
+				[
+					"4",
+					"{@spell Join|HMS}",
+					"Merge two fields"
+				],
+				[
+					"5",
+					"{@spell Maintain|HMS}",
+					"Extend duration of field and {@spell high magic induction|HMS} spell"
+				],
+				[
+					"6",
+					"{@spell Recenter|HMS}",
+					"Center field around new participant"
+				],
+				[
+					"7",
+					"{@spell Sacrifice|HMS}",
+					"Trade exhaustion for bonus to Spellcraft checks"
+				],
+				[
+					"8",
+					"{@spell Stabilize|HMS}",
+					"Improve {@table High Magic Failure|HMS} rolls"
+				],
+				[
+					"9",
+					"{@spell Support|HMS}",
+					"Aid Spellcraft checks"
+				],
+				[
+					"10",
+					"{@spell Withdraw|HMS}",
+					"Exit/close high magic field"
+				]
+			],
+			"name": "High Magic Intonations",
+			"caption": "High Magic Intonations",
+			"source": "HighMagic",
+			"page": "20",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"Resulting Spell Level",
+				"Research Time",
+				"Base Material Cost"
+			],
+			"colStyles": [
+				"col-3",
+				"col-5",
+				"col-4"
+			],
+			"rows": [
+				[
+					"1st",
+					"{@dice 1d6} workweeks",
+					"30 gp"
+				],
+				[
+					"2nd",
+					"{@dice 2d6} workweeks",
+					"50 gp"
+				],
+				[
+					"3rd",
+					"{@dice 3d6} workweeks",
+					"500 gp"
+				],
+				[
+					"4th",
+					"{@dice 4d6} workweeks",
+					"5,000 gp"
+				],
+				[
+					"5th",
+					"{@dice 6d6} workweeks",
+					"10,000 gp"
+				],
+				[
+					"6th",
+					"{@dice 8d6} workweeks",
+					"25,000 gp"
+				],
+				[
+					"7th",
+					"{@dice 10d6} workweeks",
+					"50,000 gp"
+				],
+				[
+					"8th",
+					"{@dice 11d6} workweeks",
+					"100,000 gp"
+				],
+				[
+					"9th",
+					"{@dice 12d6} workweeks",
+					"200,000 gp"
+				],
+				[
+					"+1 level",
+					"+{@dice 1d10} workweeks",
+					"+100,000 gp"
+				]
+			],
+			"name": "High Magic Spellcraft Costs",
+			"caption": "High Magic Spellcraft Costs",
+			"source": "HighMagic",
+			"page": "24",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"Metamagic Factor",
+				"Slot Level Modifier"
+			],
+			"colStyles": [
+				"col-5",
+				"col-7"
+			],
+			"rows": [
+				[
+					"{@spell Amplify/Diminish|HMS}",
+					"+1/\u22121"
+				],
+				[
+					"{@spell Delay|HMS}",
+					"\u2014"
+				],
+				[
+					"{@spell Distance|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Empower|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Enhance|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Expand/Contract|HMS}",
+					"+1/\u22121"
+				],
+				[
+					"{@spell Extend|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Guide|HMS}",
+					"\u2014"
+				],
+				[
+					"{@spell Heighten/Lessen|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Intensify|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Overcome|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Project|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Protect|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Quicken|HMS}",
+					"+1"
+				],
+				[
+					"{@spell Redirect|HMS}",
+					"\u2014"
+				],
+				[
+					"{@spell Seeking|HMS}",
+					"\u2014"
+				],
+				[
+					"{@spell Subtlety|HMS}",
+					"+1/2"
+				],
+				[
+					"{@spell Strengthen/Weaken|HMS}",
+					"+1/\u22121"
+				],
+				[
+					"{@spell Transmute|HMS}",
+					"+1/2"
+				],
+				[
+					"{@spell Twin|HMS}",
+					"+1"
+				]
+			],
+			"name": "Metamagic Factor Modifiers",
+			"caption": "Metamagic Factor Modifiers",
+			"source": "HighMagic",
+			"page": "25",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"Resulting Spell Level",
+				"Research Time",
+				"Base Material Cost"
+			],
+			"colStyles": [
+				"col-3",
+				"col-5",
+				"col-4"
+			],
+			"rows": [
+				[
+					"1st",
+					"{@dice 2d6} workweeks",
+					"50 gp"
+				],
+				[
+					"2nd",
+					"{@dice 3d6} workweeks",
+					"500 gp"
+				],
+				[
+					"3rd",
+					"{@dice 4d6} workweeks",
+					"5000 gp"
+				],
+				[
+					"4th",
+					"{@dice 5d6} workweeks",
+					"10,000 gp"
+				],
+				[
+					"5th",
+					"{@dice 6d6} workweeks",
+					"25,000 gp"
+				],
+				[
+					"6th",
+					"{@dice 8d6} workweeks",
+					"50,000 gp"
+				],
+				[
+					"7th",
+					"{@dice 10d6} workweeks",
+					"75,000 gp"
+				],
+				[
+					"8th",
+					"{@dice 12d6} workweeks",
+					"150,000 gp"
+				],
+				[
+					"9th",
+					"{@dice 14d6} workweeks",
+					"300,000 gp"
+				],
+				[
+					"+1 level",
+					"+{@dice 1d10} workweeks",
+					"+150,000 gp"
+				]
+			],
+			"name": "Spell Transposition Costs",
+			"caption": "Spell Transposition Costs",
+			"source": "HighMagic",
+			"page": "26",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"{@dice d6}",
+				"Complication"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Catastrophic setback! Double your remaining research time."
+				],
+				[
+					"2",
+					"Major setback! Increase your research time by {@dice 1d4} workweeks."
+				],
+				[
+					"3",
+					"You miscalculate badly during one of your high magic inductions. Roll on the {@table High Magic Failure|HMS} table, subtracting the seed spell's level factors from your roll to determine the result."
+				],
+				[
+					"4",
+					"You waste some of your materials. Increase material costs by 15 percent."
+				],
+				[
+					"5",
+					"You struggle with adapting the seed spell's techniques. Increase your research time by 1 workweek."
+				],
+				[
+					"6",
+					"One step back, two steps forward! A mistake gives you some insight into the seed spell's design. The research time is reduced by a number of workweeks equal to half your Arcana proficiency bonus."
+				]
+			],
+			"name": "Spell Transposition Complications",
+			"caption": "Spell Transposition Complications",
+			"source": "HighMagic",
+			"page": "26",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"{@dice d8}",
+				"Epic Spell Factor",
+				"Effect"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-5",
+				"col-6"
+			],
+			"rows": [
+				[
+					"1",
+					"Casting Speed",
+					"increase or decrease casting time"
+				],
+				[
+					"2",
+					"Extended Duration",
+					"extend spell duration"
+				],
+				[
+					"3",
+					"Greater Conjuration",
+					"increases quantity and power of conjured creatures"
+				],
+				[
+					"4",
+					"Material Requirement",
+					"reduces spell level by adding material component"
+				],
+				[
+					"5",
+					"Persistence",
+					"removes concentration requirement"
+				],
+				[
+					"6",
+					"Precision Targeting",
+					"include or exclude groups of creatures"
+				],
+				[
+					"7",
+					"Resize Area",
+					"increase spell area"
+				],
+				[
+					"8",
+					"Shortened Duration",
+					"reduces spell level by shortening its duration"
+				]
+			],
+			"name": "Epic Spell Factors",
+			"caption": "Epic Spell Factors",
+			"source": "HighMagic",
+			"page": "27",
+			"type": "table"
+		},
+		{
+			"colLabels": [
+				"{@dice d4}",
+				"Complication"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"You miscalculate badly during one of your high magic inductions. Roll on the {@table High Magic Failure} table, subtracting the seed spell's level and all slot levels of factors from the result."
+				],
+				[
+					"2",
+					"You accidentally waste some of your materials. Increase material costs by 10 percent."
+				],
+				[
+					"3",
+					"You struggle with applying one of your factors to the seed spell's effects. Increase your research time by 1 workweek."
+				],
+				[
+					"4",
+					"Breakthrough! The research time is reduced by a number of workweeks equal to half your Arcana proficiency bonus."
+				]
+			],
+			"name": "High Magic Spellcraft Complications",
+			"caption": "High Magic Spellcraft Complications",
+			"source": "HighMagic",
+			"page": "24",
+			"type": "table"
+		}
+	],
+	"variantrule": [
+		{
+			"name": "High Magic Inductions",
+			"source": "HighMagic",
+			"page": 9,
+			"type": "section",
+			"entries": [
+				"To wield high magic, the spellcaster must first acquire a high magic sourcebook. Each of these specialized spellbooks include the {@spell high magic induction |hms} spell and all ten {@table high magic intonations|hms}, along with any {@table metamagic incantations |HMS} known to the book's owner. High magic sourcebooks also double as a spellbook or ritual book. See chapter 3 for details on transcribing or creating a high magic sourcebook.",
+				"A high magic sourcebook is more than just a spellbook, however. Due to the complexity of high magic, the sourcebook is a material component required for the high magic induction spell, as well as some incantations. A sourcebook is also necessary for preparing incantations for use during an induction, as described in the \"Metamagic Incantations\" section.",
+				{
+					"type": "entries",
+					"name": "Creating a High Magic Field",
+					"entries": [
+						"To create a high magic field around you, you must cast the high magic induction spell. After doing so, you can manipulate this field with high magic intonations and use metamagic incantations to alter the effects of other spells within the field. Additionally, this field heightens your magical sensitivity and allows you to sense magical energy within the field. Casting the spell at 4th level or higher increases the field's radius and duration, as well as the level of magic that can be manipulated within the field.",
+						{
+							"type": "statblock",
+							"name": "High Magic Induction",
+							"source": "HighMagic",
+							"page": 10,
+							"tag": "spell"
+						},
+						"Additionally, you can use metamagic incantations on any spell cast in the field that's of a level less than or equal to the level of the spell slot you used."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Manipulating High Magic Fields with Intonations",
+					"entries": [
+						"After a high magic field has been created, its properties\u2014including its radius, duration, and level\u2014can be altered with intonations. Two intonations are central to most high magic inductions:",
+						{
+							"type": "list",
+							"items": [
+								"The {@spell Join|hms} intonation allows you to merge your high magic field with one created by another willing spellcaster. This intonation is often used by novice high mages to join higher-level fields than they can create themselves, giving them the ability to target higher-level spells with their metamagic incantations. Spellcasters who have joined a single high magic field are called \"participants\" in a high magic induction.",
+								"The {@spell Withdraw|HMS} intonation allows you to slowly\u2014and safely\u2014close off the flow of raw magic through your high magic field, ending your high magic induction spell in the process. See \"Ending a High Magic Induction\" below."
+							]
+						},
+						"The \"High Magic Intonations\" section provides details on these and other intonations."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Manipulating Spells with Incantations",
+					"entries": [
+						"The properties and effects of a spell or spell attack cast within a high magic field can be manipulated with metamagic incantations. These incantations must be prepared in advance to cast them safely during a high magic induction. The \"Metamagic Incantations\" section provides details on acquiring, preparing, and casting incantations.",
+						"A spell with a casting time of longer than one round (such as a ritual spell) can have a theoretically unlimited number of incantations applied to it at any point during its casting. However, the more incantations are applied to a magical effect, the more difficult\u2014and dangerous\u2014it becomes to add additional incantations, as described in the \"Spellcraft Checks\" section. As a result, large high magic inductions rely heavily on the {@spell Stabilize|hms} and {@spell Support|hms} intonations to ensure their spells succeed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ending a High Magic Induction",
+					"entries": [
+						"The only way to safely end your participation in a high magic induction is to use the {@spell Withdraw|hms} intonation, slowly drawing down your connection to the raw magic energies beyond the Weave.",
+						"If you exit an induction by any other means, whether through death, moving out of the field willingly or otherwise, falling unconscious, losing concentration on the high magic induction spell, or because the spell's duration expires, this can release the chaotic energy channeled through the high magic field\u2014with potentially dire consequences, as discussed in the \"High Magic Failure\" section."
+					]
+				}
+			]
+		},
+		{
+			"name": "Metamagic Incantations",
+			"source": "HighMagic",
+			"page": 9,
+			"type": "section",
+			"entries": [
+				"{@table Metamagic Incantations|hms|Incantations} affect the nature of spells and spell attacks by manipulating either the raw magic energies channeled by the high mage or the magical energy of their effects. Most incantations consume some of the spellcaster's mystical energies\u2014spell slots\u2014when they are cast.",
+				"Given enough skilled participants and spell slots, the power and the possibilities of high magic are limitless. Through a well-coordinated combination of incantations, the humble 1st-level magic missile spell can be effectively boosted beyond 9th level with the {@spell Amplify|hms} incantation, and its range extended to thousands of feet with the {@spell Distance|hms} incantation, so an approaching enemy can be obliterated before getting close enough to loose an arrow.",
+				"The underlying arcane techniques used in incantations are also used in written spell design, and are commonly referred to as metamagic factors. Chapter 3 provides information on high magic spellcraft and metamagic factors.",
+				{
+					"type": "entries",
+					"name": "Acquiring Incantations",
+					"entries": [
+						"Unlike high magic intonations, which are included in all high magic sourcebooks, most high mages only have a handful of metamagic incantations in their sourcebook. On your adventures, you might find other incantations you can add to your sourcebook, though they are remarkably hard to acquire. The \"Scribing Metamagic Incantations\" section of chapter 3 details the process for scribing an incantation you've found into your sourcebook."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Preparing Incantations",
+					"entries": [
+						"Before casting an incantation from your high magic sourcebook during a high magic induction, you must spend time preparing the incantation to cast it safely. While you can try to cast an incantation from your high magic sourcebook without preparing it first, its complexity makes this very risky: Spellcraft checks for casting unprepared incantations are made with disadvantage.",
+						"Every time you gain a level or complete a workweek of research, you can do one of the following:",
+						{
+							"type": "list",
+							"items": [
+								"Prepare one incantation from your high magic sourcebook, up to a maximum equal to your spellcasting ability modifier (minimum 1).",
+								"Replace one prepared incantation with a new incantation from your high magic sourcebook."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Casting Incantations",
+					"entries": [
+						"All incantations are cast as reactions. When an eligible spell or spell attack is cast within the area of effect of your high magic induction spell, you can use your reaction to attempt to cast an incantation and apply its effects to that spell or spell attack.",
+						"Because of the Arcane Sensitivity feature of the high magic induction spell, you don't need to see or hear a spellcaster to know a spell is being cast, provided this sense isn't blocked by any barriers; you can \"feel\" the energy being manipulated in familiar patterns.",
+						"Some incantations allow you to expend a spell slot to fuel one or more effects of your choice within an incantation. In this case, the spell slot can be \"split\" when choosing that incantation's effects, much as if it were multiple lower-level spell slots. If an incantation allows you to choose how many slot levels to spend on one or more effects, you can select any combination of effects whose total cost adds up to the level of the spell slot you expended.",
+						{
+							"type": "entries",
+							"name": "Using Incantations on Other Creatures' Spells",
+							"entries": [
+								"Most sorcerers are only able to use Metamagic options to manipulate their own spells (though the High Magic Bloodline sorcerous origin in chapter 4 is an exception). High mages, however, can apply metamagic incantations to spells and spell attacks cast by creatures other than themself\u2014or at least, they can try. An unwilling creature can resist your attempt by succeeding on a saving throw using their spellcasting ability for the spell. The DC is determined by the following formula:",
+								"{@b DC} = 8 + your Arcana proficiency bonus + your spellcasting ability modifier",
+								"If the creature succeeds on their saving throw, your incantation fails and the spell slot is expended, but no High Magic Failure roll is required. If they fail their saving throw, you can make a Spellcraft check to apply the incantation to the \"triggering spell\"\u2014the spell or spell attack that triggered the Spellcraft check."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spellcraft Checks",
+							"entries": [
+								"Most sorcerers are only able to use Metamagic options to manipulate their own spells (though the High Magic Bloodline sorcerous origin in chapter 4 is an exception). High mages, however, can apply metamagic incantations to spells and spell attacks cast by creatures other than themself\u2014or at least, they can try. An unwilling creature can resist your attempt by succeeding on a saving throw using their spellcasting ability for the spell. The DC is determined by the following formula:",
+								"{@b DC} = 10 + the triggering spell's power",
+								"A spell's power is determined by the following formula:",
+								"{@b Spell power} = = the level of the spell (as cast) + 1 per slot level of all applied incantations + 1 per sorcery point spent on Metamagic options",
+								"If you cast an incantation from your high magic sourcebook that you don't have prepared, this check is made with disadvantage.",
+								"On a successful check, the incantation's effects are applied to the triggering spell or spell attack. On a failed check, you experience the following effects:",
+								{
+									"type": "list",
+									"items": [
+										"You provoke a dangerous release of arcane energy and must roll on the High Magic Failure table. (See the \"High Magic Failure\" section below.)",
+										"During a high magic induction, if you fail a Spellcraft check by 4 or less, the incantation is successfully applied to the triggering spell or spell attack\u2014even if the High Magic Failure effects incapacitate or kill you."
+									]
+								},
+								"If you attempt to apply an incantation to an ineligible spell or spell attack, the incantation and the Spellcraft check both fail automatically."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "High Magic Failure",
+			"source": "HighMagic",
+			"page": 13,
+			"type": "section",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"When you are required to make a High Magic Failure roll, including when you lose concentration on a high magic induction spell, roll a {@dice d100}. If applicable, subtract the triggering spell's power from this roll. While you may gain a bonus to the roll through means such as the {@spell Stabilize|hms} intonation, if you roll a 1 on the d100, it's considered a critical failure regardless of any bonuses. Consult the {@table High Magic Failure|hms} table to determine the result. The \"{@table High Magic Failure|hms} Effects\" section and the \"{@table High Magic Catastrophe|hms} Effects\" section describe each effect in detail.",
+						{
+							"type": "statblock",
+							"name": "High Magic Failure",
+							"source": "HighMagic",
+							"page": 13,
+							"tag": "table"
+						},
+						{
+							"type": "statblock",
+							"name": "High Magic Catastrophe",
+							"source": "HighMagic",
+							"page": 13,
+							"tag": "table"
+						},
+						{
+							"type": "entries",
+							"name": "Leaving a High Magic Field.",
+							"entries": [
+								"If your {@spell high magic induction|HMS} spell fails while you're participating in an induction with other participants and the high magic field is centered on you, the high magic field recenters on the participant closest to you. Unless otherwise noted, if any participant in an induction leaves the field's area\u2014willingly or otherwise\u2014they must make a saving throw using their spellcasting ability score (DC = 10 + the high magic field's level). On a successful save, a new 3rd-level high magic field forms around them, centered on them. This field has a 30-foot radius and a duration equal to 1 minute × their spellcasting modifier (minimum 1). On a failed save, they take {@dice 1d4} force damage and their high magic induction spell fails."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "High Magic Failure Effects",
+					"entries": [
+						"This section describes each of the High Magic Failure effects in detail.",
+						{
+							"type": "entries",
+							"name": "Arcane Feedback.",
+							"entries": [
+								"You lose control of the arcane energy you are manipulating and its release wreaks havoc on your body. You take force damage equal to {@dice 1d4} × the triggering spell's power. If this damage reduces you to 0 hit points, you are stable unless you take additional damage from another source. This damage treats damage immunity as damage resistance; damage resistance halves damage as normal."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Exhaustion.",
+							"entries": [
+								"The effort to suppress a far worse outcome takes a toll on your mind and body, and you gain up to five levels of exhaustion. Characters who die from exhaustion can be revivified, raised, or resurrected as normal."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Magical Aging.",
+							"entries": [
+								"The raw magic energies drain your life force, instantly aging you by {@dice 1d4} years × the triggering spell's power. This aging is permanent and nonmagical in nature, though it can be reversed through magical means."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Raw Magic Explosion.",
+							"entries": [
+								"High Magic Failures can unleash world-shattering explosions of raw magic. The amount of energy released is based on the triggering spell's power, affecting a sphere centered on you with a radius of 10 feet × the triggering spell's power. Creatures caught in the explosion must make a Dexterity saving throw (DC = the triggering spell's power). On a failed save, a creature takes force damage equal to {@dice 1d10} × the triggering spell's power, or takes half as much damage on a successful save. This damage ignores damage resistances and treats damage immunity as resistance instead. Characters who die from this damage are disintegrated and can be restored to life only by means of a {@spell true resurrection} or {@spell wish} spell."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "High Magic Catastrophe Effects",
+					"entries": [
+						"This section describes each of the High Magic Catastrophe effects in detail.",
+						{
+							"type": "entries",
+							"name": "Dead-Magic Zone.",
+							"entries": [
+								"The raw magic explosion burns off all magic energy in the area, creating a temporary dead-magic zone. A sphere centered on you with a radius of 10 feet × the triggering spell's power is under the effects of the {@spell antimagic field} spell. The radius of this dead-magic zone shrinks by 5 feet per hour until it has disappeared."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mental Overload.",
+							"entries": [
+								"The exposure to intense, raw magic energies overloads your mind. On a failed save, you are stunned for a number of hours equal to {@dice 1d10} × the triggering spell's power, or for half as long on a successful save. After each hour, you can make an Intelligence saving throw (DC = 10 + the number of hours remaining) to end the effect early."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Planar Gate.",
+							"entries": [
+								"The raw magic explosion tears a hole in the fabric of reality itself, opening a portal to a random plane of existence. Planar gates created by high magic catastrophes function like the {@spell gate} spell, except they are permanent (until closed) and the opening has a diameter of 5 feet × the triggering spell's power, centered on you. Creatures within 10 feet of this opening must succeed on a Dexterity saving throw (DC = triggering spell's power) or be pulled through the portal."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spectral Mage.",
+							"entries": [
+								"Your body disintegrates, but your spirit retains a tenuous grasp on the Material Plane. Any equipment you had becomes incorporeal with you, including magic items, but they don't function in your new, incorporeal form. You can be restored to life only by means of a {@spell wish} spell, after which you and any incorporeal items in your possession gain corporeal form.",
+								"While incorporeal, your creature type is Undead, your Strength becomes 1 (\u20135), you gain a flying speed of 30 feet, and you can hover. Additionally, you gain the following traits from the spectral mage statistics: Call of the Fugue Plane, Incorporeal Movement, Life Drain, and Spectral Possession. You retain your spellcasting ability and can ignore the verbal and material components of any spells you knew or had prepared at the time of your death. For as long as you remain a spectral mage, you can't learn new spells, change your prepared spells, or gain a level."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Temporal Gate.",
+							"entries": [
+								"The raw magic explosion briefly opens a portal to the past. The portal appears for a number of rounds equal to the triggering spell's power. Its opening has a diameter of 5 feet × the triggering spell's power, centered on you. Creatures within 10 feet of this opening must succeed on a Dexterity saving throw (DC = triggering spell's power) or be pulled through the portal. Any creatures who pass through the portal are sent back in time by a number of years equal to {@dice d100} × the triggering spell's power."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Wild Magic Surge.",
+							"entries": [
+								"The frayed edges of the Weave twist the raw magic explosion in unpredictable ways. Roll on the {@table Wild Magic Surge|PHB} table in the Player's Handbook. If the result has any numerical effects (such as areas of effect, distance, and duration), they are multiplied by the triggering spell's power."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "High Magic Spellcraft",
+			"source": "HighMagic",
+			"page": 24,
+			"type": "section",
+			"entries": [
+				"High magic inductions allow spellcasters to actively manipulate the energy in spells as they are being cast. A student of high magic becomes skilled at customizing spells for casting outside of a high magic field. High-magic-assisted spellcraft allows wizards and warlocks to design new spells much faster than designing a spell from scratch. The technique has several inefficiencies and limitations, but it's the only known method for designing \"epic\" spells of 10th level and higher\u2014a level of power otherwise unattainable outside of a high magic induction.",
+				{
+					"type": "entries",
+					"name": "Spellcraft Resources",
+					"entries": [
+						"Designing and developing a spell involves research and experimentation, which is conducted as a downtime activity in accordance with the \"Customizing Spells with High Magic\" section. The research time and base material costs are as follows:",
+						{
+							"type": "statblock",
+							"name": "High Magic Spellcraft Costs",
+							"source": "HighMagic",
+							"page": 24,
+							"tag": "table"
+						},
+						"Additionally, you must have enough material components to cast the seed spell\u2014the foundation for your new spell\u2014once per workweek as part of the experimentation process. These material components are consumed in the process of designing and testing of your spell, regardless of whether casting the spell ordinarily consumes them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcraft Complications",
+					"entries": [
+						"Each workweek spent conducting high magic spellcraft brings a 10 percent chance of a complication, examples of which are on the High Magic Spellcraft Complications table.",
+						{
+							"type": "statblock",
+							"name": "High Magic Spellcraft Complications",
+							"source": "HighMagic",
+							"page": 24,
+							"tag": "table"
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "section",
+			"source": "HighMagic",
+			"page": 24,
+			"name": "Customizing Spells with High Magic",
+			"entries": [
+				"Where high magic inductions modify a triggering spell's high magic, spellcraft instead combines a seed spell\u2014an existing spell being used as a foundation\u2014with the effects of one or more factors.",
+				"After choosing a seed spell to modify, identify any necessary incantations you wish to use as factors to design your customized version of the spell.",
+				"When complete, the resulting spell is scribed into your spellbook or ritual book. It works entirely through the Weave and doesn't require a high magic field.",
+				"There are two kinds of factors:",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Metamagic Factors.",
+							"entries": [
+								"In a high magic induction, incantations are cast to alter a spell's effects. Written metamagic factors modify a spell's design in nearly identical ways."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Epic Spell Factors.",
+							"entries": [
+								"Several factors can only be applied to epic spells and can't be cast as incantations during high magic inductions."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Limitations",
+					"entries": [
+						"A spell designed through high magic spellcraft inherits all the properties of its seed spell with the following exceptions and limitations:",
+						{
+							"type": "entries",
+							"name": "Spell Level Limits.",
+							"entries": [
+								"The resulting spell can be no lower than 1st level and no higher than 9th level. It's not possible to create cantrips with high magic spellcraft. Additionally, you must be able to cast spells of its level or the downtime activity fails; you can't design a 6th-level spell unless you can cast 6th-level spells. Characters can remove the upper limit to spell levels with the Spellcraft Mastery feat in chapter 4."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Metamagic Factors.",
+							"entries": [
+								"You can use any metamagic incantation that you have in your high magic sourcebook as a metamagic factor. You can apply the effects of any number of metamagic factors to a seed spell. Most metamagic factors increase a spell's level, as described in the \"Resulting Spell Level\" section."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Epic Spell Factors.",
+							"entries": [
+								"You can use any epic spell factor that you have in your high magic sourcebook (see the \"Acquiring Epic Spell Factors\" section). You can apply up to half your proficiency bonus in epic spell factors to a seed spell. See the \"Epic Spell Factors\" section below."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ritual Spells.",
+							"entries": [
+								"The resulting spell can't be cast as a ritual. If a seed spell has the ritual tag, the resulting customized spell loses it."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Classes.",
+							"entries": [
+								"The resulting spell can only be cast by a wizard or warlock who is also able to cast its seed spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Casting at Higher Levels.",
+							"entries": [
+								"Although you can use a spell \"cast\" at a higher level as a seed, the resulting spell doesn't have any property allowing it to be cast at higher levels."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Properties.",
+							"entries": [
+								"If an incantation description refers to any property of a high magic field, for purposes of customizing a seed spell, consider the effect the incantation would have on that spell if cast in a 3rd-level high magic induction. For example, adding 1 slot level in the {@spell Project|hms} metamagic factor changes the jump spell's range of touch to 30 feet."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resulting Spell Level",
+					"entries": [
+						"The resulting spell level of a customized spell follows the following formula:",
+						"{@b Resulting Spell Level} = seed spell level + adjusted metamagic factors + epic spell factors",
+						{
+							"type": "entries",
+							"name": "Adjusted Metamagic Factors.",
+							"entries": [
+								"Some metamagic factors are more efficient (or less efficient) when used in spell design than their incantation counterparts in high magic inductions, meaning they affect the resulting spell's level to a different extent than when cast as an incantation. However, metamagic factors and incantations shape the spell's other properties identically.",
+								"Adjust each metamagic factor's slot level individually by multiplying it with the slot level modifier indicated on the {@table Metamagic Factor Modifiers} table, then add the adjusted metamagic factors together and apply the effects to the resulting spell.",
+								"The {@spell Delay|hms}, {@spell Guide|hms}, {@spell Redirect|hms}, and {@spell Seeking|hms} incantations can't be used as metamagic factors, because they alter a spell's effects after it has been cast.",
+								"Once all your selected metamagic factors' effects have been applied to the resulting spell, apply the epic spell factors' effects. Epic spell factors affect the spell level as in indicated in their descriptions. Many epic spell factors lower the resulting spell level by introducing limitations to its effects, as discussed in the \"Epic Spell Factor Descriptions\" section.",
+								{
+									"type": "statblock",
+									"name": "Metamagic Factor Modifiers",
+									"source": "HighMagic",
+									"page": 25,
+									"tag": "table"
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Epic Spell Factors.",
+							"entries": [
+								"Several factors can only be applied to epic spells and can't be cast as incantations during high magic inductions."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Components",
+					"entries": [
+						"The resulting spell's component requirements are inherited from the seed spell with the following adjustments:",
+						{
+							"type": "list",
+							"items": [
+								"The resulting spell has the same verbal and somatic requirements as the seed spell plus all metamagic factors combined (unless the Subtlety metamagic factor eliminates any).",
+								"For each slot level of {@spell Amplify|hms}, {@spell Enhance|hms}, {@spell Expand|hms}, {@spell Persistence|hms}, or {@spell Protect|hms}, the resulting spell's material component requirements increases by the value of the seed spell's material component requirements.",
+								"For each slot level of {@spell Contract|hms}, {@spell Lessen|hms}, {@spell Weaken|hms}, or {@spell Diminish|Hms}, the resulting spell's material component requirements decreases by half of the value of the seed spell's material component requirements.",
+								"Epic spells' material components are always consumed with the casting."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Transposing Spells",
+			"source": "HighMagic",
+			"page": 26,
+			"type": "section",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Experienced high mages sometimes adapt or transpose spells that are usually considered the domain of other spellcasters. Using their heightened arcane senses in a high magic induction, a high mage can reverse engineer a divine spell's effects on the Weave and replicate them using arcane techniques, or vice versa.",
+						"To transpose a spell, a spellcaster or group of spellcasters working together follow the rules for high magic spellcraft above, but with the following differences:",
+						{
+							"type": "list",
+							"items": [
+								"At least one spellcaster must have the high magic induction spell prepared.",
+								"At least one spellcaster that can cast the seed spell must assist with transposing the spell.",
+								"Choose one or more class spell lists to add the resulting spell to. One spellcaster from each of those character classes must assist with transposing the spell, and they must be able to cast spells of the resulting spell's level. The resulting spell level increases by 1 for each class spell list the spell is added to.",
+								"The resulting spell is added to the spellbook or ritual book of any spellcasters who participated in this downtime activity and are able to cast the spell.",
+								"Metamagic and epic spell factors can not be applied to a seed spell while transposing it."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transposition Resources",
+					"entries": [
+						"Transposing a spell involves research and experimentation, which is conducted as a downtime activity. The research time and base material costs are as follows:",
+						{
+							"type": "statblock",
+							"name": "Spell Transposition Costs",
+							"source": "HighMagic",
+							"page": 26,
+							"tag": "table"
+						},
+						"Additionally, while transposing the spell, you must have enough material components to cast the seed spell once per workweek. These material components are consumed in the process of designing and testing of your spell, regardless of whether casting the spell ordinarily consumes them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Transposition Complications",
+					"entries": [
+						"Each workweek spent researching and testing a spell transposition requires an Intelligence (Arcana) check. The DC for this check is 15 + the seed spell level. Add 5 to the DC if either the seed spell or the resulting spell is a cleric, druid, paladin, or ranger spell. If this check fails, a complication arises. Consult the Spell Transposition Complications table below.",
+						{
+							"type": "statblock",
+							"name": "Spell Transposition Complications",
+							"source": "HighMagic",
+							"page": 26,
+							"tag": "table"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Epic Spells",
+			"source": "HighMagic",
+			"page": 27,
+			"type": "section",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"When customizing spells as outlined in the \"High Magic Spellcraft\" section, high-level spellcasters with the Spellcraft Mastery feat (in chapter 4) can ignore the level limit for high magic spellcraft, allowing them to design \"epic spells\"\u2014spells of 10th level or higher. Epic spells follow the normal rules for spellcasting, with one difference: to cast an epic spell of any level, you expend a 9th-level spell slot and make a Spellcraft check (DC = 10 + the spell level). On a success, the spell is cast successfully. On a failure, you must make a High Magic Failure roll (see chapter 2).",
+						"For epic spells, a spell's level doesn't have quite the same meaning it does for a mundane spell. Where a 9th-level spell is vastly more powerful than even an 8th-level spell, a 13th-level spell isn't necessarily more powerful than a 10th-level spell; it's just more difficult to cast. Outside of high magic inductions, it's nearly impossible for mortal spellcasters to cast spells of greater than 25th level.",
+						"All high magic spellcraft is expensive\u2014particularly epic spell design\u2014but crafting a new spell offers the following benefits that high magic inductions cannot:",
+						{
+							"type": "list",
+							"items": [
+								"Spells customized through high magic spellcraft, including epic spells, don't require a high magic field to be cast.",
+								"Because an epic spell only consumes a 9th-level spell slot, using a custom spell as a triggering spell in a high magic induction can require fewer total slot levels than a traditional spell amplified to the same spell power by a high magic induction.",
+								"By baking the effects of one or more factors into the seed spell, a customized spell can reduce the number of Spellcraft checks and/or spellcasters necessary to successfully create a desired spell effect.",
+								"Epic spell factors can't be used in high magic inductions, and they provide several benefits for a spell designer that metamagic factors can't duplicate. However, you can design an epic spell for use in a high magic induction to gain its benefits."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Epic Spell Factors",
+					"entries": [
+						"Epic spell factors are too complex to be used in high magic inductions, and they require too much arcane energy to be used with spells below 10th level. An epic spell factor alters a seed spell's properties like a metamagic factor, but with the following exceptions:",
+						{
+							"type": "list",
+							"items": [
+								"Using an epic spell factor in a spell design changes the minimum level of the resulting spell to 10, and it can't be reduced to a lower level through any means.",
+								"You can incorporate a number of epic spell factors equal to half of your proficiency bonus into an epic spell design (e.g., three at 17th level).",
+								"Epic spell factors modify the seed spell's effects after metamagic factors are applied unless otherwise noted.",
+								"Each factor can incorporate a number of levels up to a number equal to your Arcana proficiency bonus (e.g., 12 levels for a 17th-level wizard with expertise).",
+								"Epic spell factors don't need to be prepared, but some require you to have a specific incantation prepared (for testing purposes). The resulting spell does not require the spellcaster to have the metamagic incantation prepared.",
+								"The DM has final say whether an epic spell design is valid."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Acquiring Epic Spell Factors",
+							"entries": [
+								"Because they aren't cast like an incantation, epic spell factors are most often discovered in arcanists' notes or through research rather than found in a high magic sourcebook or a ritual book. At the DM's discretion, characters can use the research downtime activity in Xanathar's Guide to Everything to acquire one new epic spell factor. Such discoveries are very rare, however, and even the most powerful mages know only a handful of epic spell factors."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Epic Spell Factor Descriptions",
+					"entries": [
+						"Epic spell factors aren't spells and can't be prepared or cast, but they follow the same rules as spellcasting with regard to spell components.",
+						{
+							"type": "statblock",
+							"name": "Epic Spell Factors",
+							"source": "HighMagic",
+							"page": 27,
+							"tag": "table"
+						}
+					]
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Casting Speed",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the {@spell Quicken|HMS} incantation prepared",
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"This factor complements the Quicken metamagic factor by offering two new ways to altering the resulting spell's casting time:",
+				{
+					"type": "entries",
+					"name": "Quick Casting.",
+					"entries": [
+						"You can change the casting time of a spell from 1 bonus action to 1 reaction by increasing the resulting spell level by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slow Casting.",
+					"entries": [
+						"You can reduce the effective slot level of a spell that has a casting time of 1 action by increasing its casting time by 10 minutes per slot level you choose to reduce it by, up to a maximum decrease equal to your spellcasting ability modifier."
+					]
+				},
+				"For example, Bourfain the 17th-level wizard has an Intelligence of 17 and wants to increase the duration of his 9th-level transmutation spell shapechange. He adds 4 slot levels of the Extend metamagic factor, which would make the spell 13th level. But that's too high of a DC for Bourfain's nerves, so he offsets 2 slot levels with Slow Casting, increasing its casting time by 20 minutes. The resulting spell is 11th level and has a duration of 5 hours."
+			],
+			"source": "HighMagic",
+			"page": 28,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		},
+		{
+			"name": "Extended Duration",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "A seed spell with a duration other than instantaneous, you must have the {@spell Extend| HMS} incantation prepared",
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"This factor increases the duration of a spell by increasing its effective level by 3 slot levels. The spell's duration is increased according to the following table.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Current Duration",
+						"New Duration"
+					],
+					"colStyles": [
+						"col-5",
+						"col-7"
+					],
+					"rows": [
+						[
+							"1 hour or less",
+							"1 hour × 1/2 proficiency bonus"
+						],
+						[
+							">1 hour",
+							"1 day × 1/2 proficiency bonus"
+						],
+						[
+							">1 day",
+							"1 year × 1/2 proficiency bonus"
+						],
+						[
+							">1 year",
+							"100 years × 1/2 proficiency bonus"
+						],
+						[
+							">100 years",
+							"Permanent"
+						]
+					]
+				},
+				"Concentration requirements are not affected by this factor. The Persistence spell factor can remove a spell's concentration requirement."
+			],
+			"source": "HighMagic",
+			"page": 28,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		},
+		{
+			"name": "Greater Conjuration",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "A seed spell that animates, awakens, conjures, or similarly creates one or more creatures",
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"This factor allows you to improve the quantity and quality of creatures awakened, conjured, or otherwise magicked into being through your spells.",
+				{
+					"type": "entries",
+					"name": "Enhanced Conjuration.",
+					"entries": [
+						"This factor alters the seed spell's effects by increasing one or more ability scores of creatures animated, awakened, conjured, or otherwise created by the spell. The total ability score improvement equals half your proficiency bonus × the slot levels used for this factor. The improved Intelligence, Wisdom, or Charisma scores can't exceed your own."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mass Conjuration.",
+					"entries": [
+						"This factor alters the seed spell by increasing the CR limit of creatures animated, awakened, conjured, or otherwise created by the resulting spell (but not teleported or otherwise translocated) by 1 for each slot level used for this factor.",
+						"Additionally, when animating, awakening, conjuring, or otherwise creating multiple creatures, you can replace any number of creatures with different creatures of the same creature type(s), provided the number of creatures animated, awakened, conjured, or otherwise created by the resulting spell is equal or less than those created by the seed spell."
+					]
+				}
+			],
+			"source": "HighMagic",
+			"page": 28,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		},
+		{
+			"name": "Material Requirement",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"You can reduce a spell's effective level by adding a required material component worth 10,000 gp × the number of slot levels reduced, to a maximum reduction of 5 slot levels.",
+				"Work with your DM to determine the nature of this new material component based on the theme(s) of the spell you're designing. If the spell already has a material component without a cost, the new, more valuable material component replaces it.",
+				"Only one material component can be incorporated into the resulting spell with this factor."
+			],
+			"source": "HighMagic",
+			"page": 28,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		},
+		{
+			"name": "Persistence",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "A seed spell that requires concentration; you must have the {@spell Extend|HMS} incantation prepared",
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"This factor removes the seed spell's concentration requirement, so the resulting spell no longer requires you to maintain concentration to keep its magic active. The resulting spell's level increases by a number equal to the level of the seed spell (minimum 5)."
+			],
+			"source": "HighMagic",
+			"page": 28,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		},
+		{
+			"name": "Precision Targeting",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "You must have the {@spell Overcome|HMS} incantation prepared",
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"This factor alters a spell's possible targets. When this factor is used to include a certain category of creatures in a spell, the spell can't be used to target or otherwise affect any creatures not in the selected categories. When this factor is used to exclude a certain category of creatures from a spell, they can't be targeted by the spell, are immune to all effects of the resulting spell, and automatically succeed on all saving throws against it.",
+				"Choose one or more of the following effects:",
+				{
+					"type": "entries",
+					"name": "Alignment Targeting.",
+					"entries": [
+						"Choose one or more creature alignments to include or exclude from the resulting spell's effects. For each alignment chosen, the resulting spell level increases by 1. For example, excluding all lawful characters increases the spell by 3 levels because it excludes lawful good, lawful neutral, and lawful evil creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Targeting.",
+					"entries": [
+						"Choose one or more creature types (such as \"aberration\") or creature tags (such as \"shapechanger\") to include or exclude from the spell. The resulting spell's level increases by the number of creature types and tags you chose."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expanded Targeting..",
+					"entries": [
+						"This factor doubles the maximum number of creatures or objects the seed spell can target, adding the number of levels in the seed spell to the resulting spell level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Faction Targeting.",
+					"entries": [
+						"Choose one or more factions to include or exclude members of from the resulting spell's effects. For each faction chosen, the resulting spell level increases by 6. \"Faction\" can mean membership in a specific organization (such as the Harpers or the Arcane Brotherhood), or it can be more broadly defined, such as the citizens of a specific city or the spellcaster's adventuring party, etc. You must be aware of the organization's existence to select it but need not be aware of a particular creature's membership status."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Limited Targeting.",
+					"entries": [
+						"This factor halves the maximum number of creatures or objects the seed spell can target (round up), reducing the resulting spell by 1 slot level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Targeting.",
+					"entries": [
+						"Choose one or more damage types to exclude from the spell's effects: bludgeoning, piercing, and slashing; acid; cold; fire; force; lightning, poison; psychic; radiant; thunder; or necrotic. For each type chosen, the effective spell level is reduced by 1/2 (round up). The resulting spell can't affect the chosen types in any way. For example, by incorporating this factor into the {@spell invulnerability} spell, you could make a target immune to all damage types except for cold and fire, reducing the slot level by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "School Targeting.",
+					"entries": [
+						"Choose one or more schools of magic to exclude from the spell's effects: abjuration, conjuration, divination, enchantment, evocation, illusion, necromancy, or transmutation. For each school chosen, the effective spell level is reduced by 1. The resulting spell can't affect the chosen schools in any way. For example, by incorporating this factor into the {@spell antimagic field} spell, you could create an antimagic field that restricts all schools of magic except for illusion spells, reducing the slot level by 1."
+					]
+				}
+			],
+			"source": "HighMagic",
+			"page": 29,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		},
+		{
+			"name": "Resize Area",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "A seed spell with an area of effect, you must have the {@spell Expand/Contract|HMS} incantation prepared",
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"This factor increases a spell's area of effect in exchange for an increase in its effective level and casting time, according to the following table.",
+				{
+					"type": "table",
+					"name": "Resize Area Effects",
+					"colLabels": [
+						"Radius/Length Modifier",
+						"Level Increase",
+						"Casting Time"
+					],
+					"colStyles": [
+						"col-5",
+						"col-2",
+						"col-5"
+					],
+					"rows": [
+						[
+							"+15 feet",
+							"+1",
+							"+10 minutes"
+						],
+						[
+							"+40 feet",
+							"+2",
+							"+30 minutes"
+						],
+						[
+							"+90 feet",
+							"+3",
+							"+1 hour"
+						],
+						[
+							"+300 feet",
+							"+4",
+							"+4 hours"
+						],
+						[
+							"+1,000 feet",
+							"+5",
+							"+12 hours"
+						],
+						[
+							"+1 mile",
+							"+6",
+							"+3 days"
+						],
+						[
+							"+3 miles",
+							"+7",
+							"+9 days"
+						],
+						[
+							"+10 miles",
+							"+8",
+							"+1 month"
+						],
+						[
+							"+25 miles",
+							"+9",
+							"+2 months"
+						],
+						[
+							"+120 miles/level",
+							"+10 or more",
+							"+1 year/level"
+						]
+					]
+				},
+				"These effects can be combined in any fashion. Spells with extremely long casting times are typically cast in high magic inductions where the casting time can be shortened with the {@spell Quicken|hms} incantation, or used as intermediate spell, using the resulting spell as a seed spell in the design of a more practical spell."
+			],
+			"source": "HighMagic",
+			"page": 29,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		},
+		{
+			"name": "Shortened Duration",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "seed spell with a duration of 1 minute or longer, you must have the {@spell Extend|HMS} incantation prepared",
+						"entrySummary": "Epic Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"This factor reduces the resulting spell's duration to lower its level. For each level the seed spell is reduced, the spell's duration is halved, to a maximum reduction of 6 slot levels and a minimum duration of 1 round."
+			],
+			"source": "HighMagic",
+			"page": 29,
+			"featureType": [
+				"Epic Spell Factors"
+			]
+		}
+	],
+	"status": [
+		{
+			"name": "Arcane Feedback",
+			"page": 14,
+			"source": "HighMagic",
+			"entries": [
+				"You lose control of the arcane energy you are manipulating and its release wreaks havoc on your body. You take force damage equal to {@dice 1d4} × the triggering spell's power. If this damage reduces you to 0 hit points, you are stable unless you take additional damage from another source. This damage treats damage immunity as damage resistance; damage resistance halves damage as normal."
+			]
+		},
+		{
+			"name": "Magical Aging",
+			"page": 14,
+			"source": "HighMagic",
+			"entries": [
+				"The raw magic energies drain your life force, instantly aging you by {@dice 1d4} years × the triggering spell's power. This aging is permanent and nonmagical in nature, though it can be reversed through magical means."
+			]
+		}
+	]
+}
