@@ -5494,6 +5494,187 @@
 			],
 			"className": "Artificer",
 			"classSource": "tce"
+		},
+		{
+			"name": "Path of the Blinking Pack",
+			"shortName": "Blinking Pack",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Path of the Blinking Pack|Barbarian|phb|Blinking Pack|FeyCom|3",
+				"Blinking Rage|Barbarian|phb|Blinking Pack|FeyCom|3",
+				"Animal Senses|Barbarian|phb|Blinking Pack|FeyCom|6",
+				"Pack Mentality|Barbarian|phb|Blinking Pack|FeyCom|10",
+				"Predator Senses|Barbarian|phb|Blinking Pack|FeyCom|14"
+			],
+			"className": "Barbarian",
+			"classSource": "phb"
+		},
+		{
+			"name": "College of Seasons",
+			"shortName": "Seasons",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"College of Seasons|Bard|phb|Seasons|FeyCom|3",
+				"Melodies of the Seasons|Bard|phb|Seasons|FeyCom|3",
+				"In All Seasons|Bard|phb|Seasons|FeyCom|6",
+				"Mastery of the Seasons|Bard|phb|Seasons|FeyCom|14"
+			],
+			"className": "Bard",
+			"classSource": "phb"
+		},
+		{
+			"name": "Mirror Domain",
+			"shortName": "Mirror",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Mirror Domain|Cleric|phb|Mirror|FeyCom|1",
+				"Mirror Spells|Cleric|phb|Mirror|FeyCom|1",
+				"Source Mirror Ritual|Cleric|phb|Mirror|FeyCom|1",
+				"Channel Divinity: Mirror Deflection|Cleric|phb|Mirror|FeyCom|2",
+				"Channel Divinity: Mirror Reflection|Cleric|phb|Mirror|FeyCom|6",
+				"Reflective Rituals|Cleric|phb|Mirror|FeyCom|6",
+				"Potent Spellcasting|Cleric|phb|Mirror|FeyCom|8",
+				"Pierce the Veil|Cleric|phb|Mirror|FeyCom|17"
+			],
+			"subclassSpells": [
+				"identify",
+				"shield",
+				"mirror image",
+				"shatter",
+				"blink",
+				"counterspell",
+				"divination",
+				"sickening radiance|xge",
+				"mislead",
+				"wall of light|xge"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"identify",
+							"shield"
+						],
+						"3": [
+							"mirror image",
+							"shatter"
+						],
+						"5": [
+							"blink",
+							"counterspell"
+						],
+						"7": [
+							"divination",
+							"sickening radiance|xge"
+						],
+						"9": [
+							"mislead",
+							"wall of light|xge"
+						]
+					}
+				}
+			],
+			"className": "Cleric",
+			"classSource": "phb"
+		},
+		{
+			"name": "Circle of Visions",
+			"shortName": "Visions",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Circle of Visions|Druid|phb|Visions|FeyCom|2",
+				"Touching the Veil|Druid|phb|Visions|FeyCom|2",
+				"Form of Knowledge|Druid|phb|Visions|FeyCom|2",
+				"Opening the Circle|Druid|phb|Visions|FeyCom|6",
+				"Arcane Reservoir|Druid|phb|Visions|FeyCom|10",
+				"Eyes from Beyond|Druid|phb|Visions|FeyCom|14"
+			],
+			"className": "Druid",
+			"classSource": "phb"
+		},
+		{
+			"name": "Court Guard",
+			"shortName": "Court Guard",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Court Guard|Fighter|phb|Court Guard|FeyCom|3",
+				"Court Training|Fighter|phb|Court Guard|FeyCom|3",
+				"Blinding Strike|Fighter|phb|Court Guard|FeyCom|3",
+				"Spell Storage|Fighter|phb|Court Guard|FeyCom|7",
+				"Mental Fortress|Fighter|phb|Court Guard|FeyCom|10",
+				"Charming Taunt|Fighter|phb|Court Guard|FeyCom|15",
+				"Blinded by the Court|Fighter|phb|Court Guard|FeyCom|18"
+			],
+			"className": "Fighter",
+			"classSource": "phb"
+		},
+		{
+			"name": "Way of Deep Winter",
+			"shortName": "Deep Winter",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Way of Deep Winter|Monk|phb|Deep Winter|FeyCom|3",
+				"Visage of Winter|Monk|phb|Deep Winter|FeyCom|3",
+				"Strike of Bitter Cold|Monk|phb|Deep Winter|FeyCom|3",
+				"Kiss of Winter's Breath|Monk|phb|Deep Winter|FeyCom|6",
+				"As a Glacier Stands|Monk|phb|Deep Winter|FeyCom|11",
+				"Vortex of Ice|Monk|phb|Deep Winter|FeyCom|17"
+			],
+			"className": "Monk",
+			"classSource": "phb"
+		},
+		{
+			"name": "Oath of Beauty",
+			"shortName": "Beauty",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Oath of Beauty|Paladin|phb|Beauty|FeyCom|3",
+				"Oath Spells|Paladin|phb|Beauty|FeyCom|3",
+				"Channel Divinity|Paladin|phb|Beauty|FeyCom|3",
+				"Aura of Beauty|Paladin|phb|Beauty|FeyCom|7",
+				"Restore Beauty|Paladin|phb|Beauty|FeyCom|15",
+				"Beacon of Beauty|Paladin|phb|Beauty|FeyCom|20"
+			],
+			"subclassSpells": [
+				"color spray",
+				"command",
+				"enhance ability",
+				"mirror image",
+				"hypnotic pattern",
+				"major image",
+				"aura of purity",
+				"freedom of movement",
+				"dominate person",
+				"modify memory"
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"color spray",
+							"command"
+						],
+						"5": [
+							"enhance ability",
+							"mirror image"
+						],
+						"9": [
+							"hypnotic pattern",
+							"major image"
+						],
+						"13": [
+							"aura of purity",
+							"freedom of movement"
+						],
+						"17": [
+							"dominate person",
+							"modify memory"
+						]
+					}
+				}
+			],
+			"className": "Paladin",
+			"classSource": "phb"
 		}
 	],
 	"subclassFeature": [
@@ -5720,6 +5901,1260 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"name": "Path of the Blinking Pack",
+			"source": "FeyCom",
+			"className": "Barbarian",
+			"classSource": "phb",
+			"subclassShortName": "Blinking Pack",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": "12-13",
+			"entries": [
+				"Barbarians who walk the Path of the Blinking Pack share in the nobility and majesty of the blink dogs they emulate. Such a barbarian may have learned their ways directly from a blink dog, or the barbarian might have been gifted power from a different kind of fey. No matter where the abilities originate from, the Path of the Blinking Pack barbarian uses teleportation to hunt enemies and pack tactics to bring them down.",
+				"Barbarians of this path first encounter blink dogs in various ways. Use the Path Origins table to determine or inspire your connection to the blink dogs.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d6",
+						"Path Origins"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"You were born to a tribe that traveled with a pack of blink dogs."
+						],
+						[
+							"2",
+							"You rescued an injured blink dog, and it stayed with you until its death."
+						],
+						[
+							"3",
+							"You were lost and found your way by following a blink dog to safety."
+						],
+						[
+							"4",
+							"A blink dog started following you during hunts, and you befriended it."
+						],
+						[
+							"5",
+							"Your tribe worshipped the blink dogs and their power."
+						],
+						[
+							"6",
+							"You saved a blink dog in a battle against displacer beasts, and it stayed with you."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Blinking Rage",
+			"source": "FeyCom",
+			"className": "Barbarian",
+			"classSource": "phb",
+			"subclassShortName": "Blinking Pack",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 13,
+			"entries": [
+				"While raging, you have the ability to hunt down your opponents with fierce abandon. Once per turn, you can teleport up to 30 feet toward a hostile creature you can see, leaving a small puff of smoke in your previous location. When you use this feature, your next melee weapon attack on the same turn deals an additional {@damage 1d6} force damage.",
+				"The force damage increases when you reach 8th level ({@damage 2d6}) and 14th level ({@damage 3d6})."
+			]
+		},
+		{
+			"name": "Animal Senses",
+			"source": "FeyCom",
+			"className": "Barbarian",
+			"classSource": "phb",
+			"subclassShortName": "Blinking Pack",
+			"subclassSource": "FeyCom",
+			"level": 6,
+			"page": 13,
+			"entries": [
+				"Your ability to emulate the blink dog grows. You gain proficiency in the {@skill Perception} skill. If you already have this proficiency, you may choose a different skill proficiency instead. Either way, your proficiency bonus is doubled for Wisdom ({@skill Perception}) checks."
+			]
+		},
+		{
+			"name": "Pack Mentality",
+			"source": "FeyCom",
+			"className": "Barbarian",
+			"classSource": "phb",
+			"subclassShortName": "Blinking Pack",
+			"subclassSource": "FeyCom",
+			"level": 10,
+			"page": 13,
+			"entries": [
+				"You are part of a pack, and your ability to gain advantage through reckless attacks can also help allies. When you use Reckless Attack, choose an ally within 5 feet of your target. That ally has advantage on their next melee attack roll against the target."
+			]
+		},
+		{
+			"name": "Predator Senses",
+			"source": "FeyCom",
+			"className": "Barbarian",
+			"classSource": "phb",
+			"subclassShortName": "Blinking Pack",
+			"subclassSource": "FeyCom",
+			"level": 14,
+			"page": 13,
+			"entries": [
+				"Your senses become heightened like those of your fey brethren. You have {@sense blindsight} with a range of 10 feet. Within that range, you can see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness. Moreover, you can see an {@condition invisible} creature within that range, unless it successfully hides from you. "
+			]
+		},
+		{
+			"name": "College of Seasons",
+			"source": "FeyCom",
+			"className": "Bard",
+			"classSource": "phb",
+			"subclassShortName": "Seasons",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 14,
+			"entries": [
+				"Bards of the College of Seasons get their power from the ever-changing flow of nature itself. This college studies the seasons as they interact in both the Material Plane and the Feywild. Songs composed from this college often have multiple movements, sometimes sounding different at first listen, but harmonies frequently exist in even the most discordant of melodies.",
+				"While other bards study in cloistered libraries or in cities packed with people, Bards from the College of Seasons withdraw from society to learn their craft. Some of these bards learn from elementals or spirits of the Feywild, while others find their muse in the wind that comes as the leaves change color. Often considered aloof even by other bards, the adherents of the College of Seasons usually find themselves more at home in a circle of druids than in a mead hall.",
+				"Most bards of the College of Seasons write and sing songs that capture their love of a particular season or natural occurrence. Use the Bard Songs table to choose or inspire your song",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Path Origins"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"A Summer's Dance with You"
+						],
+						[
+							"2",
+							"A Winter's Breath and a Winter's Kiss"
+						],
+						[
+							"3",
+							"An Autumn to Remember"
+						],
+						[
+							"4",
+							"The Harvest in My Heart"
+						],
+						[
+							"5",
+							"The Last Leaf to Fall"
+						],
+						[
+							"6",
+							"The Spring that Saved Us All"
+						],
+						[
+							"7",
+							"The Tears of the Moon"
+						],
+						[
+							"8",
+							"The Tide that Washes All"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Melodies of the Seasons",
+			"source": "FeyCom",
+			"className": "Bard",
+			"classSource": "phb",
+			"subclassShortName": "Seasons",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 14,
+			"entries": [
+				"Your study has led you to compose songs worthy of each of the seasons. When you reach 3rd level, you may choose one of the following seasonal melodies as an alternative use of your Bardic Inspiration.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Spring",
+									"entries": [
+										"Your song reflects the budding life of spring, creating vigor in those around you. As a bonus action, you can expend a use of Bardic Inspiration to grant an ally you can see within 60 feet an additional attack if they use the {@action Attack} action on their next turn."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Summer",
+									"entries": [
+										"Your song represents the fire of the hottest summers. As a reaction, when an ally that you can see within 60 feet hits with an attack, you can expend a use of Bardic Inspiration to increase the damage of that attack. The additional damage equals your Bardic Inspiration die plus your charisma modifier, and it is the same type of damage as the attack. If the attack has multiple damage types, your ally chooses the damage type of the additional damage from the available options."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Autumn",
+									"entries": [
+										"Your song marks transformations, returning life to its previous state. As a bonus action, you can expend a use of Bardic Inspiration to restore hit points to a creature you can see within 60 feet. The hit points restored are equal to your Bardic Inspiration die plus your Charisma modifier. "
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Winter",
+									"entries": [
+										"Your song embodies the frigid harshness of winter. When you are hit with an attack by a creature you can see within 60 feet, you can expend a use of Bardic Inspiration as a reaction to deal cold damage to that creature equal to your Bardic Inspiration die plus your Charisma modifier."
+									]
+								}
+							]
+						}
+					]
+				},
+				"When you gain a level, you can change your seasonal melody."
+			]
+		},
+		{
+			"name": "In All Seasons",
+			"source": "FeyCom",
+			"className": "Bard",
+			"classSource": "phb",
+			"subclassShortName": "Seasons",
+			"subclassSource": "FeyCom",
+			"level": 6,
+			"page": 14,
+			"entries": [
+				"Your mastery of the transition between seasons has led to a distinct understanding of spaces between others, giving you fey-like abilities. When you use this feature, choose one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Charming Presence",
+									"entries": [
+										"As an action, choose one creature you can see within 60 feet. The target must make a Wisdom saving throw equal to your spell save DC. On a failed save, the target is {@condition charmed} by you for 1 minute. If you or an ally deal damage to the charmed creature, it can repeat the saving throw with advantage, ending the effect on itself on a success."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Fey Step",
+									"entries": [
+										"As a bonus action, you can teleport up to 20 feet to an unoccupied space you can see."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Magical Resistance",
+									"entries": [
+										"As a reaction, you can give yourself advantage on saving throws against spells and other magical effects until the start of your next turn."
+									]
+								}
+							]
+						}
+					]
+				},
+				"Once you use this feature a number of times equal to your proficiency bonus, you cannot use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Mastery of the Seasons",
+			"source": "FeyCom",
+			"className": "Bard",
+			"classSource": "phb",
+			"subclassShortName": "Seasons",
+			"subclassSource": "FeyCom",
+			"level": 14,
+			"page": "14-15",
+			"entries": [
+				"Your understanding of nature's seasons is complete. You have the ability to create four different powerful effects based on the seasons. Upon finishing a long rest, choose one of the seasonal melodies below. As an action, you can use your chosen seasonal melody. ",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Spring",
+									"entries": [
+										"You use the joy created by the life of spring as a weapon. Choose one creature that you can see within 30 feet. The target begins a comic dance in place\u2014shuffling, tapping its feet, and capering for 1 minute. Creatures that can't be charmed are immune to this effect. A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this ability, other creatures have advantage on attack rolls against it. The dancing creature can make a Wisdom saving throw at the end of its turn to regain control of itself. On a successful save, the effect ends."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Summer",
+									"entries": [
+										"Your mastery of heat can cause enemies to fear you like the harsh rays of the sun. Choose any number of creatures within 30 feet that you can see. Each target must make a Wisdom saving throw equal to your spell save DC. On a failed save, the target becomes {@condition frightened} of you for 1 minute. While the target is frightened, you have advantage on attack rolls against it. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. "
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Autumn",
+									"entries": [
+										"You have the ability to turn back the clock, erasing the passage of time. Choose one creature that you can see within 30 feet. You can reduce the target's {@condition exhaustion} level by one, or end any one effect or condition on the target that could be ended by the {@spell greater restoration} spell"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Winter",
+									"entries": [
+										"You can bring the freezing cold of winter down on your enemies. Each creature in a 30-foot cone must make a Constitution saving throw. A creature takes {@damage 10d8} cold damage on a failed save, or half as much damage on a successful one. A creature killed by this effect becomes a frozen statue until it thaws."
+									]
+								}
+							]
+						}
+					]
+				},
+				"Once you use this feature, you cannot use it again until you finish a long rest. Additionally, when you finish a long rest, you can change which seasonal melody you have prepared."
+			]
+		},
+		{
+			"name": "Mirror Domain",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 1,
+			"page": 16,
+			"entries": [
+				"The mirror domain is devoted to the ideals of truth and self-reflection. Those who follow this domain craft a magical mirror that deflects harm, reflects a healing light, and connects them to knowledge. While these mirrors begin as ordinary handheld objects, they are physically transformed as part of a sacred ritual connecting the follower to \"the source,\" the domain's term for universal knowledge. Adherents believe that conducting this ritual in the Feywild produces the most powerful mirrors",
+				"The mirrors are viewed as both fierce weapons and holy relics by followers of this domain. It is not uncommon for them to include the mirror in hallowed rites and ceremonies, especially those that involve scrying. They may also polish their mirrors regularly and adorn them with symbols, etchings, engravings, or other decorations. Upon death, adherents of the mirror domain often leave their mirrors to aspirants who take the mirror through the ritual anew.",
+				"A variety of gods associated with light, peace, knowledge, and nature are drawn to the mirror domain, including Sehanine Moonbow, Sune, Angharradh, Mystra, Savras, Sardior, and Apollo"
+			]
+		},
+		{
+			"name": "Mirror Spells",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 1,
+			"page": 16,
+			"entries": [
+				"Starting when you choose this domain, you always have certain spells prepared after you reach particular levels in this class, as shown in the Mirror Spells table. These spells count as cleric spells for you, but they don't count against the number of cleric spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Mirror Spells",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell identify}, {@spell shield}"
+						],
+						[
+							"3rd",
+							"{@spell mirror image}, {@spell shatter}"
+						],
+						[
+							"5th",
+							"{@spell blink}, {@spell counterspell}"
+						],
+						[
+							"7th",
+							"{@spell divination}, {@spell sickening radiance|xge}"
+						],
+						[
+							"9th",
+							"{@spell mislead}, {@spell wall of light|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Source Mirror Ritual",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 1,
+			"page": 16,
+			"entries": [
+				"Through a 1-hour ritual, you transform a handheld mirror into a source mirror. The transformation is not only magical, but physical as well. For example, a square mirror encased in metal might take on an oval shape with an ornate wooden frame. Regardless of its appearance, your source mirror is magical and can be used as a holy symbol.",
+				"Your source mirror disappears if it is more than 5 feet away from you for 1 minute or longer. It also disappears if you dismiss it (no action required). If it has disappeared or otherwise not in your possession, you may use a bonus action to summon it. If it is destroyed, you may repeat this ritual to reform it in your hand.",
+				"Additionally, when you cast a spell from the divination school using your source mirror as a spellcasting focus, you may do so without using material components.",
+				"Furthermore, you have proficiency in the {@skill Insight} skill and your proficiency bonus is doubled for Wisdom (Insight) checks.",
+				"Source mirrors come in all shapes and sizes. Use the Source Mirror Appearances table to determine or inspire the look of your source mirror.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Source Mirror Appearances"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"This mirror is oval-shaped and held in a silver frame that has writing engraved on the back of it. The text could be a note from a beloved mentor or a mysterious message that appeared as part of the mirror's transformation."
+						],
+						[
+							"2",
+							"An ornately carved wooden frame holds this circular mirror. The carvings may be religious or nature-related and may have been carved by the original owner of the mirror. "
+						],
+						[
+							"3",
+							"This mirror sits in a square-shaped ceramic frame that is painted with swirls and other intricate details. The painting extends to a full scene depicted on the backside of the mirror"
+						],
+						[
+							"4",
+							"The glass of this mirror is wider at the top and tapers as it approaches the bottom of its golden frame. It is bit heavier than you would expect a handheld mirror to be, but that is because the frame is pure gold. "
+						],
+						[
+							"5",
+							"This oblong frame looks as though it grew around the glass in a mess of roots and leaves that sometimes sprout anew. Bits of flowers and twigs can be seen poking out in places."
+						],
+						[
+							"6",
+							"This mirror's glass is triangle-shaped, set in a frame made of steel, and covered in magic symbols that sometimes pulse with light. The symbols seem to light up based on what you are doing with the mirror"
+						],
+						[
+							"7",
+							"This rectangular crystalline frame has gems embedded on its long handle. There is another larger jewel right above the top of the glass. The entire thing sparkles and light bounces off of it easily. "
+						],
+						[
+							"8",
+							"The frame of this round mirror is made of many materials, including wood and metal, as though it was stitched together by magic, giving it a patchwork look."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Mirror Deflection",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 2,
+			"page": 16,
+			"entries": [
+				"If you are hit by a ranged spell attack, you may use your reaction and your source mirror to deflect all of the damage back onto the caster or another creature you can see within 30 feet. The chosen creature becomes the target of the attack, using the same roll. This feature can transfer the attack's damage regardless of the attack's range. No additional effects from the spell transfer to the new target"
+			]
+		},
+		{
+			"name": "Channel Divinity: Mirror Reflection",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 6,
+			"page": "16-17",
+			"entries": [
+				"If you are hit with a ranged spell attack, you can use your reaction and your source mirror to reflect all of the damage as healing towards another target. The new target regains hit points equal to the damage that would have been dealt. No additional effects from the spell transfer to the new target."
+			]
+		},
+		{
+			"name": "Reflective Rituals",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 6,
+			"page": 17,
+			"entries": [
+				"Your source mirror enhances your rituals. You can cast ritual divination spells from the cleric spell list without preparing them if you use your source mirror as a spellcasting focus."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 8,
+			"page": 17,
+			"entries": [
+				"You add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Pierce the Veil",
+			"source": "FeyCom",
+			"className": "Cleric",
+			"classSource": "phb",
+			"subclassShortName": "Mirror",
+			"subclassSource": "FeyCom",
+			"level": 17,
+			"page": 17,
+			"entries": [
+				"Your connection to your mirror and the source intensifies, piercing the veil between life and death. When you use Mirror Deflection, your source mirror deals maximum damage rather than the result of the attack roll. Likewise, when you use Mirror Reflection, your target regains hit points equal to the maximum damage that could have been dealt.",
+				"Additionally, when you use your source mirror as a spellcasting focus to cast a divination spell, you are better able to ensure that the spell does not go awry. If a target of your divination spell must make a saving throw, it does so with disadvantage. You have advantage on saving throws made when casting divination spells."
+			]
+		},
+		{
+			"name": "Circle of Visions",
+			"source": "FeyCom",
+			"className": "Druid",
+			"classSource": "phb",
+			"subclassShortName": "Visions",
+			"subclassSource": "FeyCom",
+			"level": 2,
+			"page": "18-19",
+			"entries": [
+				"Druids of the Circle of Visions have been trained to use the mind's eye to see what others cannot. Through intense meditation in the Feywild or training in harsh environments on the Material Plane, these druids have expanded their senses to extremes. Their familiarity with the future can be surprising as is their knowledge of the planes. These druids use their sight to preserve life and protect it from the unseen dangers that lurk beyond the veil.",
+				"As a Circle of Visions druid, your eyes are permanently changed in some way to reflect your ability to see beyond mortal sight. Consult the Eye Appearances table and either roll for an option or choose an appearance yourself. These appearances do not affect your ability to see normally, and you can still be affected by the blinded condition.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Eye Appearances"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"A milky, white film obscures part of your eyes."
+						],
+						[
+							"2",
+							"Both the pupil and iris of yours eyes are sheer white."
+						],
+						[
+							"3",
+							"One or both of your eyes have significant scarring."
+						],
+						[
+							"4",
+							"Your eyes shift between several different and natural colors."
+						],
+						[
+							"5",
+							"Both the pupil and iris of yours eyes are onyx black."
+						],
+						[
+							"6",
+							"You no longer have physical eyes, but you see as if you do."
+						],
+						[
+							"7",
+							"The whites of your eyes are multi-colored, and your irises are solid white."
+						],
+						[
+							"8",
+							"The imprint of your third eye is visible on your forehead or the back of your neck. It glows when you use cast a divination spell."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Touching the Veil",
+			"source": "FeyCom",
+			"className": "Druid",
+			"classSource": "phb",
+			"subclassShortName": "Visions",
+			"subclassSource": "FeyCom",
+			"level": 2,
+			"page": 19,
+			"entries": [
+				"Your familiarity with the world beyond allows you to speak through the planes. You can form a telepathic connection between your mind and the mind of another. As a bonus action, choose one creature you can see within 30 feet of you. You and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to your Wisdom modifier (minimum of 1 mile). To understand each other, you each must speak mentally in a language the other knows.",
+				"Additionally, you can use this feature to sow confusion in your enemies. You always have the {@spell dissonant whispers} spell prepared. It counts as a druid spell for you, and it doesn't count against the number of spells you can have prepared. You can cast dissonant whispers without expending a spell slot a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "Form of Knowledge",
+			"source": "FeyCom",
+			"className": "Druid",
+			"classSource": "phb",
+			"subclassShortName": "Visions",
+			"subclassSource": "FeyCom",
+			"level": 2,
+			"page": 19,
+			"entries": [
+				"You can engage your third eye to gain answers that elude others. Using a 1-minute ritual, you can expend a use of Wild Shape to cast certain divination spells whose level is equal to half your druid level (rounded up) or less. You can use this feature to cast the following spells without material components:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								"1st level: {@spell comprehend languages}, {@spell identify}"
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								"2nd level: {@spell augury}, {@spell see invisibility}"
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								"3rd level: {@spell clairvoyance}, {@spell tongues}"
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								"4th level: {@spell arcane eye}, {@spell divination}"
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								"5th level: {@spell commune}, {@spell legend lore}"
+							]
+						}
+					]
+				},
+				"Additionally, you can use this feature to expend a use of Wild Shape to cast any druid spell of the divination school that you have prepared without expending a spell slot."
+			]
+		},
+		{
+			"name": "Opening the Circle",
+			"source": "FeyCom",
+			"className": "Druid",
+			"classSource": "phb",
+			"subclassShortName": "Visions",
+			"subclassSource": "FeyCom",
+			"level": 6,
+			"page": 19,
+			"entries": [
+				"Your telepathy becomes so powerful you can sense other minds. You can cast the {@spell Rary's telepathic bond} spell at will. Additionally, this link allows you to share limited consciousness between those under its effects. While you and your allies are under the effect of a Rary's telepathic bond spell that you cast, you and your allies cannot be surprised."
+			]
+		},
+		{
+			"name": "Arcane Reservoir",
+			"source": "FeyCom",
+			"className": "Druid",
+			"classSource": "phb",
+			"subclassShortName": "Visions",
+			"subclassSource": "FeyCom",
+			"level": 10,
+			"page": 19,
+			"entries": [
+				"You gain the ability to store some of the leftover energy from your Form of Knowledge. When you use Form of Knowledge, you may regain a used spell slot equal to half the level (rounded up) of the spell cast using Form of Knowledge."
+			]
+		},
+		{
+			"name": "Eyes from Beyond",
+			"source": "FeyCom",
+			"className": "Druid",
+			"classSource": "phb",
+			"subclassShortName": "Visions",
+			"subclassSource": "FeyCom",
+			"level": 14,
+			"page": 19,
+			"entries": [
+				"Your third eye allows you more than mortal sight. You are always under the effects of the {@spell true seeing} spell unless it is dispelled. If this feature is dispelled, you can regain its effects by expending a spell slot of at least 5th level."
+			]
+		},
+		{
+			"name": "Court Guard",
+			"source": "FeyCom",
+			"className": "Fighter",
+			"classSource": "phb",
+			"subclassShortName": "Court Guard",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 19,
+			"entries": [
+				"The Court Guard employs the supernatural gifts of their regal benefactors to protect their charges. Whether their benefactor is a court of fey, fiends, or celestials, the court guard uses the training received from other realms to mold their fighting style. The court guard draws the attention of foes on the battlefield and debilitates enemies using these supernatural gifts.",
+				"Use the Courts table to determine or inspire the court where you received your training.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d6",
+						"Courts"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"The Seelie Court"
+						],
+						[
+							"2",
+							"The Unseelie Court"
+						],
+						[
+							"3",
+							"A magical court on the Material Plane"
+						],
+						[
+							"4",
+							"A vampiric court"
+						],
+						[
+							"5",
+							"A celestial court"
+						],
+						[
+							"6",
+							"A demonic court"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Court Training",
+			"source": "FeyCom",
+			"className": "Fighter",
+			"classSource": "phb",
+			"subclassShortName": "Court Guard",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": "19-20",
+			"entries": [
+				"Your training as a court guard gives you access to an additional skill proficiency. Choose one of the following skills: {@skill Arcana}, {@skill Deception}, {@skill Insight}, {@skill Performance}, or {@skill Persuasion}. If you have all of these skill proficiencies, you gain proficiency in a language relevant to your court instead",
+				"In addition, you have limited telepathy to help protect the court. As an action, you may read the surface thoughts of a creature within 30 feet of you that you can see (like the {@spell detect thoughts} spell). You may use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. "
+			]
+		},
+		{
+			"name": "Blinding Strike",
+			"source": "FeyCom",
+			"className": "Fighter",
+			"classSource": "phb",
+			"subclassShortName": "Court Guard",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 20,
+			"entries": [
+				"Your experience with supernatural beauty has taught you how to overwhelm opponents. When you use an Action Surge, any number of creatures you choose within 30 feet of you that can see you must make a Wisdom saving throw. The DC is equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, a creature becomes {@condition blinded} until the end of your next turn. "
+			]
+		},
+		{
+			"name": "Spell Storage",
+			"source": "FeyCom",
+			"className": "Fighter",
+			"classSource": "phb",
+			"subclassShortName": "Court Guard",
+			"subclassSource": "FeyCom",
+			"level": 7,
+			"page": 20,
+			"entries": [
+				"You gain the ability to cast a spell given to you by an ally. An ally may store a spell in your mind of a level that is equal to one-third of your fighter level or less. You may choose to cast that spell at any point until you finish a long rest. The spell uses the slot level, spell save DC, spell Attack bonus, and spellcasting ability of the original caster, but it is otherwise treated as if you cast the spell. If you cast the stored spell, it is no longer stored within you. If you finish a long rest before casting the spell, it is lost. Once you have stored a spell, you cannot store a different one until after you finish a long rest."
+			]
+		},
+		{
+			"name": "Mental Fortress",
+			"source": "FeyCom",
+			"className": "Fighter",
+			"classSource": "phb",
+			"subclassShortName": "Court Guard",
+			"subclassSource": "FeyCom",
+			"level": 10,
+			"page": 20,
+			"entries": [
+				"Your experience with the mind games of the court has hardened your mental fortitude. You are immune to the {@condition charmed} and {@condition frightened} conditions."
+			]
+		},
+		{
+			"name": "Charming Taunt",
+			"source": "FeyCom",
+			"className": "Fighter",
+			"classSource": "phb",
+			"subclassShortName": "Court Guard",
+			"subclassSource": "FeyCom",
+			"level": 15,
+			"page": 20,
+			"entries": [
+				"You gain the ability to guard those around you with a single glance. When an attack is made on an ally within 30 feet of you by a creature you can see, you can use your reaction to impose disadvantage on that creature's attack roll."
+			]
+		},
+		{
+			"name": "Blinded by the Court",
+			"source": "FeyCom",
+			"className": "Fighter",
+			"classSource": "phb",
+			"subclassShortName": "Court Guard",
+			"subclassSource": "FeyCom",
+			"level": 18,
+			"page": 20,
+			"entries": [
+				"Any creature affected by your Blinding Strike may be {@condition blinded} for up to a minute. A blinded creature may repeat its original saving throw at the end of each of its turns, ending the effect on itself on a success."
+			]
+		},
+		{
+			"name": "Way of Deep Winter",
+			"source": "FeyCom",
+			"className": "Monk",
+			"classSource": "phb",
+			"subclassShortName": "Deep Winter",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 20,
+			"entries": [
+				"Monks of the Way of Deep Winter are avatars of cold. Whether they were gifted abilities by the royalty of the Unseelie Court or the gods of the Material Plane, these monks embody the impartial disinterest of winter. Monks of this tradition use low temperatures as their ally, striking with deft swiftness like the winds of a blizzard.",
+				"Some communities accept monks of this tradition as distant protectors, while others look on them as omens of death and unfavorable weather. For these monks, fear and respect are one and the same, and they use the feelings of those around them as tools to their ends.",
+				"Your appearance changes to match your abilities. Consult the Winter Aspects table below and either roll for an option or choose an appearance yourself.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d6",
+						"Winter Aspects"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Water vapor emanates from your fists."
+						],
+						[
+							"2",
+							"Your eyes have a silver-blue color."
+						],
+						[
+							"3",
+							"Your hair is white and stiff like ice."
+						],
+						[
+							"4",
+							"Your lips are stained blue."
+						],
+						[
+							"5",
+							"Your breath leaves frosty clouds of vapor in the air."
+						],
+						[
+							"6",
+							"Ice-like growths replace your fingernails."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Visage of Winter",
+			"source": "FeyCom",
+			"className": "Monk",
+			"classSource": "phb",
+			"subclassShortName": "Deep Winter",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": "20-21",
+			"entries": [
+				"Your face is like ice. You impose disadvantage on any creature attempting an {@skill Insight} check on you. Additionally, you gain proficiency in the {@skill Intimidation} skill and may use your Wisdom modifier instead of your Charisma modifier for Intimidation checks. "
+			]
+		},
+		{
+			"name": "Strike of Bitter Cold",
+			"source": "FeyCom",
+			"className": "Monk",
+			"classSource": "phb",
+			"subclassShortName": "Deep Winter",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 21,
+			"entries": [
+				"You can force the chill of winter upon your enemies. Once per turn, when you hit a creature with an unarmed strike, you may expend 1 ki point to deal extra cold damage equal to one roll of your martial arts die plus your Wisdom modifier. Damage dealt with this feature ignores resistance to cold damage."
+			]
+		},
+		{
+			"name": "Kiss of Winter's Breath",
+			"source": "FeyCom",
+			"className": "Monk",
+			"classSource": "phb",
+			"subclassShortName": "Deep Winter",
+			"subclassSource": "FeyCom",
+			"level": 6,
+			"page": 21,
+			"entries": [
+				"You have the ability to become like a gust of winter wind. As an action, you may spend 3 ki points to transform yourself, along with everything you wear and carry, into a cloud of cold air like the {@spell gaseous form} spell. This form lasts for 1 hour, or until your concentration ends (as if you were concentrating on a spell). Once you have used this feature, you cannot use it again until you finish a long rest.",
+				"While in cold air form, your only method of movement is a flying speed of 30 feet. You can enter and occupy the space of another creature, but your presence causes a noticeable drop in temperature. You have resistance to nonmagical damage, and you have advantage on Strength, Dexterity, and Constitution saving throws. You can pass through small holes, narrow openings, and even mere cracks, but you treat liquids as though they were solid surfaces. You can't fall in this form and remain hovering in the air even when {@condition stunned} or otherwise {@condition incapacitated}.",
+				"While in this form, you can't talk or manipulate objects, and any objects you were carrying or holding can't be dropped, used, or otherwise interacted with. You can't attack or cast spells while in your cold air form."
+			]
+		},
+		{
+			"name": "As a Glacier Stands",
+			"source": "FeyCom",
+			"className": "Monk",
+			"classSource": "phb",
+			"subclassShortName": "Deep Winter",
+			"subclassSource": "FeyCom",
+			"level": 11,
+			"page": 21,
+			"entries": [
+				"Your connection with winter gives you the ability to become rigid like the strongest glacier. You gain resistance to cold damage. Additionally, when you use Patient Defense, you can spend 1 ki point to gain resistance to all damage from attacks targeting you until the beginning of your next turn."
+			]
+		},
+		{
+			"name": "Vortex of Ice",
+			"source": "FeyCom",
+			"className": "Monk",
+			"classSource": "phb",
+			"subclassShortName": "Deep Winter",
+			"subclassSource": "FeyCom",
+			"level": 17,
+			"page": 21,
+			"entries": [
+				"You become one with the harshness of winter. As an action, you can expend 4 ki points to generate a vortex of chilled air and expel it from your hand. This vortex creates a 30-foot cone. Creatures of your choice within the cone must make a Constitution saving throw equal to 8 + your proficiency bonus + your Wisdom modifier. On a failed save, a creature takes {@damage 8d6} cold damage and is restrained for 1 minute. On a success, a creature takes half as much and is not restrained. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a successful save.",
+				"Once you use this feature, you cannot use it again until you finish a long rest. Damage dealt using this feature ignores resistance to cold damage."
+			]
+		},
+		{
+			"name": "Oath of Beauty",
+			"source": "FeyCom",
+			"className": "Paladin",
+			"classSource": "phb",
+			"subclassShortName": "Beauty",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": "22-23",
+			"entries": [
+				"Paladins who take the Oath of Beauty believe that it is their sworn duty to create beauty in the world. Moreover, it is their duty to eliminate ugliness in all of its forms. They strive to be a shining example of both personal freedom and elegance, and they strike down ugliness with the fervor that other paladins might smite evil. Some who have sworn this oath prefer natural beauty, while others cling to the beauty of mortal creation. It is easy to spot one who has taken the Oath of Beauty, because these paladins are often both physically captivating and masters of various art forms. Their attention-grabbing style has earned them the moniker of \"beacons\" in some cultures.",
+				{
+					"type": "entries",
+					"name": "Tenets of Beauty",
+					"entries": [
+						"The tenets of the Oath of Beauty are simple but all-encompassing. The oath can take many different forms, but the majority of its emphasis rests upon personal interpretation"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Reveal Beauty in All Things",
+									"entries": [
+										"Beauty does not take one form. As all things are capable of beauty, spark that capability in everything and everyone you see."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Eliminate Ugliness",
+									"entries": [
+										"When something is so devoid of beauty that it has become ugly, rid the world of its menace. Beauty cannot flourish where ugliness grows."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Maintain Your Own Beauty",
+									"entries": [
+										"Beauty begins within the body. You cannot spread beauty in the world unless you are capable of recognizing your own beauty."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Show Beauty to the World",
+									"entries": [
+										"Be an example to others. Let your beauty brighten the world, calling people to your cause like a lighthouse on a coast."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beauty Interest",
+					"entries": [
+						"While paladins of this oath appreciate all forms of beauty, they typically have a form of beauty that most interests them. Choose from the Beauty Interests table or develop your own interest with your DM's input.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Beauty Interests"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Inner beauty"
+								],
+								[
+									"2",
+									"Outer beauty"
+								],
+								[
+									"3",
+									"Architecture or artwork"
+								],
+								[
+									"4",
+									"Natural beauty"
+								],
+								[
+									"5",
+									"Supernatural beauty"
+								],
+								[
+									"6",
+									"Magical beauty"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Holy Symbols",
+					"entries": [
+						"Paladins of this oath may have a particular god or pantheon that they worship. If your paladin does not worship a specific god or your god has no holy symbol, choose from the Holy Symbols table or create your own holy symbol with your DM's guidance.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Holy Symbol"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"An ivory comb"
+								],
+								[
+									"2",
+									"A lock of hair interwoven with gold thread"
+								],
+								[
+									"3",
+									"A wreath made from twigs and leaves"
+								],
+								[
+									"4",
+									"A multi-colored feather"
+								],
+								[
+									"5",
+									"A gemstone"
+								],
+								[
+									"6",
+									"A totem or a statuette"
+								],
+								[
+									"7",
+									"A coin or a medallion"
+								],
+								[
+									"8",
+									"A carving or other small piece of art"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath Spells",
+			"source": "FeyCom",
+			"className": "Paladin",
+			"classSource": "phb",
+			"subclassShortName": "Beauty",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 23,
+			"entries": [
+				"You gain oath spells at the paladin levels listed in the Oath of Beauty Spells table. See the Sacred Oath class feature for how oath spells work.",
+				{
+					"type": "table",
+					"caption": "Beauty Spells",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell color spray}, {@spell command}"
+						],
+						[
+							"3rd",
+							"{@spell enhance ability}, {@spell mirror image}"
+						],
+						[
+							"5th",
+							"{@spell hypnotic pattern}, {@spell major image}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell dominate person}, {@spell modify memory}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "FeyCom",
+			"className": "Paladin",
+			"classSource": "phb",
+			"subclassShortName": "Beauty",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 23,
+			"entries": [
+				"You gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works. ",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Blinding Beauty",
+									"entries": [
+										"As an action, you force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes {@condition blinded} for 1 minute. The blinded creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success. "
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Center of Attention",
+									"entries": [
+										"You can use your Channel Divinity to augment your natural beauty and sense of self. As a bonus action, you gain advantage on any Charisma checks or saving throws for the next 10 minutes"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Beauty",
+			"source": "FeyCom",
+			"className": "Paladin",
+			"classSource": "phb",
+			"subclassShortName": "Beauty",
+			"subclassSource": "FeyCom",
+			"level": 7,
+			"page": 23,
+			"entries": [
+				"Your beauty allows clarity of thought in your allies, creating an aura that protects your minds. You and friendly creatures within 10 feet of you can't be {@condition charmed} while you are conscious",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Restore Beauty",
+			"source": "FeyCom",
+			"className": "Paladin",
+			"classSource": "phb",
+			"subclassShortName": "Beauty",
+			"subclassSource": "FeyCom",
+			"level": 15,
+			"page": 23,
+			"entries": [
+				"You gain the ability to restore beauty with your touch. As an action, you can use one hit point of your Lay on Hands pool to cause the effect of a {@spell mending} spell on an object. Additionally, when you use Lay on Hands on a person, each hit point healed restores one year of vitality to a person's face. Creatures affected by this ability appear to have aged one less year in their lives. This effect only reduces the appearance of age until the beginning of adulthood.",
+				"When a creature has their beauty restored by your Lay on Hands, it gains advantage on its next Charisma check due to the boost in confidence it has gained"
+			]
+		},
+		{
+			"name": "Beacon of Beauty",
+			"source": "FeyCom",
+			"className": "Paladin",
+			"classSource": "phb",
+			"subclassShortName": "Beauty",
+			"subclassSource": "FeyCom",
+			"level": 20,
+			"page": 23,
+			"entries": [
+				"As an action, you become a mortal reflection of the ideal of beauty. For 1 minute, bright light shines around you in a 30- foot radius, and dim light shines 30 feet beyond that. Attacks against any ally in the 30-foot radius are made at disadvantage, as if the ally is heavily obscured. In addition, you have resistance to all damage that results from an attack roll against you. ",
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		}
 	]
