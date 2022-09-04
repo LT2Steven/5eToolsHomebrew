@@ -4623,6 +4623,227 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Far Realm Beast",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "14 + your proficiency bonus",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "your ranger level multiplied by 4 + 4 (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 30,
+				"canHover": false
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 13,
+			"int": 14,
+			"wis": 11,
+			"cha": 8,
+			"passive": 10,
+			"page": 26,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Understands the languages you speak"
+			],
+			"immune": [
+				"psychic"
+			],
+			"trait": [
+				{
+					"name": "Psychic Bond",
+					"entries": [
+						"As long as the beast is within 60 feet, you gain resistance to psychic damage."
+					]
+				},
+				{
+					"name": "Extraplanar Bond",
+					"entries": [
+						"You can add your proficiency bonus to any check or saving throw that the beast makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk rw} your spell attack modifier to hit, range 90 ft., one target. {@h} ({@damage 1d4}) + 4 + your proficiency bonus psychic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Elemental Beast",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "12 + your proficiency bonus",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "your ranger level multiplied by 6 + 6 (the beast has a number of Hit Dice [d8s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 16,
+			"int": 8,
+			"wis": 14,
+			"cha": 11,
+			"passive": 12,
+			"page": 26,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Understands the languages you speak"
+			],
+			"trait": [
+				{
+					"name": "Elemental Affinity",
+					"entries": [
+						"When this beast is first summoned, select an elemental damage type (acid, cold, fire, lightning, or thunder). All damage dealt by the beast is of that damage type. When you finish a long rest, you may select a new elemental affinity for the beast."
+					]
+				},
+				{
+					"name": "Elemental Aura",
+					"entries": [
+						"If a hostile creature starts its turn within 5 feet of the beast, the creature must succeed on a Constitution saving throw against your spell save DC or take {@damage 1d6} damage of the beast’s selected damage type."
+					]
+				},
+				{
+					"name": "Extraplanar Bond",
+					"entries": [
+						"You can add your proficiency bonus to any check or saving throw that the beast makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} your spell attack modifier to hit, reach 5 ft., one target. {@h} ({@damage 1d6}) + 2 + your proficiency bonus of the beast's selected damage type."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			]
+		},
+		{
+			"name": "Fey Beast",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"source": "FeyCom",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"special": "13 + your proficiency bonus",
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "your ranger level multiplied by 4 + 4 (the beast has a number of Hit Dice [d6s] equal to your ranger level)"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 11,
+			"cha": 14,
+			"passive": 10,
+			"page": 26,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Understands the languages you speak"
+			],
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Fey Step",
+					"entries": [
+						". As a bonus action, the beast can magically teleport up to 30 feet to an unoccupied space it can see. "
+					]
+				},
+				{
+					"name": "Extraplanar Bond",
+					"entries": [
+						"You can add your proficiency bonus to any check or saving throw that the beast makes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} your spell attack modifier to hit, reach 5 ft., one target. {@h} ({@damage 1d4}) + 3 + your proficiency bonus slashing damage"
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The beast becomes {@condition invisible} until it makes an attack, or until its concentration ends (as if concentrating on a spell). Anything the beast is wearing or carrying is invisible as long as it is on the beast."
+					]
+				}
+			],
+			"miscTags": [
+				"RW"
+			]
 		}
 	],
 	"spell": [
@@ -5674,6 +5895,21 @@
 				}
 			],
 			"className": "Paladin",
+			"classSource": "phb"
+		},
+		{
+			"name": "Cosmic Caller",
+			"shortName": "Cosmic Caller",
+			"source": "FeyCom",
+			"subclassFeatures": [
+				"Cosmic Caller|Ranger|phb|Cosmic Caller|FeyCom|3",
+				"Extraplanar Companion|Ranger|phb|Cosmic Caller|FeyCom|3",
+				"Extraplanar Magic|Ranger|phb|Cosmic Caller|FeyCom|3",
+				"Advanced Training|Ranger|phb|Cosmic Caller|FeyCom|7",
+				"At the Ready|Ranger|phb|Cosmic Caller|FeyCom|11",
+				"Spell Link|Ranger|phb|Cosmic Caller|FeyCom|15"
+			],
+			"className": "Ranger",
 			"classSource": "phb"
 		}
 	],
@@ -7155,6 +7391,277 @@
 			"entries": [
 				"As an action, you become a mortal reflection of the ideal of beauty. For 1 minute, bright light shines around you in a 30- foot radius, and dim light shines 30 feet beyond that. Attacks against any ally in the 30-foot radius are made at disadvantage, as if the ally is heavily obscured. In addition, you have resistance to all damage that results from an attack roll against you. ",
 				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Cosmic Caller",
+			"source": "FeyCom",
+			"className": "Ranger",
+			"classSource": "phb",
+			"subclassShortName": "Cosmic Caller",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 24,
+			"entries": [
+				"Rangers who are Cosmic Callers have tamed an extraplanar creature of some kind, whether it is an elemental, an aberration of the Far Realm, or a creature from the Feywild. Through this connection, these rangers expand their understanding of arcane energy. Cosmic Callers often patrol boundaries between the Material Plane and other planes, protecting those hapless victims of circumstance that wander into dangerous extraplanar spaces."
+			]
+		},
+		{
+			"name": "Extraplanar Companion",
+			"source": "FeyCom",
+			"className": "Ranger",
+			"classSource": "phb",
+			"subclassShortName": "Cosmic Caller",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 24,
+			"entries": [
+				"You can use an action to magically summon an extraplanar beast. The beast is friendly to you and your companions and obeys your commands. Choose its stat block―{@creature Elemental Beast |FeyCom}, {@creature Far Realm Beast |FeyCom}, or {@creature Fey Beast |FeyCom}―which uses your proficiency bonus in several places. You also determine what kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast has aspects of its home plane, revealing it to be something more than an average animal. For example, a fey beast might resemble a large cat, except that it has leaves instead of fur.",
+				"In combat, the beast acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you use a bonus action on your turn to command it to take a different action, such as one from its stat block. You can also forgo one of your attacks when you take the Attack action to command the beast to take the Attack action. If you are incapacitated, the beast can take the Dodge action or any action of its choosing.",
+				"If your extraplanar companion dies, you can return it to life using an action. To do so, you touch the creature and expend a spell slot of 1st level or higher. If your extraplanar companion has been dead for an hour or less, it returns to life with all its hit points restored",
+				"If you die, your extraplanar companion vanishes immediately.",
+				"When you finish a long rest, if your extraplanar companion is dead or otherwise absent, you can summon it again from its home plane. Your companion reappears in an unoccupied space within 5 feet of you. When you gain a new level, you may make a bond with a different extraplanar creature by performing a 1-hour ritual that costs 50 gp of incense, which the ritual consumes.",
+				"Consult the Companion Forms tables to select an animal and aspect that suits your extraplanar companion or work with DM to develop one of your own.",
+				{
+					"type": "table",
+					"caption": "Companion Forms: Elemental Beast",
+					"colStyles": [
+						"col-1",
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"d6",
+						"Animal",
+						"Aspect"
+					],
+					"rows": [
+						[
+							"1",
+							"Ape",
+							"The beast has elemental energy flowing off of it, such as embers (fire) or sparks (lightning)."
+						],
+						[
+							"2",
+							"Black Bear",
+							"The beast’s eyes (iris and pupil) are a singular color matching their elemental energy."
+						],
+						[
+							"3",
+							"Boar",
+							"The beast’s feet and/or teeth are encircled with elemental energy."
+						],
+						[
+							"4",
+							"Deer",
+							"The beast’s fur color matches that of its elemental energy."
+						],
+						[
+							"5",
+							"Tiger",
+							"When the beast moves, elemental energy trails from its paws or hooves."
+						],
+						[
+							"6",
+							"Wolf",
+							"Elemental energy flows from the beast’s eyes."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Companion Forms: Far Realm Beast",
+					"colStyles": [
+						"col-1",
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"d6",
+						"Animal",
+						"Aspect"
+					],
+					"rows": [
+						[
+							"1",
+							"Bat",
+							"The beast’s wings drip with an inky black substance."
+						],
+						[
+							"2",
+							"Eagle",
+							"The entirety of the beast’s eyes is jet black."
+						],
+						[
+							"3",
+							"Hawk",
+							"Instead of having legs, the beast’s underside resembles a slug’s foot."
+						],
+						[
+							"4",
+							"Owl",
+							"The beast has a hard exoskeleton rather than an inner skeleton."
+						],
+						[
+							"5",
+							"Raven",
+							"The beast has a row of nonfunctional eyes on the underside of its wings or tail."
+						],
+						[
+							"6",
+							"Vulture",
+							"Instead of two eyes, the beast has one eye stalk."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Companion Forms: Fey Beast",
+					"colStyles": [
+						"col-1",
+						"col-2",
+						"col-10"
+					],
+					"colLabels": [
+						"d6",
+						"Animal",
+						"Aspect"
+					],
+					"rows": [
+						[
+							"1",
+							"Baboon",
+							"The beast is covered in leaves instead of fur."
+						],
+						[
+							"2",
+							"Cat",
+							"The beast has hooves instead of paws or vice versa."
+						],
+						[
+							"3",
+							"Deinonychus",
+							"The beast has toadstools growing on it."
+						],
+						[
+							"4",
+							"Dog",
+							"The beast’s eyes have a mirror-like sheen, but they function normally"
+						],
+						[
+							"5",
+							"Rat",
+							"Parts of the beast’s torso appear incorporeal."
+						],
+						[
+							"6",
+							"Toad",
+							"The beast has rows of feathers on its limbs."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Extraplanar Magic",
+			"source": "FeyCom",
+			"className": "Ranger",
+			"classSource": "phb",
+			"subclassShortName": "Cosmic Caller",
+			"subclassSource": "FeyCom",
+			"level": 3,
+			"page": 24,
+			"entries": [
+				"You learn an additional spell when you reach certain levels in this class, as shown in the Extraplanar Spells table. Each spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know. Spells learned from this feature are dependent on the extraplanar beast that you currently have summoned. If you summon a different extraplanar beast, these spells will change accordingly.",
+				{
+					"type": "table",
+					"caption": "Companion Forms: Elemental Beast",
+					"colStyles": [
+						"col-1",
+						"col-2",
+						"col-2",
+						"col-2"
+					],
+					"colLabels": [
+						"Level",
+						"Elemental Spells",
+						"Far Realm Spells",
+						"Fey Spells"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell chromatic orb}",
+							"{@spell arms of hadar}",
+							"{@spell silent image}"
+						],
+						[
+							"5th",
+							"{@spell levitate}",
+							"{@spell detect thoughts}",
+							"{@spell suggestion}"
+						],
+						[
+							"9th",
+							"{@spell elemental weapon}",
+							"{@spell fear}",
+							"{@spell hypnotic pattern}"
+						],
+						[
+							"13th",
+							"{@spell elemental bane |xge}",
+							"{@spell evard's black tentacles}",
+							"{@spell greater invisibility}"
+						],
+						[
+							"17th",
+							"{@spell conjure elemental}",
+							"{@spell telekinesis}",
+							"{@spell modify memory}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Advanced Training",
+			"source": "FeyCom",
+			"className": "Ranger",
+			"classSource": "phb",
+			"subclassShortName": "Cosmic Caller",
+			"subclassSource": "FeyCom",
+			"level": 7,
+			"page": 26,
+			"entries": [
+				"You have created a stronger bond with your companion, and you can give it more complex commands. On any of your turns when your extraplanar companion doesn’t attack, you can use a bonus action to command the beast to take the {@action Dash}, {@action Disengage}, or {@action Help} action on its turn.",
+				"Additionally, the fey beast’s attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "At the Ready",
+			"source": "FeyCom",
+			"className": "Ranger",
+			"classSource": "phb",
+			"subclassShortName": "Cosmic Caller",
+			"subclassSource": "FeyCom",
+			"level": 11,
+			"page": 26,
+			"entries": [
+				"You have gained the ability to command your extraplanar companion to protect you from danger. As a reaction, if your companion is within 5 feet of you, you can command it to take half of the damage of an incoming attack targeting you",
+				"Additionally, you can expend a spell slot of 1st level or higher as an action to restore a number of hit points equal to 6 times the spell slot’s level to your companion. "
+			]
+		},
+		{
+			"name": "Spell Link",
+			"source": "FeyCom",
+			"className": "Ranger",
+			"classSource": "phb",
+			"subclassShortName": "Cosmic Caller",
+			"subclassSource": "FeyCom",
+			"level": 15,
+			"page": 26,
+			"entries": [
+				"Your bond with your companion goes beyond attachment. You can make any spell you cast that targets only you also target your extraplanar companion if it is within 30 feet of you. You cannot restore hit points to your companion using this feature."
 			]
 		}
 	]
