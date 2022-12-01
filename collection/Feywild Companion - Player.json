@@ -4128,7 +4128,7 @@
 					"name": "Ancestral Legacy",
 					"entries": [
 						"If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.",
-						"If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+						"If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -4143,9 +4143,9 @@
 					"type": "entries",
 					"name": "Feywild Trigger",
 					"entries": [
-						"You were lost in the Feywild for so long that something about you isn’t quite right. At times, you are triggered and taken back to the Feywild in your mind. When this happens, onlookers would describe you as having a blank stare as if you were somewhere else.",
+						"You were lost in the Feywild for so long that something about you isn't quite right. At times, you are triggered and taken back to the Feywild in your mind. When this happens, onlookers would describe you as having a blank stare as if you were somewhere else.",
 						"When you gain this lineage, roll 1d20. The number you roll becomes your trigger. (If you roll a 1 or a 20, ignore it, and roll again.) Whenever you roll a d20 and your trigger number appears, you go catatonic for a second and then a wild effect occurs.",
-						"The change in you is only momentary, so it doesn’t interfere with your other actions normally. However, your DM has the final say.",
+						"The change in you is only momentary, so it doesn't interfere with your other actions normally. However, your DM has the final say.",
 						"Your DM can use the Wild Effects table or another source to determine the wild effect. The effect can be different every time this ability triggers.",
 						"Once this feature has been triggered twice, you cannot use it again until you complete a short rest."
 					]
@@ -4154,7 +4154,7 @@
 					"type": "entries",
 					"name": "Sense of Direction",
 					"entries": [
-						"Now that you have escaped the Feywild, you have an uncanny sense of direction. You seem to always know where creatures, animals, and plants are in relation to you. Starting at 3rd level, you know and can cast the {@spell locate animals or plants} spell without material components. Once you cast this spell, you can’t cast it again until you finish a long rest unless you use a spell slot (if you have one).",
+						"Now that you have escaped the Feywild, you have an uncanny sense of direction. You seem to always know where creatures, animals, and plants are in relation to you. Starting at 3rd level, you know and can cast the {@spell locate animals or plants} spell without material components. Once you cast this spell, you can't cast it again until you finish a long rest unless you use a spell slot (if you have one).",
 						"Additionally, you have advantage on Wisdom (Survival) checks to track creatures and determine directions."
 					]
 				},
@@ -4258,7 +4258,7 @@
 									],
 									[
 										"7",
-										"You had heard of the Feywild and became consumed with travelling there. You eventually got your wish, but regretted it when you couldn’t find a way out."
+										"You had heard of the Feywild and became consumed with travelling there. You eventually got your wish, but regretted it when you couldn't find a way out."
 									],
 									[
 										"8",
@@ -4304,7 +4304,7 @@
 									]
 								]
 							},
-							"With your DM’s approval, you may use another die to define the number of years, decades, centuries, or millennia you were lost in the Feywild."
+							"With your DM's approval, you may use another die to define the number of years, decades, centuries, or millennia you were lost in the Feywild."
 						]
 					}
 				]
@@ -4345,14 +4345,14 @@
 					"name": "Ancestral Legacy",
 					"entries": [
 						"If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.",
-						"If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+						"If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Blossom",
 					"entries": [
-						"A greenseer’s body grows blossoms capable of causing various effects. You can create a blossom (requiring no action on your part), which produces any of the following options when used:",
+						"A greenseer's body grows blossoms capable of causing various effects. You can create a blossom (requiring no action on your part), which produces any of the following options when used:",
 						{
 							"type": "list",
 							"items": [
@@ -4360,7 +4360,7 @@
 									"type": "entries",
 									"name": "Aromatic Blossom",
 									"entries": [
-										"As an action, you blow the soothing scent of this blossom toward a creature, attempting to lull it to sleep. Choose a creature within 30 feet of you that you can see. If the creature has 20 or fewer hit points, it falls unconscious for 1 minute. Undead, creatures with more than 20 hit points, and creatures immune to magical charm aren’t affected by this effect."
+										"As an action, you blow the soothing scent of this blossom toward a creature, attempting to lull it to sleep. Choose a creature within 30 feet of you that you can see. If the creature has 20 or fewer hit points, it falls unconscious for 1 minute. Undead, creatures with more than 20 hit points, and creatures immune to magical charm aren't affected by this effect."
 									]
 								},
 								{
@@ -4381,7 +4381,7 @@
 									"type": "entries",
 									"name": "Warped Blossom",
 									"entries": [
-										"As an action, you crush this blossom in your fist and whisper to an inanimate object consisting of mostly wood or other plant material within 30 ft., convincing it to change shape, create a hole, or another alteration. You can make a single alteration, consisting of no more than a 5 ft. cube worth of the object’s plant material. For example, this blossom’s effect allows you to warp a chair, making it break when someone sits down; to repair a large hole in an oak door; or to transform a wooden shield, making it unusable. "
+										"As an action, you crush this blossom in your fist and whisper to an inanimate object consisting of mostly wood or other plant material within 30 ft., convincing it to change shape, create a hole, or another alteration. You can make a single alteration, consisting of no more than a 5 ft. cube worth of the object's plant material. For example, this blossom's effect allows you to warp a chair, making it break when someone sits down; to repair a large hole in an oak door; or to transform a wooden shield, making it unusable. "
 									]
 								}
 							]
@@ -4413,13 +4413,13 @@
 								{
 									"type": "entries",
 									"entries": [
-										"If you spend at least 1 hour under bright, natural sunlight or 4 hours under moonlight in a day, you don’t need to eat."
+										"If you spend at least 1 hour under bright, natural sunlight or 4 hours under moonlight in a day, you don't need to eat."
 									]
 								},
 								{
 									"type": "entries",
 									"entries": [
-										"You don’t need to sleep. Instead, you meditate deeply, remaining semiconscious for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep"
+										"You don't need to sleep. Instead, you meditate deeply, remaining semiconscious for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep"
 									]
 								}
 							]
@@ -4436,15 +4436,15 @@
 			],
 			"fluff": {
 				"entries": [
-					"Nature tries to keep an equilibrium between what was, what is, and what could be. To achieve this balance, it influences others to speak on its behalf. The greenseers are that voice—beings infused with plant-life who find themselves unwittingly awakened to the balance of the natural world. One can become a greenseer through various ways, including a dryad’s kiss, folk healing tonics, or a druid’s vengeful magic designed to teach a lesson to those who would decimate forests in the name of profit.",
+					"Nature tries to keep an equilibrium between what was, what is, and what could be. To achieve this balance, it influences others to speak on its behalf. The greenseers are that voice\u2014beings infused with plant-life who find themselves unwittingly awakened to the balance of the natural world. One can become a greenseer through various ways, including a dryad's kiss, folk healing tonics, or a druid's vengeful magic designed to teach a lesson to those who would decimate forests in the name of profit.",
 					"No matter how they come to be, greenseers are able to hear nature reaching out to them, capable of recognizing the emotions of plants they touch. They are able to feel the joy of a sunflower preening its petals in summer and the agony of a grassy hill as it burns beneath flame. Whatever they set out to do, a greenseer seeks harmony and to reduce the suffering of the natural world.",
 					{
 						"type": "entries",
 						"name": "Plant Affinity",
 						"entries": [
-							"The defining characteristic of the greenseers is their strong connection to plants. By touching their skin to a root, trunk, leaf, or any other part of a living plant, they become immediately aware of that plant’s feelings and emotions. Although they can use their abilities on any plant, the greenseer has an affinity for one particular type which determines a unique aspect of their appearance",
+							"The defining characteristic of the greenseers is their strong connection to plants. By touching their skin to a root, trunk, leaf, or any other part of a living plant, they become immediately aware of that plant's feelings and emotions. Although they can use their abilities on any plant, the greenseer has an affinity for one particular type which determines a unique aspect of their appearance",
 							"A plant affinity is the strongest tie a greenseer has with the natural world. A greenseer focused on enjoying the splendor of wildflowers might possess an affinity for mountain irises, with several purple blooms always on their shoulders. A more melancholic greenseer may have an affinity for willows, giving their hair a ropey, drooping appearance. A greenseer rooted to ideals of community might develop bark-like skin, with designs similar to aspen trees that tend to grow in close-knit clusters.",
-							"Use the Plant Affinities table to determine your greenseer’s affinity or develop one of your own with your DM’s input.",
+							"Use the Plant Affinities table to determine your greenseer's affinity or develop one of your own with your DM's input.",
 							{
 								"type": "table",
 								"caption": "Plant Affinities",
@@ -4489,7 +4489,7 @@
 						"type": "entries",
 						"name": "Greenseer Origins",
 						"entries": [
-							"Many greenseers originate from unexpected quirks of the Feywild’s magic. In other cases, a god may have transformed your original form into something more “natural” or perhaps a fey creature cursed you for spoiling the spring where it plays. The Greenseers Origins table provides suggestions for how your character became a Greenseer.",
+							"Many greenseers originate from unexpected quirks of the Feywild's magic. In other cases, a god may have transformed your original form into something more \"natural\" or perhaps a fey creature cursed you for spoiling the spring where it plays. The Greenseers Origins table provides suggestions for how your character became a Greenseer.",
 							{
 								"type": "table",
 								"caption": "Greenseer Origins",
@@ -4528,11 +4528,11 @@
 									],
 									[
 										"7",
-										"Your prayers to the gods for a plentiful crop were heard and granted—the crop just happened to be you."
+										"Your prayers to the gods for a plentiful crop were heard and granted\u2014the crop just happened to be you."
 									],
 									[
 										"8",
-										"Perhaps mistaking it for something else, you drank a questionably green and expired “Growth” potion that had unintended side-effects."
+										"Perhaps mistaking it for something else, you drank a questionably green and expired \"Growth\" potion that had unintended side-effects."
 									]
 								]
 							}
@@ -4553,8 +4553,8 @@
 					"type": "entries",
 					"name": "Ability Skill Increase",
 					"entries": [
-						"When determining your character’s ability scores, increase one of those scores by 2 and a different score by 1, or increase three different scores by 1.",
-						"Your class’s “Quick Build” section in the Player’s Handbook offers suggestions on which scores to increase. You’re free to follow those suggestions or to ignore them. Whichever scores you decide to increase, none of the scores can be raised above 20."
+						"When determining your character's ability scores, increase one of those scores by 2 and a different score by 1, or increase three different scores by 1.",
+						"Your class's \"Quick Build\" section in the Player's Handbook offers suggestions on which scores to increase. You're free to follow those suggestions or to ignore them. Whichever scores you decide to increase, none of the scores can be raised above 20."
 					]
 				},
 				{
@@ -4596,7 +4596,7 @@
 					"type": "entries",
 					"name": "Fey Nature",
 					"entries": [
-						"You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+						"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
 					]
 				},
 				{
@@ -4626,7 +4626,7 @@
 									"name": "Aspect of the Hunter",
 									"entries": [
 										"For the next 10 minutes, you have advantage on Dexterity ({@skill Stealth}) and Wisdom ({@skill Perception}) checks. Additionally, you have advantage on initiative rolls. While you manifest this aspect, your hair and eyes turn a deep forest green.",
-										"Alternatively, you can choose to have your aspect’s appearance reflect either your current surroundings or your primary environment in the Feywild. Once you have used this trait, you cannot use it again until you finish a short or long rest."
+										"Alternatively, you can choose to have your aspect's appearance reflect either your current surroundings or your primary environment in the Feywild. Once you have used this trait, you cannot use it again until you finish a short or long rest."
 									]
 								}
 							]
@@ -4643,7 +4643,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"People aren’t the only creatures that go missing in the Feywild. In fact, entire tribes have been lost to its evershifting embrace. Long exposure to fey energies and the survival demands of the Feywild itself caused one such lost society to evolve into something new—the killoren.",
+					"People aren't the only creatures that go missing in the Feywild. In fact, entire tribes have been lost to its evershifting embrace. Long exposure to fey energies and the survival demands of the Feywild itself caused one such lost society to evolve into something new\u2014the killoren.",
 					"Killoren tribes are nomadic by nature, consistently traveling to find more hospitable areas within the Feywild. As a result, they understand when killoren youth are taken with wanderlust, and they welcome them back if they return. It is a common rite-of-passage for a young killoren to travel through a fey crossing to discover who they are as an individual, apart from the tribe that raised them.",
 					{
 						"type": "entries",
